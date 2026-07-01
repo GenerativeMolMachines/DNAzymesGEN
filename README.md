@@ -11,6 +11,11 @@ Despite their broad therapeutic and biotechnological potential, deoxyribozymes r
 
 Repository: [GenerativeMolMachines/DNAzymesGEN](https://github.com/GenerativeMolMachines/DNAzymesGEN)
 
+**Publication.** This work was **accepted** to an ICML 2026 workshop in Seoul:
+
+> *In silico evaluation of pre-training strategies based on synthetic data for functional DNA generation*  
+> Ivan Golovkin, Stepan Druzhininskii, Daniil Litunovskiy, Amir Taldaev, Brilenkov Evgeny, Nikita Serov
+
 ---
 
 ## Repository layout
@@ -232,7 +237,20 @@ python run_model.py --input /path/to/sequences.csv
 
 ## Citation
 
-If you use this code or data, please cite the associated publication (TBD).
+If you use this code or data, please cite:
+
+```bibtex
+@inproceedings{golovkin2026insilico,
+  title   = {In silico evaluation of pre-training strategies based on synthetic data for functional {DNA} generation},
+  author  = {Golovkin, Ivan and Druzhininskii, Stepan and Litunovskiy, Daniil and Taldaev, Amir and Evgeny, Brilenkov and Serov, Nikita},
+  booktitle = {ICML 2026 Workshop},
+  address = {Seoul, South Korea},
+  year    = {2026},
+  note    = {Accepted}
+}
+```
+
+**Paper.** *In silico evaluation of pre-training strategies based on synthetic data for functional DNA generation* — Ivan Golovkin, Stepan Druzhininskii, Daniil Litunovskiy, Amir Taldaev, Brilenkov Evgeny, Nikita Serov. Accepted at an **ICML 2026 workshop**, Seoul.
 
 ---
 
