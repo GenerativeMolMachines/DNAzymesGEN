@@ -1,6 +1,9 @@
 #!/bin/bash
 set -euo pipefail
 
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(cd "${SCRIPT_DIR}/../.." && pwd)"
+
 GPU_ID="${1:?Usage: run_finetune.sh GPU_ID CHECKPOINT_DIR RESTORE_CKPT LOG_FILE}"
 CHECKPOINT_DIR="${2:?}"
 RESTORE_CKPT="${3:?}"
@@ -10,7 +13,8 @@ ITERS="${ITERS:-1000}"
 SAVE_INTERVAL="${SAVE_INTERVAL:-100}"
 SAMPLE_INTERVAL="${SAMPLE_INTERVAL:-100}"
 
-CONDA_ENV="/root/miniconda3/envs/dnazymes-gpu"
+source "${SCRIPT_DIR}/../env/gpu_env.sh"
+
 SITE_PKGS="${CONDA_ENV}/lib/python3.10/site-packages"
 NVIDIA_LIBS=$(find "${SITE_PKGS}/nvidia" -name 'lib' -type d 2>/dev/null | tr '\n' ':')
 
@@ -25,7 +29,7 @@ export CUDA_VISIBLE_DEVICES="${GPU_ID}"
 mkdir -p "${CHECKPOINT_DIR}/plots" "${CHECKPOINT_DIR}/samples"
 mkdir -p "$(dirname "${LOG_FILE}")"
 
-cd /root/dnazymes/improved_wgan_training
+cd "${PROJECT_ROOT}/improved_wgan_training"
 
 env LD_LIBRARY_PATH="${NVIDIA_LIBS}/usr/lib/x86_64-linux-gnu:${LD_LIBRARY_PATH}" \
   "${PY}" gan_language.py \

@@ -1,5 +1,6 @@
 #!/bin/bash
 CONDA_ENV="/root/miniconda3/envs/dnazymes-gpu"
+export CONDA_ENV
 SITE_PKGS="${CONDA_ENV}/lib/python3.10/site-packages"
 NVCC_BIN="${SITE_PKGS}/nvidia/cuda_nvcc/bin"
 

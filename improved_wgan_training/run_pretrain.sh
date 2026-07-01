@@ -1,13 +1,19 @@
 #!/bin/bash
-source /root/dnazymes/gpu_env.sh
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
+
+source "${PROJECT_ROOT}/scripts/env/gpu_env.sh"
 
 DATASET="$1"
 GPU_ID="$2"
-CHECKPOINT_DIR="/root/dnazymes/checkpoints/${DATASET}"
+CHECKPOINT_DIR="${PROJECT_ROOT}/checkpoints/${DATASET}"
 
 mkdir -p "${CHECKPOINT_DIR}/plots" "${CHECKPOINT_DIR}/samples"
 
 export CUDA_VISIBLE_DEVICES="${GPU_ID}"
+cd "${SCRIPT_DIR}"
 exec "${PYTHON}" gan_language.py \
     --dataset "${DATASET}" \
     --mode pretrain \

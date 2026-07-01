@@ -4,7 +4,7 @@ import os
 import subprocess
 import sys
 
-PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 GAN_SCRIPT = os.path.join(PROJECT_ROOT, 'improved_wgan_training', 'gan_language.py')
 CHECKPOINT_ROOT = os.path.join(PROJECT_ROOT, 'checkpoints')
 

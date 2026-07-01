@@ -9,11 +9,12 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), "FT"))
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+sys.path.insert(0, os.path.join(PROJECT_ROOT, "FT"))
 from mfe_utils import calculate_mfe  # noqa: E402
 
-CACHE_DIR = os.path.join(os.path.dirname(__file__), "generated", "mfe_cache")
-PLOT_PATH = os.path.join(os.path.dirname(__file__), "generated", "mfe_distribution_negatives_vs_sequence_craft.png")
+CACHE_DIR = os.path.join(PROJECT_ROOT, "generated", "mfe_cache")
+PLOT_PATH = os.path.join(PROJECT_ROOT, "generated", "mfe_distribution_negatives_vs_sequence_craft.png")
 WORKERS = 16
 CHUNK_SIZE = 500
 
@@ -34,8 +35,7 @@ def mfe_chunk(sequences):
 
 
 def load_sequences(label, cfg):
-    root = os.path.dirname(__file__)
-    df = pd.read_csv(os.path.join(root, cfg["path"]))
+    df = pd.read_csv(os.path.join(PROJECT_ROOT, cfg["path"]))
     return df[cfg["column"]].astype(str).str.upper().tolist()
 
 

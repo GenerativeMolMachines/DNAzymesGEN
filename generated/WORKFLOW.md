@@ -16,13 +16,13 @@ This document describes the workflow in the DNAzymesGEN project: which checkpoin
 
 | Stage | Script | Model | Data |
 |-------|--------|-------|------|
-| Pretrain EDS | `run_pretrain.sh eds` | WGAN-GP | `Data/EDS/distrib_result.csv` |
-| Pretrain MFE | `run_pretrain.sh mfe` | WGAN-GP | `Data/MFE/seq2 - seq2.csv` |
-| Finetune | `run_finetune.sh` | WGAN-GP, lr=5e-5 | `Data/Sequence_Craft/SequenceCraft_dataset.csv` |
-| Pretrain SC only | `gan_language.py` | WGAN-GP, lr=1e-4 | `Data/Sequence_Craft/SequenceCraft_dataset.csv` |
-| Generation | `run_generation_unfiltered.sh` | same generator | — |
+| Pretrain EDS | `improved_wgan_training/run_pretrain.sh eds` | WGAN-GP | `Data/EDS/distrib_result.csv` |
+| Pretrain MFE | `improved_wgan_training/run_pretrain.sh mfe` | WGAN-GP | `Data/MFE/seq2 - seq2.csv` |
+| Finetune | `scripts/training/run_finetune.sh` | WGAN-GP, lr=5e-5 | `Data/Sequence_Craft/SequenceCraft_dataset.csv` |
+| Pretrain SC only | `improved_wgan_training/gan_language.py` | WGAN-GP, lr=1e-4 | `Data/Sequence_Craft/SequenceCraft_dataset.csv` |
+| Generation | `scripts/generation/run_generation_unfiltered.sh` | same generator | — |
 
-Quality on Sequence Craft: `run_evaluation.sh` → `checkpoints/evaluation_results.json`  
+Quality on Sequence Craft: `scripts/evaluation/run_evaluation.sh` → `checkpoints/evaluation_results.json`  
 Metric: sum of JSD over n-grams (1–4) between generated and reference sequences — **lower is closer to Sequence Craft**.
 
 ---
@@ -39,7 +39,7 @@ Metric: sum of JSD over n-grams (1–4) between generated and reference sequence
 
 **Why model-1400:**
 
-- The only pretrain checkpoint saved under `checkpoints/eds/` is `model-1400` (the `checkpoint` file points to it alone). Finetune uses the latest available checkpoint by default (`run_training.py` → `find_latest_checkpoint`).
+- The only pretrain checkpoint saved under `checkpoints/eds/` is `model-1400` (the `checkpoint` file points to it alone). Finetune uses the latest available checkpoint by default (`scripts/training/run_training.py` → `find_latest_checkpoint`).
 - Training log (`eds/train.log`): total JSD (js1+…+js4) at iter 1399 ≈ **0.0235** — model has converged, n-gram metrics are stable.
 - Absolute minimum JSD in the log is at iter **2099** (≈ 0.0176), but that checkpoint was **not saved** to disk; by iter 3599 JSD rises again (≈ 0.029), suggesting possible overfitting on the EDS dataset.
 - **Conclusion:** finetune uses the only available pretrain snapshot — model-1400 — before clear metric degradation at later iterations.
@@ -97,12 +97,12 @@ During finetune, the log records the same JSD (js1–js4) against the Sequence C
 **Why model-999 for generation:**
 
 - By **train log**, iter ~800 is better, but intermediate checkpoints (model-800) are **not saved** — only `model-999` exists in `checkpoints/mfe_ft/`.
-- By **offline evaluation** (`run_evaluation.sh`, 5 sampling rounds) **model-999 beats model-800** (0.0387 vs 0.0402).
+- By **offline evaluation** (`scripts/evaluation/run_evaluation.sh`, 5 sampling rounds) **model-999 beats model-800** (0.0387 vs 0.0402).
 - MFE pretrain alone poorly matches Sequence Craft (js_sum ≈ 0.298); finetune model-999 reduces this to ≈ 0.039.
 
 **Conclusion:** **model-999** was used for generation — the only available finetune artifact and best on Sequence Craft eval.
 
-> Note: `run_evaluation.sh` labels model-800 as "best" by train metric and model-999 as "final"; production generation uses **final (999)** based on eval and disk availability.
+> Note: `scripts/evaluation/run_evaluation.sh` labels model-800 as "best" by train metric and model-999 as "final"; production generation uses **final (999)** based on eval and disk availability.
 
 ---
 
@@ -148,7 +148,7 @@ Volume: **250,000** sequences, no MFE filter (same as other nofilter sets).
 
 ## 4. Generation (current configuration)
 
-Uses **`run_generation_unfiltered.sh`** — no MFE filtering.
+Uses **`scripts/generation/run_generation_unfiltered.sh`** — no MFE filtering.
 
 | Model | Checkpoint | Output | Filters |
 |-------|------------|--------|---------|
@@ -158,9 +158,9 @@ Uses **`run_generation_unfiltered.sh`** — no MFE filtering.
 | mfe_ft_nofilter | `mfe_ft/model-999` | `generated/mfe_ft_nofilter/` | 20 ≤ len < 100 |
 | sequence_craft_nofilter | `sequence_craft/model-700` | `generated/sequence_craft_nofilter/` | 20 ≤ len < 100 |
 
-Volume: **250,000** sequences per model. MFE is not computed during generation (for speed); post-hoc MFE via `compute_mfe_nofilter_comparison.py`, cache in `generated/mfe_cache/`.
+Volume: **250,000** sequences per model. MFE is not computed during generation (for speed); post-hoc MFE via `scripts/analysis/compute_mfe_nofilter_comparison.py`, cache in `generated/mfe_cache/`.
 
-Earlier runs used MFE filtering (MFE ≤ −10) via `run_generation.sh`; those sets were removed in favor of nofilter outputs.
+Earlier runs used MFE filtering (MFE ≤ −10) via `scripts/generation/run_generation.sh`; those sets were removed in favor of nofilter outputs.
 
 ---
 
@@ -184,13 +184,13 @@ Finetune shifts MFE and length distributions toward Sequence_Craft; MFE pretrain
 | File | Purpose |
 |------|---------|
 | `improved_wgan_training/gan_language.py` | WGAN train / finetune |
-| `run_pretrain.sh` | pretrain eds or mfe |
-| `run_finetune.sh` | finetune on sequence_craft |
-| `run_evaluation.sh` | JSD checkpoint evaluation |
-| `run_generation_unfiltered.sh` | generation without MFE |
+| `improved_wgan_training/run_pretrain.sh` | pretrain eds or mfe |
+| `scripts/training/run_finetune.sh` | finetune on sequence_craft |
+| `scripts/evaluation/run_evaluation.sh` | JSD checkpoint evaluation |
+| `scripts/generation/run_generation_unfiltered.sh` | generation without MFE |
 | `checkpoints/evaluation_results.json` | numeric checkpoint comparison |
 | `generated/mfe_nofilter_vs_references_*.png` | MFE plots |
-| `mfe_bootstrap_test.py` | bootstrap MFE test: Sequence_Craft vs Negatives |
+| `scripts/analysis/mfe_bootstrap_test.py` | bootstrap MFE test: Sequence_Craft vs Negatives |
 
 ---
 

@@ -1,9 +1,11 @@
 #!/bin/bash
 set -euo pipefail
 
-source /root/dnazymes/gpu_env.sh
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(cd "${SCRIPT_DIR}/../.." && pwd)"
 
-CONDA_ENV="/root/miniconda3/envs/dnazymes-gpu"
+source "${SCRIPT_DIR}/../env/gpu_env.sh"
+
 SITE_PKGS="${CONDA_ENV}/lib/python3.10/site-packages"
 NVIDIA_LIBS=$(find "${SITE_PKGS}/nvidia" -name 'lib' -type d 2>/dev/null | sort | tr '\n' ':')
 
@@ -32,17 +34,21 @@ run_one() {
       --batches-per-round "${BATCHES_PER_ROUND}" \
       --no-mfe-filter \
       --skip-mfe-calc \
-      2>&1 | tee "/root/dnazymes/generated/${label}/generate.log"
+      2>&1 | tee "${PROJECT_ROOT}/generated/${label}/generate.log"
 }
 
-mkdir -p /root/dnazymes/generated/{eds_pretrain_nofilter,mfe_pretrain_nofilter,eds_ft_nofilter,mfe_ft_nofilter,sequence_craft_nofilter}
-cd /root/dnazymes/improved_wgan_training
+mkdir -p \
+  "${PROJECT_ROOT}/generated/eds_pretrain_nofilter" \
+  "${PROJECT_ROOT}/generated/mfe_pretrain_nofilter" \
+  "${PROJECT_ROOT}/generated/eds_ft_nofilter" \
+  "${PROJECT_ROOT}/generated/mfe_ft_nofilter" \
+  "${PROJECT_ROOT}/generated/sequence_craft_nofilter"
+cd "${PROJECT_ROOT}/improved_wgan_training"
 
-# Same checkpoints as run_generation.sh; sequential on NOFILTER_GPU while filtered mfe_ft may use GPU 1.
-run_one "${NOFILTER_GPU}" eds_pretrain_nofilter /root/dnazymes/checkpoints/eds/model-1400
-run_one "${NOFILTER_GPU}" mfe_pretrain_nofilter /root/dnazymes/checkpoints/mfe/model-3000
-run_one "${NOFILTER_GPU}" eds_ft_nofilter /root/dnazymes/checkpoints/eds_ft/model-999
-run_one "${NOFILTER_GPU}" mfe_ft_nofilter /root/dnazymes/checkpoints/mfe_ft/model-999
-run_one "${NOFILTER_GPU}" sequence_craft_nofilter /root/dnazymes/checkpoints/sequence_craft/model-700
+run_one "${NOFILTER_GPU}" eds_pretrain_nofilter "${PROJECT_ROOT}/checkpoints/eds/model-1400"
+run_one "${NOFILTER_GPU}" mfe_pretrain_nofilter "${PROJECT_ROOT}/checkpoints/mfe/model-3000"
+run_one "${NOFILTER_GPU}" eds_ft_nofilter "${PROJECT_ROOT}/checkpoints/eds_ft/model-999"
+run_one "${NOFILTER_GPU}" mfe_ft_nofilter "${PROJECT_ROOT}/checkpoints/mfe_ft/model-999"
+run_one "${NOFILTER_GPU}" sequence_craft_nofilter "${PROJECT_ROOT}/checkpoints/sequence_craft/model-700"
 
 echo "All unfiltered generation jobs completed."

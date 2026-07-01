@@ -8,8 +8,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 from scipy import stats
 
-CACHE_DIR = os.path.join(os.path.dirname(__file__), "generated", "mfe_cache")
-OUT_DIR = os.path.join(os.path.dirname(__file__), "generated")
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+CACHE_DIR = os.path.join(PROJECT_ROOT, "generated", "mfe_cache")
+OUT_DIR = os.path.join(PROJECT_ROOT, "generated")
 N_BOOT = 10_000
 RNG = np.random.default_rng(42)
 

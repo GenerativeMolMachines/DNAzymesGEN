@@ -9,12 +9,12 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), "FT"))
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+sys.path.insert(0, os.path.join(PROJECT_ROOT, "FT"))
 from mfe_utils import calculate_mfe  # noqa: E402
 
-ROOT = os.path.dirname(__file__)
-CACHE_DIR = os.path.join(ROOT, "generated", "mfe_cache")
-OUT_DIR = os.path.join(ROOT, "generated")
+CACHE_DIR = os.path.join(PROJECT_ROOT, "generated", "mfe_cache")
+OUT_DIR = os.path.join(PROJECT_ROOT, "generated")
 WORKERS = 16
 CHUNK_SIZE = 500
 BINS = np.linspace(-30, 2, 65)
@@ -50,12 +50,12 @@ def cache_name(label: str) -> str:
 
 
 def load_sequences_csv(path: str, column: str) -> list[str]:
-    df = pd.read_csv(os.path.join(ROOT, path))
+    df = pd.read_csv(os.path.join(PROJECT_ROOT, path))
     return df[column].astype(str).str.upper().tolist()
 
 
 def load_generated_sequences(label: str) -> list[str]:
-    path = os.path.join(ROOT, "generated", label, "generated_sequences.csv")
+    path = os.path.join(PROJECT_ROOT, "generated", label, "generated_sequences.csv")
     df = pd.read_csv(path)
     return df["Sequence"].astype(str).str.upper().tolist()
 
