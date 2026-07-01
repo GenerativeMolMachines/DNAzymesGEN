@@ -1,0 +1,13 @@
+label: mfe_pretrain_nofilter
+checkpoint: /root/dnazymes/checkpoints/mfe/model-3000
+num_sequences: 250000
+generated_total: 253952
+keep_rate: 0.984438
+no_mfe_filter: True
+skip_mfe_calc: True
+max_mfe: -10.0
+min_length: 20
+max_length: 100
+elapsed_sec: 121.5
+mean_length: 68.7182
+std_length: 7.8729

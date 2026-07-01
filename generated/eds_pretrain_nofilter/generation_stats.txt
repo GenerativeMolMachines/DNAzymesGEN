@@ -1,0 +1,13 @@
+label: eds_pretrain_nofilter
+checkpoint: /root/dnazymes/checkpoints/eds/model-1400
+num_sequences: 250000
+generated_total: 253952
+keep_rate: 0.984438
+no_mfe_filter: True
+skip_mfe_calc: True
+max_mfe: -10.0
+min_length: 20
+max_length: 100
+elapsed_sec: 122.0
+mean_length: 41.1508
+std_length: 10.2324

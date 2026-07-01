@@ -1,0 +1,10 @@
+tensorflow==2.15.1
+numpy>=1.23
+pandas>=1.5
+matplotlib>=3.6
+scipy>=1.9
+
+# GPU: use conda env dnazymes-gpu
+# conda create -n dnazymes-gpu python=3.10 -y
+# conda install -n dnazymes-gpu -c conda-forge cudatoolkit=11.8 cudnn=8.9 -y
+# conda run -n dnazymes-gpu pip install -r requirements-gpu.txt

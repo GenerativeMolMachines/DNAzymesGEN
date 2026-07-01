@@ -1,0 +1,569 @@
+,Unnamed: 0,sequence,db_structure,stems_count,stems_lengths,stems_seq_first,stems_seq_second,hairpins_count,harpins_lengths,hairpins_sequences,harpin_position,mismatch
+1,1,AGAGCGCATAGAGTGTGCACCGAGCTCCAGTGACTAGTTA,.((((.(.(.((...).))..).)))).............,5,"[4, 1, 1, 1, 1]","['GAGC', 'C', 'T', 'G', 'A']","['GCTC', 'G', 'A', 'C', 'T']",1,[3],['GTG'],"[[13, 15]]",0
+2,2,GTTCGCTAGCTATATTGGGTGACTCCGTGTAGGTGTAA,..(.((...(((((.((((....)))))))))..)).),4,"[1, 2, 5, 4]","['T', 'GC', 'CTATA', 'TGGG']","['A', 'GT', 'TGTAG', 'TCCG']",1,[4],['TGAC'],"[[20, 23]]",4
+3,3,ACCTAAAGCGACGGACACGCATCCAACAGTGAGATCAGAGATAGTGGTATG,(((...(.(..(.((..(.((.(.....))).).)).).).)...)))...,8,"[3, 1, 1, 1, 2, 1, 2, 1]","['ACC', 'A', 'C', 'C', 'GA', 'C', 'CA', 'C']","['GGT', 'T', 'G', 'G', 'TC', 'G', 'TG', 'G']",1,[5],['CAACA'],"[[24, 28]]",0
+6,6,GGAACAGCATGAGAGAGGGTGGTAGTGCCGAGTGCGCA,((.(((.(((........))).).)).)).........,4,"[2, 2, 1, 3]","['GG', 'AC', 'A', 'CAT']","['CC', 'GT', 'T', 'GTG']",1,[8],['GAGAGAGG'],"[[11, 18]]",1
+8,8,CAGTGAGGTGGGGCTGTACCTGTGATACGGGGCCGCGGTA,...(...((((..(((((.(...).)))))..))))...),4,"[1, 4, 5, 1]","['T', 'GTGG', 'CTGTA', 'C']","['A', 'CCGC', 'TACGG', 'G']",1,[3],['TGT'],"[[21, 23]]",2
+9,9,GTGACGGAACCAGGGGTGAGTGTAATTGGCAGTGGCGCTT,(((.....(((...)))...(((.....)))....)))..,3,"[3, 3, 3]","['GTG', 'ACC', 'TGT']","['CGC', 'GGT', 'GCA']",2,"[3, 5]","['AGG', 'AATTG']","[[12, 14], [24, 28]]",2
+10,10,CCCTATATGGTGAAAGAGAGAAAGCTCTAGGCTGCGGCAT,......(((.((.(..((((....))))....).)).))),4,"[3, 2, 1, 4]","['ATG', 'TG', 'A', 'AGAG']","['CAT', 'CG', 'T', 'CTCT']",1,[4],['AAAG'],"[[21, 24]]",1
+11,11,TATCTCCATTACGCTGTAGGTGTGGAGTGGTTAAGCGGTG,...(((((..((.......)).))))).............,2,"[5, 2]","['CTCCA', 'AC']","['TGGAG', 'GT']",1,[7],['GCTGTAG'],"[[13, 19]]",0
+13,13,TCCTGCCAACATGTAGTGGTGGGTTGTGTGTACACGCCTA,.((.((..(....).))))((((.((((....)))))))),5,"[2, 2, 1, 4, 4]","['CC', 'GC', 'A', 'TGGG', 'TGTG']","['GG', 'GT', 'T', 'CCTA', 'CACG']",2,"[4, 4]","['CATG', 'TGTA']","[[10, 13], [29, 32]]",3
+14,14,ACCAACATAGTGAGGTTTAGTGT,(((.((...))..))).......,2,"[3, 2]","['ACC', 'AC']","['GGT', 'GT']",1,[3],['ATA'],"[[7, 9]]",0
+15,15,TACGTCCCCCTAATCCGGTTCCTTA,(.....((........))......),2,"[1, 2]","['T', 'CC']","['A', 'GG']",1,[8],['CCTAATCC'],"[[9, 16]]",0
+16,16,ACCAAAAGCTCAGGGTGCCGTAGGTGCTACAA,(((.(..((.(...).))..).))).......,4,"[3, 1, 2, 1]","['ACC', 'A', 'GC', 'C']","['GGT', 'T', 'GC', 'G']",1,[3],['AGG'],"[[12, 14]]",0
+17,17,AGCGCTAATTAAGTCATAGTGATATGTAGGTGTGGTTATG,..............((((((.((((....)))).)))))),2,"[6, 4]","['CATAGT', 'ATAT']","['GTTATG', 'GTGT']",1,[4],['GTAG'],"[[26, 29]]",4
+19,19,CAGTGGGTAAGCGTACACTGACGAGTAAGTGGTAGATGAA,.......(.(.(..((((..(....)..))).).).))..,6,"[1, 1, 1, 1, 3, 1]","['T', 'A', 'C', 'A', 'CAC', 'A']","['G', 'T', 'G', 'T', 'GTG', 'T']",1,[4],['CGAG'],"[[22, 25]]",1
+20,20,GGAAGGGTATAGCGTGTATAGAGATGGTGCCGCTAAAAGC,.........(((((.((((.......))))))))).....,2,"[5, 4]","['TAGCG', 'GTAT']","['CGCTA', 'GTGC']",1,[7],['AGAGATG'],"[[20, 26]]",2
+22,22,ACCAGGTATGTGCTCGTTATTC,((.((.......)).)).....,2,"[2, 2]","['AC', 'AG']","['GT', 'CT']",1,[7],['GTATGTG'],"[[6, 12]]",0
+23,23,GCCGAGATAAGGGGGTGTGGTTAGTCTAGA,......((((..........))).).....,2,"[1, 3]","['A', 'TAA']","['T', 'TTA']",1,[10],['GGGGGTGTGG'],"[[11, 20]]",0
+24,24,ACCAAGCGTTAGCGTATCGTCATGGTGGCTAGACTGATTAGGGTAGATGGATTGA,(((...(((((((..((.......)).)))).)).).....)))...........,5,"[3, 1, 2, 4, 2]","['ACC', 'C', 'GT', 'TAGC', 'AT']","['GGT', 'G', 'AC', 'GCTA', 'GT']",1,[7],['CGTCATG'],"[[18, 24]]",1
+26,26,CATCTCCATCAGCAGTATTCTACAGTGAGGCAGGTGTGAA,(((((.(.(((...(((...)))..))).).)))))....,4,"[5, 1, 3, 3]","['CATCT', 'C', 'TCA', 'GTA']","['AGGTG', 'G', 'TGA', 'TAC']",1,[3],['TTC'],"[[18, 20]]",1
+27,27,GCGATGGTGAATGGCATCGACTGGCCTAGC,((.(.(((.(.(.(...).).).)))).)),6,"[2, 1, 3, 1, 1, 1]","['GC', 'A', 'GGT', 'A', 'T', 'G']","['GC', 'T', 'GCC', 'T', 'A', 'C']",1,[3],['CAT'],"[[15, 17]]",1
+28,28,CATCTGAAGAAGTTAGCGCGATAGACGGATCGGTGAGTGAG,((.((......(.(..((.......)).).)....))))..,5,"[2, 2, 1, 1, 2]","['CA', 'CT', 'G', 'T', 'CG']","['TG', 'AG', 'C', 'A', 'CG']",1,[7],['CGATAGA'],"[[19, 25]]",0
+32,32,ACAAGATAGATTCATGACTCTACGCGAGAGCAGTCGTGGTGGTACTTGAT,.((((.((...((((((((((.(....))).))))))))...))))))..,5,"[4, 2, 8, 2, 1]","['CAAG', 'TA', 'TCATGACT', 'CT', 'C']","['CTTG', 'TA', 'AGTCGTGG', 'AG', 'G']",1,[4],['GCGA'],"[[24, 27]]",2
+34,34,ACCAACCAGCAAGGTTAGGTATTACGG,(((((((.....)))).))).......,2,"[3, 4]","['ACC', 'AACC']","['GGT', 'GGTT']",1,[5],['AGCAA'],"[[8, 12]]",0
+35,35,ACCAAGTAGATAGATGATGATTTTTCGAATT,...((.(.((.((((....)))).)).).)),4,"[2, 1, 2, 4]","['AA', 'T', 'GA', 'AGAT']","['TT', 'A', 'TC', 'ATTT']",1,[4],['GATG'],"[[16, 19]]",1
+36,36,GCCGAGTGGTACGGTAGCTGGCTGTCGACAGAGGGAGTTA,..............(((((..(((....)))....))))),2,"[5, 3]","['TAGCT', 'CTG']","['AGTTA', 'CAG']",1,[4],['TCGA'],"[[25, 28]]",1
+37,37,CATCTCTATTTCCCGTGATATCAGCCGTAGGGTGTACAGCG,((.((((((......((....))...)))))))).......,3,"[2, 6, 2]","['CA', 'CTCTAT', 'TG']","['TG', 'GTAGGG', 'CA']",1,[4],['ATAT'],"[[18, 21]]",2
+38,38,CATACCAATAAGTGTGTGAGGTAGGTAGGATCGGGTAGGA,(.((((....(.....)((...........)).)))).).,4,"[1, 4, 1, 2]","['C', 'TACC', 'A', 'GA']","['G', 'GGTA', 'T', 'TC']",2,"[5, 11]","['GTGTG', 'GGTAGGTAGGA']","[[12, 16], [20, 30]]",0
+39,39,AGAGTCGTATGGCAGAGCTCTACCGATAGTTTTAGCTAGTGATTGGTTAC,......(((.(.(((.....(((...((((....))))))).))).)))),5,"[3, 1, 3, 3, 4]","['GTA', 'G', 'CAG', 'TAC', 'TAGT']","['TAC', 'T', 'TTG', 'GTG', 'GCTA']",1,[4],['TTTA'],"[[31, 34]]",4
+40,40,GAGGGAGGCGGAGTGACCATAGTGCCAAGTGGGAAATCAAATG,((......(.(..((.((...).).))..).)....)).....,6,"[2, 1, 1, 2, 1, 1]","['GA', 'C', 'G', 'TG', 'C', 'C']","['TC', 'G', 'T', 'CA', 'G', 'G']",1,[3],['ATA'],"[[19, 21]]",1
+41,41,GCGGTGGGGAGGTGGAGGTATTCGCTATAATGGTGAGCCTTAACGAGTAA,((((.(............)..)))).........................,2,"[4, 1]","['GCGG', 'G']","['TCGC', 'T']",1,[12],['GGGAGGTGGAGG'],"[[7, 18]]",2
+42,42,CAGGTGGTGAGCTGAAGGCT,.........(((.....))),1,[3],['AGC'],['GCT'],1,[5],['TGAAG'],"[[13, 17]]",0
+43,43,CATCTTGATCAACGTTACTGTAAGCTGCATAAGTGATAACGGGTGTGTTAAGTGAGA,((.(((((((..(((((.(.((.(...).).)..).)))))...).))))))))...,8,"[2, 6, 1, 5, 1, 1, 1, 1]","['CA', 'CTTGAT', 'C', 'CGTTA', 'T', 'T', 'A', 'G']","['TG', 'GTTAAG', 'G', 'TAACG', 'G', 'A', 'T', 'C']",1,[3],['CTG'],"[[25, 27]]",3
+44,44,TAGCTAGGCCAAGTTGAGTGCGAGGTGAAGCTCCGTAATGCTGAGACTGGTGA,.......(((.((((.((.(((((......)).)))....))..)))))))..,5,"[3, 4, 2, 3, 2]","['GCC', 'AGTT', 'AG', 'GCG', 'AG']","['GGT', 'GACT', 'CT', 'CGT', 'CT']",1,[6],['GTGAAG'],"[[25, 30]]",3
+45,45,ACCAAGATAAGGCGGTAAGATAGGTATCTGGTTCACGCAA,((((.((((..(........)...))))))))........,3,"[4, 4, 1]","['ACCA', 'GATA', 'G']","['TGGT', 'TATC', 'T']",1,[8],['CGGTAAGA'],"[[13, 20]]",1
+46,46,CATCTCCATATACTGCGACATTAGGGTAAGAGGGAGACG,(.(((((.(.((((.(.......)))))..).))))).),5,"[1, 5, 1, 4, 1]","['C', 'TCTCC', 'T', 'TACT', 'C']","['G', 'GGAGA', 'A', 'GGTA', 'G']",1,[7],['GACATTA'],"[[17, 23]]",1
+47,47,GCAGGGGCGAGCTGGGGCATGATATATAGGCGCAGGTGTTAGTGCCGAGTG,.((..(((...(((.(.(((.....)).).).)))........)))...)),6,"[2, 3, 3, 1, 1, 2]","['CA', 'GGC', 'CTG', 'G', 'C', 'AT']","['TG', 'GCC', 'CAG', 'C', 'G', 'AT']",1,[5],['GATAT'],"[[21, 25]]",0
+50,50,TACTCCAAAGCTAAGCGAGGATCTACGTCTAGTGGTGGTGAGGTTCGGTA,.........((...))....(.((((.....)))))..............,3,"[2, 1, 4]","['GC', 'A', 'CTAC']","['GC', 'T', 'GTGG']",2,"[3, 5]","['TAA', 'GTCTA']","[[12, 14], [27, 31]]",1
+51,51,GGCTACATCCAGCAAGTGTGAGTGGTGAGACGTAGCGACA,.(((((.((((.((........)).)).)).)))))....,4,"[5, 2, 2, 2]","['GCTAC', 'TC', 'CA', 'CA']","['GTAGC', 'GA', 'TG', 'TG']",1,[8],['AGTGTGAG'],"[[15, 22]]",0
+52,52,TACGCGGAGGTGAGCACAGTAGTAGGCAAGAGGAGGTAGTTAGAGAGAGC,...((.....(...(((..(..(.....)..)...)).)..)......)),6,"[2, 1, 1, 2, 1, 1]","['GC', 'T', 'C', 'AC', 'T', 'T']","['GC', 'A', 'G', 'GT', 'G', 'A']",1,[5],['AGGCA'],"[[24, 28]]",1
+53,53,GTGATAGGGGAAAGGGGCCC,.......((.........)),1,[2],['GG'],['CC'],1,[9],['GAAAGGGGC'],"[[10, 18]]",0
+54,54,CATCTCAGCTAACCCGAGTGTTCCAAGTCGAGTGGTAATGTCGTCTGTTACGC,.......((((((.(((..((.(((.......)))..)).)))...)))).)),5,"[2, 4, 3, 2, 3]","['GC', 'TAAC', 'CGA', 'GT', 'CCA']","['GC', 'GTTA', 'TCG', 'AT', 'TGG']",1,[7],['AGTCGAG'],"[[26, 32]]",1
+55,55,GTGAGAGCGGGCGACGAGTGTGTGTGGGTA,.............((....)).........,1,[2],['AC'],['GT'],1,[4],['GAGT'],"[[16, 19]]",0
+56,56,TGTCAGCGGCGTGCCTGGCCATAGGCGAGCCAGATCAGTGTAGGCTGGTG,((((((((((.((((((....)))))).)))..(......)..))))))),4,"[7, 3, 6, 1]","['TGTCAGC', 'GGC', 'TGCCTG', 'A']","['GCTGGTG', 'GCC', 'TAGGCG', 'T']",2,"[4, 6]","['GCCA', 'TCAGTG']","[[18, 21], [35, 40]]",5
+57,57,GTGAGTGAGGCAGATGGGGTAGTAACATCTAGAGGAGGCT,...(((.....(((((.........))))).......))),2,"[3, 5]","['AGT', 'AGATG']","['GCT', 'CATCT']",1,[9],['GGGTAGTAA'],"[[17, 25]]",1
+58,58,ACCAAGTAGGTCGAGTGTGA,(((.....))).........,1,[3],['ACC'],['GGT'],1,[5],['AAGTA'],"[[4, 8]]",0
+59,59,GTGCGCAGTGGCGTGTGTTGATAGGCAT,((((.(....).............)))),2,"[4, 1]","['GTGC', 'C']","['GCAT', 'G']",1,[4],['AGTG'],"[[7, 10]]",1
+60,60,TATCGCGGGAGGCTGGGTCCTGTTGGTAGGATACGCTGTA,(((.(((.........((((((....)))))).))).))),3,"[3, 3, 6]","['TAT', 'GCG', 'GTCCTG']","['GTA', 'CGC', 'TAGGAT']",1,[4],['TTGG'],"[[23, 26]]",3
+61,61,GTGATAGGGCTACTGAAGCAGGTTGGGATAGCTTTT,...(....(((.....)))...).............,2,"[1, 3]","['A', 'GCT']","['T', 'AGC']",1,[5],['ACTGA'],"[[12, 16]]",0
+62,62,GGGATAGCGCTGATCGTAGTGGTAGGTTGCTGTCGCGC,......((((.((.((.(.........).).))))))),5,"[4, 2, 1, 1, 1]","['GCGC', 'GA', 'C', 'G', 'A']","['GCGC', 'TC', 'G', 'C', 'T']",1,[9],['GTGGTAGGT'],"[[19, 27]]",0
+63,63,ATGACTTGGGGCTAGTGGCGAGTGCGTT,((((((((..(....)..))))).))).,3,"[3, 5, 1]","['ATG', 'ACTTG', 'G']","['CGT', 'CGAGT', 'T']",1,[4],['CTAG'],"[[12, 15]]",3
+64,64,TCTGCATCGCAGCTAGAGGCAGTAGCCAAGTAGGCCAGAGTTGGGACGATGGTGACACGAAATGGTGATGCCCT,...............(.((((.(.((((....(((((..((....))..))))..)......))))).)))).),7,"[1, 4, 1, 4, 1, 4, 2]","['G', 'GGCA', 'T', 'GCCA', 'G', 'GCCA', 'GT']","['T', 'TGCC', 'G', 'TGGT', 'C', 'TGGT', 'AC']",1,[4],['TGGG'],"[[42, 45]]",4
+66,66,CAGCTCTATAGCGTGGGCGGTTAGGCCAATAGTCGCCAGC,..((((........)((((((..........))))))))),3,"[3, 1, 6]","['GCT', 'C', 'GGCGGT']","['AGC', 'G', 'GTCGCC']",2,"[8, 10]","['TATAGCGT', 'TAGGCCAATA']","[[7, 14], [22, 31]]",2
+67,67,ACCTAGATAGTGGGGCTGGGTCGTCAGGGTACGGATAA,(((..(...........(...)..)..)))........,3,"[3, 1, 1]","['ACC', 'G', 'G']","['GGT', 'C', 'C']",1,[3],['GGT'],"[[19, 21]]",0
+68,68,TACAGAGGTATTGTCGCATGTAGTGGTGCGGTACGCGGTA,(((.(..((....((((((......)))))).)).).))),4,"[3, 1, 2, 6]","['TAC', 'G', 'GT', 'TCGCAT']","['GTA', 'C', 'AC', 'GTGCGG']",1,[6],['GTAGTG'],"[[20, 25]]",2
+71,71,GTGGCGACTGGAAGGGTGATCCATATAGTAGTGCGAGTGT,((((..(((.....)))...))))................,2,"[4, 3]","['GTGG', 'ACT']","['CCAT', 'GGT']",1,[5],['GGAAG'],"[[10, 14]]",2
+72,72,TCGACAACACTTAGGTAGCGGGTTCGT,...(((((.(.(.....).).))).)),4,"[2, 3, 1, 1]","['AC', 'AAC', 'C', 'T']","['GT', 'GTT', 'G', 'G']",1,[5],['AGGTA'],"[[13, 17]]",1
+73,73,CCATCAAGCACTTTGGGGCGTGATGAACTGGGAGTTTAAC,.(((((.((.(....).)).)))))((((...))))....,4,"[5, 2, 1, 4]","['CATCA', 'GC', 'C', 'AACT']","['TGATG', 'GC', 'G', 'AGTT']",2,"[4, 3]","['TTTG', 'GGG']","[[12, 15], [30, 32]]",0
+74,74,GGGGCGCCAAGTGGATAGGCCAGATAGCTCCGTAGGCC,(((((......(((.....)))....))))).......,2,"[5, 3]","['GGGGC', 'TGG']","['GCTCC', 'CCA']",1,[5],['ATAGG'],"[[15, 19]]",1
+75,75,CATCTCGCACCATGCTATCGATACAGCAAGTAGCTTTGCCAAG,...((.(((..(.(((((.(......)..)))))).)))..)),5,"[2, 3, 1, 5, 1]","['CT', 'GCA', 'A', 'GCTAT', 'G']","['AG', 'TGC', 'T', 'GTAGC', 'C']",1,[6],['ATACAG'],"[[21, 26]]",1
+76,76,ATGCCCTCTGATGAAAGTCTGGTTTGGCGTAGTGTGA,.((((.((.(((....))).))...)))..)......,4,"[1, 3, 2, 3]","['T', 'GCC', 'TC', 'GAT']","['A', 'GGC', 'GG', 'GTC']",1,[4],['GAAA'],"[[13, 16]]",2
+77,77,CATCTCTGTGGTGCGTGGCCTACCAAGGGGAGCGGCACTA,........((((((....(((....)))......)))))),2,"[6, 3]","['TGGTGC', 'CCT']","['GCACTA', 'AGG']",1,[4],['ACCA'],"[[22, 25]]",1
+80,80,ACCAAGCTCAGCGGTAACTTTTGCTCTAGTGTTGGCACAT,.((((.((.(((((......)))))..))..)))).....,3,"[4, 2, 5]","['CCAA', 'CT', 'AGCGG']","['TTGG', 'AG', 'TTGCT']",1,[6],['TAACTT'],"[[15, 20]]",2
+81,81,GGCTCGATAAGCAGTGAGCGACAGTGATAGTCGGAGGGGT,..(((......(.....)((((.......)))))))....,3,"[3, 1, 4]","['CTC', 'C', 'CGAC']","['GAG', 'G', 'GTCG']",2,"[5, 7]","['AGTGA', 'AGTGATA']","[[13, 17], [23, 29]]",0
+82,82,CATCTCGATATGGCGGGCGTTAGGCAACAGCCAGTCGGTGTGGAAGGGAT,.(((((...........((.(.(((....))).).))........))))),4,"[5, 2, 1, 3]","['ATCTC', 'CG', 'T', 'GGC']","['GGGAT', 'CG', 'G', 'GCC']",1,[4],['AACA'],"[[26, 29]]",2
+84,84,AGCGCTATGTTGTACGTATGCCCGAGTTAGGCACAAGGTA,............(((...((((.......))))....))),2,"[3, 4]","['TAC', 'TGCC']","['GTA', 'GGCA']",1,[7],['CGAGTTA'],"[[23, 29]]",0
+85,85,ATTAGCGATAAGGAAGTGACTTAGTGACGT,..........((.......)).........,1,[2],['AG'],['CT'],1,[7],['GAAGTGA'],"[[13, 19]]",0
+86,86,GGAGCGAAGGGTGGATCGATGCATGTGGAGAGGGAAGGTAG,................(............)...........,1,[1],['C'],['G'],1,[12],['GATGCATGTGGA'],"[[18, 29]]",0
+87,87,GAGTGCGGTAGGTGCAGCCAA,...........((...))...,1,[2],['GT'],['GC'],1,[3],['GCA'],"[[14, 16]]",1
+89,89,TGAAGGTTGAGAGCGCGGTTAGGCTGTTGATGTAGATAGT,...........(((........)))...............,1,[3],['AGC'],['GCT'],1,[8],['GCGGTTAG'],"[[15, 22]]",0
+90,90,CATCTCGGCCCAGACAGGGGTACGTAAAATAGCGTGTGACGGGTGACTTT,.....((((((......)))).)).(((.((.((.....))..).).))),6,"[2, 4, 3, 1, 1, 2]","['CG', 'GCCC', 'AAA', 'T', 'A', 'CG']","['CG', 'GGGT', 'TTT', 'A', 'T', 'CG']",2,"[6, 5]","['AGACAG', 'TGTGA']","[[12, 17], [35, 39]]",1
+91,91,TATGTGTTAAAGCGACAATCATGAGGTAGCTGTAGGTCCT,.(.(..(((.(((.((..(....).)).))).)))..).),6,"[1, 1, 3, 3, 2, 1]","['A', 'G', 'TTA', 'AGC', 'AC', 'T']","['T', 'C', 'TAG', 'GCT', 'GT', 'A']",1,[4],['CATG'],"[[20, 23]]",1
+92,92,CATCCAGCATATGGGTAGTCTGTGGGGCCTAGTGGCGGAT,.((((..(((.(((((...(...)..))))))))..)))),4,"[4, 3, 5, 1]","['ATCC', 'CAT', 'TGGGT', 'C']","['GGAT', 'GTG', 'GCCTA', 'G']",1,[3],['TGT'],"[[21, 23]]",3
+93,93,ACCAACAGTTGAGGCTCCAGGGAGTGCTGGTATGTACT,(..(.((((((..((((....))))..)))).)))..),5,"[1, 1, 2, 4, 4]","['A', 'A', 'CA', 'GTTG', 'GCTC']","['T', 'T', 'TG', 'TGGT', 'GAGT']",1,[4],['CAGG'],"[[18, 21]]",5
+94,94,CGGAAGTGCTGTGAGCGTATGAGCATAGGT,.....(((((.((....))..)))))....,2,"[5, 2]","['GTGCT', 'TG']","['AGCAT', 'TA']",1,[4],['AGCG'],"[[14, 17]]",2
+95,95,GTGAGAGAAGGGGTGGAAGACCTAATACTGGGACCTGTAT,........(.((((...((........))...)))).)..,3,"[1, 4, 2]","['A', 'GGGT', 'AG']","['T', 'ACCT', 'CT']",1,[8],['ACCTAATA'],"[[20, 27]]",1
+96,96,CGCTAGTTTTGTGGTTTCTGGGAGGACAGTGTAGTGCGGTA,(((..((.((((..((.....))..)))).))...)))...,4,"[3, 2, 4, 2]","['CGC', 'GT', 'TTGT', 'TT']","['GCG', 'GT', 'ACAG', 'GA']",1,[5],['TCTGG'],"[[17, 21]]",4
+97,97,TTTCGTGATACCAAAAGGTATGCGGGTTATAGTGGAGTGT,.((((..(((((....))))).))))..............,2,"[4, 5]","['TTCG', 'ATACC']","['CGGG', 'GGTAT']",1,[4],['AAAA'],"[[13, 16]]",2
+98,98,ACCAACCAGGAGAACAGTAT,....((..........))..,1,[2],['AC'],['GT'],1,[10],['CAGGAGAACA'],"[[7, 16]]",0
+99,99,GCAGAGGTGGCGAGCGTGCG,((.......(....)..)).,2,"[2, 1]","['GC', 'G']","['GC', 'C']",1,[4],['CGAG'],"[[11, 14]]",0
+100,100,CCATCCAGCGGTAGGTCCTGACAGTAGTGGTATAGAGGCT,((.((...((.((.((....))..)).)).....))))..,5,"[2, 2, 2, 2, 2]","['CC', 'TC', 'CG', 'TA', 'GT']","['GG', 'GA', 'TG', 'TA', 'AC']",1,[4],['CCTG'],"[[17, 20]]",1
+102,102,CGATCCAGTCATGAGTGGCGGAGGGATTGGTGTGGTGA,....(((.(....).)))(............)......,3,"[3, 1, 1]","['CCA', 'T', 'C']","['TGG', 'A', 'G']",2,"[4, 12]","['CATG', 'GGAGGGATTGGT']","[[10, 13], [20, 31]]",0
+106,106,CAGCTGGGGGGCCCACAGTGACGTATTCAGGCTGTAGGTA,..........(((.(((((...(....)..))))).))).,3,"[3, 5, 1]","['GCC', 'ACAGT', 'G']","['GGT', 'GCTGT', 'C']",1,[4],['TATT'],"[[24, 27]]",2
+107,107,CAGGGTGATAGTGCGTATATCTACAACGGGTAGCGCGTAT,.......(((..((((.(((((.....))))))))).))),3,"[3, 4, 5]","['ATA', 'GCGT', 'TATCT']","['TAT', 'GCGC', 'GGGTA']",1,[5],['ACAAC'],"[[23, 27]]",3
+109,109,CAGCTAGATGGGGATGCGTATGTTAGAGTAGGGCACACTT,..............(((..(........)...))).....,2,"[3, 1]","['TGC', 'A']","['GCA', 'T']",1,[8],['TGTTAGAG'],"[[21, 28]]",0
+110,110,GGGTGATGGGCCAAGAAGTGCGATAGGGTAACTCCTTGCT,...........((((.(((...........))).))))..,2,"[4, 3]","['CAAG', 'AGT']","['CTTG', 'ACT']",1,[11],['GCGATAGGGTA'],"[[20, 30]]",0
+111,111,CACGGAGATACGGATGGCGGTCTGAGAGGAGGGGGGA,..........(((((....))))).............,1,[5],['CGGAT'],['GTCTG'],1,[4],['GGCG'],"[[16, 19]]",2
+113,113,GGCTGTAGGGCTGATAGGCAT,...........(...).....,1,[1],['T'],['A'],1,[3],['GAT'],"[[13, 15]]",0
+114,114,ACTAGTGCGCAGTTGCATAGGGTTGTGATCGATGTCGAGGTTGA,.(..((((......))))...)..(...(((....)))...)..,4,"[1, 4, 1, 3]","['C', 'GTGC', 'G', 'TCG']","['G', 'GCAT', 'T', 'CGA']",2,"[6, 4]","['GCAGTT', 'ATGT']","[[9, 14], [32, 35]]",2
+115,115,CATCTGGCGCTCGGATGGGTGCAGGAAGATACGATATGACGGGTGTCGGGGCGTA,......((((((.((((..((((..(........).)).))..)))).)))))).,5,"[6, 4, 2, 2, 1]","['GCGCTC', 'GATG', 'TG', 'CA', 'A']","['GGGCGT', 'TGTC', 'CG', 'TG', 'T']",1,[8],['AGATACGA'],"[[27, 34]]",5
+116,116,TATCGCTTGCGTCAGTGGGTGAGGCAGGTCGGGTACGATA,(((((....(......)..................))))),2,"[5, 1]","['TATCG', 'C']","['CGATA', 'G']",1,[6],['GTCAGT'],"[[11, 16]]",0
+117,117,CCGTTGGTAAAGGGTATCTAGGTCAGGTGCGGCAGATCGTGAGGGAGTGA,(((..........(...)...........)))((.....)).........,3,"[3, 1, 2]","['CCG', 'G', 'CA']","['CGG', 'C', 'TG']",2,"[3, 5]","['TAT', 'GATCG']","[[15, 17], [35, 39]]",0
+120,120,CTAGGGATGGTGAGAAAGAGGGGCGACAGCGAGCTCGCCC,....................((((((........)))))),1,[6],['GGGCGA'],['TCGCCC'],1,[8],['CAGCGAGC'],"[[27, 34]]",0
+124,124,AGCTACATTGAGTACCATAGATAGGGTGGAGCACTCGTCT,..................(((..(((((...))))).))),2,"[3, 5]","['AGA', 'GGGTG']","['TCT', 'CACTC']",1,[3],['GAG'],"[[29, 31]]",1
+127,127,TTTCTCCAAAGCGTCTGGGCCAAGTAAGTTATGTGCTCT,.......(.(((((.((..(.......).)).))))).),4,"[1, 5, 2, 1]","['A', 'AGCGT', 'TG', 'C']","['T', 'GTGCT', 'TA', 'G']",1,[7],['CAAGTAA'],"[[21, 27]]",3
+128,128,GCCGTGGCATAATGCGTGCATATATGGTGGATACGCTCTA,(.(((..(((((((....))).))))......))))....,4,"[1, 3, 4, 3]","['G', 'CGT', 'CATA', 'ATG']","['C', 'ACG', 'TATG', 'CAT']",1,[4],['CGTG'],"[[15, 18]]",0
+131,131,ACCAACGTCGATGTTGAGTATGAAAGTGTTCGGGGGTG,.((((((....)))))....((((....))))...)..,3,"[1, 5, 4]","['C', 'CAACG', 'TGAA']","['G', 'TGTTG', 'TTCG']",2,"[4, 4]","['TCGA', 'AGTG']","[[8, 11], [25, 28]]",2
+132,132,GGTGTGCTAGGGTGGTGGGCCAGTGAGAGTGGTAGATCCT,........((......(..(((.......))).....))),3,"[2, 1, 3]","['AG', 'G', 'CCA']","['CT', 'C', 'TGG']",1,[7],['GTGAGAG'],"[[23, 29]]",0
+133,133,GCGGTAGAGGTGAGCAAGTGTGCTGATAGAAGTCTCTAAT,..(.(((((((.((((....)))).)......)))))).),4,"[1, 6, 1, 4]","['G', 'TAGAGG', 'T', 'AGCA']","['T', 'TCTCTA', 'A', 'TGCT']",1,[4],['AGTG'],"[[17, 20]]",2
+134,134,GAAGACATAGTTTGGCTGGTGCGAGACTTTGCT,..((.((.(((((.((....)).))))).)))),4,"[2, 2, 5, 2]","['AG', 'CA', 'AGTTT', 'GC']","['CT', 'TG', 'AGACT', 'GC']",1,[4],['TGGT'],"[[17, 20]]",1
+135,135,CAGCTCTAGTGAGGGGAGTGTAGTAGCATGTATGAACGAA,((((((((............))).))).))..........,3,"[2, 3, 3]","['CA', 'GCT', 'CTA']","['TG', 'AGC', 'TAG']",1,[12],['GTGAGGGGAGTG'],"[[9, 20]]",0
+137,137,GGCACGCAGGAATAGAGGCAGTTAGTTACGTGCTCGTG,((((((.((.(((.(...).)))..)).))))))....,4,"[6, 2, 3, 1]","['GGCACG', 'AG', 'AAT', 'G']","['CGTGCT', 'TT', 'GTT', 'C']",1,[3],['AGG'],"[[16, 18]]",3
+138,138,TTGGGCATAAGTTGCTGCAACCATAGGCAGCAGTGAGATA,......((...(((((((........)))))))....)).,2,"[2, 7]","['AT', 'TTGCTGC']","['AT', 'GCAGCAG']",1,[8],['AACCATAG'],"[[19, 26]]",1
+139,139,TATATCCAGCTCAGGTCTAG,((...((......))..)).,2,"[2, 2]","['TA', 'CC']","['TA', 'GG']",1,[6],['AGCTCA'],"[[8, 13]]",0
+140,140,CAATCCAGGTGAGTGTGCGCGGGGAGAGGGTGCGGTA,.................(((...........)))...,1,[3],['CGC'],['GCG'],1,[11],['GGGGAGAGGGT'],"[[21, 31]]",0
+141,141,ACCAACAGATGTGGAAGCATAGGCTGGATGAGTTGGTAG,((((((..((.(...(((....))).)))..))))))..,4,"[6, 2, 1, 3]","['ACCAAC', 'AT', 'T', 'AGC']","['GTTGGT', 'AT', 'G', 'GCT']",1,[4],['ATAG'],"[[19, 22]]",1
+142,142,GGGGCATAGGGCGACAAGTGCGGTAGGAGATGGCGGGTG,....(...............(.....).)..........,2,"[1, 1]","['C', 'C']","['G', 'G']",1,[5],['GGTAG'],"[[22, 26]]",0
+143,143,ACCGAGCAGGGGTAGCAGGTCAGCTTGTGCTAGTTGAAGTGGGGGCAGAT,(.(.........(((((..........)))))...............).),3,"[1, 1, 5]","['A', 'C', 'TAGCA']","['T', 'G', 'TGCTA']",1,[10],['GGTCAGCTTG'],"[[18, 27]]",0
+146,146,ACCAACATGTACAGACAGAGTTGTCGCAACGTGCTTTTTG,(.((((.(((....)))..)))))................,3,"[1, 4, 3]","['A', 'CAAC', 'TGT']","['T', 'GTTG', 'ACA']",1,[4],['ACAG'],"[[11, 14]]",0
+147,147,TTGAGCCAAGTTAGAGTGAGTGTTTGGTAGGCCTAACCTC,.................(((.((...(.....)..))))),3,"[3, 2, 1]","['GAG', 'GT', 'G']","['CTC', 'AC', 'C']",1,[5],['TAGGC'],"[[28, 32]]",0
+148,148,ACAGATAGGTACGATGTCTGTGAGAGGTGATTGGGGAA,(((((((.......))))))).................,1,[7],['ACAGATA'],['TGTCTGT'],1,[7],['GGTACGA'],"[[8, 14]]",1
+149,149,GTTAGCCAAGTTGAGGCTGAC,(((((((.......))))))),1,[7],['GTTAGCC'],['GGCTGAC'],1,[7],['AAGTTGA'],"[[8, 14]]",1
+150,150,ACCAACAAGGTGGTAGCTCGTGGTAGAGCCTGGCAA,..........((...((((......))))....)).,2,"[2, 4]","['TG', 'GCTC']","['CA', 'GAGC']",1,[6],['GTGGTA'],"[[20, 25]]",0
+152,152,CATCTATATTTGGGGGGTCTGCCAAGTGAGGTGTTGC,(((((.(((((((.(....).))))))))))))....,3,"[5, 7, 1]","['CATCT', 'TATTTGG', 'G']","['AGGTG', 'CCAAGTG', 'T']",1,[4],['GGTC'],"[[16, 19]]",4
+153,153,GCGGGGAGGCTTCATGGGGTCCACTATAAGCGGTAGTGTAGGTTGAGGATAGTGACAAAATGGTGATGCCCT,..(((.(..(.((((...((.((((((...((((.......))))...))))))))...)))).).).))).,7,"[3, 1, 1, 4, 2, 6, 4]","['GGG', 'A', 'C', 'TCAT', 'GT', 'CACTAT', 'CGGT']","['CCC', 'T', 'G', 'ATGG', 'AC', 'ATAGTG', 'GTTG']",1,[7],['AGTGTAG'],"[[35, 41]]",4
+154,154,GTAGCATCACCTAAGTGGTTTAAACAGATAGCTGATCGCTTGCGGTGTC,.......((((.(((((((..(..........).)))))))..))))..,3,"[4, 7, 1]","['CACC', 'AAGTGGT', 'A']","['GGTG', 'ATCGCTT', 'T']",1,[10],['AACAGATAGC'],"[[23, 32]]",2
+155,155,CATCTCGTTAGTGAGTGTGTTAGGGGAGGTTGAGTGTGA,(((((((.(......((...))......).)))).))).,4,"[3, 4, 1, 2]","['CAT', 'CTCG', 'T', 'TG']","['GTG', 'TGAG', 'G', 'TA']",1,[3],['TGT'],"[[18, 20]]",4
+156,156,ACCAAGTGATACGTTATAGTTGTAGGCTGTATCCG,...........((.(((((.......)))))..)),2,"[2, 5]","['CG', 'TATAG']","['CG', 'CTGTA']",1,[7],['TTGTAGG'],"[[20, 26]]",1
+157,157,CCAGGCAGCTAAGATGCCGGTTAGTGAGGCTGCACGGATA,((..((((((....(.......)....))))))..))...,3,"[2, 6, 1]","['CC', 'GCAGCT', 'T']","['GG', 'GGCTGC', 'A']",1,[7],['GCCGGTT'],"[[16, 22]]",1
+162,162,ACACACCTTCTGCTAGAGTGCGAAGTGAGAGTTCGCGGTG,...((((....((....))(((((.......))))))))),3,"[4, 2, 5]","['CACC', 'GC', 'GCGAA']","['GGTG', 'GT', 'TTCGC']",2,"[4, 7]","['TAGA', 'GTGAGAG']","[[14, 17], [25, 31]]",1
+163,163,GGAACGGTAAGGGATTAGGTCTAGTTACATAGAGATACGTGAGATGGTAGCG,....((.((.....(((..((((......))))......))).....)).)),4,"[2, 2, 3, 4]","['CG', 'TA', 'TTA', 'TCTA']","['CG', 'TA', 'TGA', 'TAGA']",1,[6],['GTTACA'],"[[24, 29]]",1
+164,164,CCAAGAGCAGAACGGGGGATGCCCTGT,...........((((((....)))))),1,[6],['ACGGGG'],['CCCTGT'],1,[4],['GATG'],"[[18, 21]]",1
+165,165,CATGTGCAGGTAGAGCGGCCTGTA,....(((((((......))))))),1,[7],['TGCAGGT'],['GCCTGTA'],1,[6],['AGAGCG'],"[[12, 17]]",2
+166,166,TTTAGCCATAGCTACGCGATCCATATGGGATAGTAGCTGTA,.......((((((((...((((.....)))).)))))))).,2,"[8, 4]","['ATAGCTAC', 'ATCC']","['GTAGCTGT', 'GGAT']",1,[5],['ATATG'],"[[23, 27]]",1
+170,170,TAGGAGGCAGGGGGTGAGAGCGACATGGAGTGCAGCCAGCGCTTG,..((..(((....(((.......)))....)))..))........,3,"[2, 3, 3]","['GG', 'GCA', 'GTG']","['CC', 'TGC', 'CAT']",1,[7],['AGAGCGA'],"[[17, 23]]",1
+171,171,GCCAACAGCCAGGGCGTGGTGCCGGTCATAGCGTCTGGTTCAGCTCATGCAGTGACACGAAATGGTGATGCCCT,..........(((((((..((.(((((((.((((..(......)..)))).))))).))...))...))))))),6,"[7, 2, 2, 5, 4, 1]","['AGGGCGT', 'TG', 'CG', 'GTCAT', 'GCGT', 'G']","['ATGCCCT', 'TG', 'CG', 'GTGAC', 'ATGC', 'C']",1,[6],['GTTCAG'],"[[38, 43]]",5
+172,172,ACCAAGAGGCGGAGAAGTGTATGGGGTG,..............(..(.....)..).,2,"[1, 1]","['A', 'T']","['T', 'G']",1,[5],['GTATG'],"[[19, 23]]",1
+173,173,GGGGTGGTGAGATGTACTCTCAGCCAGCGACAGTAGTGAA,(.(.((((((((.....))))).))).)..).........,4,"[1, 1, 3, 5]","['G', 'G', 'TGG', 'TGAGA']","['C', 'C', 'CCA', 'TCTCA']",1,[5],['TGTAC'],"[[13, 17]]",0
+175,175,ACCGAAGTGGAGAGCCAGTGGTGCAGTTAGTGTCGTAGGTAGTTCCTGTG,((.(((.......(((...))).((.....))..........)))..)).,4,"[2, 3, 3, 2]","['AC', 'GAA', 'GCC', 'CA']","['GT', 'TTC', 'GGT', 'TG']",2,"[3, 5]","['AGT', 'GTTAG']","[[17, 19], [26, 30]]",1
+176,176,CAGCCCAGGTGTGGAGGTGGCTCTAGTGGAGAGCTGGTGTC,((((.(.....(((((....))))).....).)))).....,3,"[4, 1, 5]","['CAGC', 'C', 'TGGAG']","['GCTG', 'G', 'CTCTA']",1,[4],['GTGG'],"[[17, 20]]",1
+177,177,GTATAGGGGAGCGAGGGCGCGGGGGCAGTCATAGGTGGT,..........(((....)))...................,1,[3],['GCG'],['CGC'],1,[4],['AGGG'],"[[14, 17]]",0
+180,180,GATGGCGATAGCGGTAGGATAGTGAGAGGTA,(((.((....)).)).......)........,3,"[1, 2, 2]","['G', 'AT', 'GC']","['T', 'GT', 'GC']",1,[4],['GATA'],"[[7, 10]]",2
+181,181,ACCAATAAGCAGTGAGAGTAGGGCGGATTCTAAGAGTGTA,..................(((((....)))))........,1,[5],['TAGGG'],['TTCTA'],1,[4],['CGGA'],"[[24, 27]]",2
+183,183,GTTACAGAAGACGTAGCGTGCGATACAGGTGTC,......((....(((.(....).))).....)),3,"[2, 3, 1]","['GA', 'GTA', 'C']","['TC', 'TAC', 'G']",1,[4],['GTGC'],"[[18, 21]]",0
+184,184,GGGAACAGCTTAGGGGTAGCGCTGATCGAGGGTAGCGCTA,................(((((((..........))))))),1,[7],['TAGCGCT'],['AGCGCTA'],1,[10],['GATCGAGGGT'],"[[24, 33]]",0
+187,187,ACCATCAAGATCAAGGGCTATGTGAGGTC,(((..((....(...)......)).))).,3,"[3, 2, 1]","['ACC', 'CA', 'C']","['GGT', 'TG', 'G']",1,[3],['AAG'],"[[13, 15]]",0
+188,188,GGCTAGATAAAGGGGTGAGTTTTCCAACTC,................(((((....))))),1,[5],['GAGTT'],['AACTC'],1,[4],['TTCC'],"[[22, 25]]",0
+189,189,AGCGACAGTGCCGTGTTAGTGAGAGAAATATAGTGAATAGGTGAGTGTTGCG,.((((((..(((.(((((.((.........)).).)))))))...)))))).,5,"[6, 3, 4, 1, 2]","['GCGACA', 'GCC', 'TGTT', 'A', 'TG']","['TGTTGC', 'GGT', 'AATA', 'T', 'TA']",1,[9],['AGAGAAATA'],"[[22, 30]]",4
+190,190,TGATGGGGAATGAAGCAGTGAGAGAGTGAGTATAGCGCCT,....((.(.(((...((.(.....).))..)))..).)).,5,"[2, 1, 3, 2, 1]","['GG', 'G', 'ATG', 'CA', 'T']","['CC', 'C', 'TAT', 'TG', 'A']",1,[5],['GAGAG'],"[[20, 24]]",1
+191,191,GTGGCAGCCTATCAGATAGAGGCGGGTGGGGAGAGGGGTAC,((..(.((((.(.....).))))....)...........)),4,"[2, 1, 4, 1]","['GT', 'C', 'GCCT', 'T']","['AC', 'G', 'AGGC', 'A']",1,[5],['CAGAT'],"[[13, 17]]",0
+193,193,GTATAGGTGGCGTGGGTGGCCAAAGATGATAGTTTTCCACGGGTTATTTTAGTGACACGAAATGGTGATGCCCT,........((((((((.(((.(.......).))).))))))...(((((..((...)).))))).......)).,6,"[2, 6, 3, 1, 5, 2]","['GG', 'CGTGGG', 'GGC', 'A', 'TATTT', 'GT']","['CC', 'TCCACG', 'GTT', 'T', 'AAATG', 'AC']",2,"[7, 3]","['AAGATGA', 'GAC']","[[23, 29], [54, 56]]",4
+195,195,CATCTTCATTTACGCTAGATCTCTGTGTGATCCATGAA,....(((((........((((.(...).)))).))))),3,"[5, 4, 1]","['TTCAT', 'GATC', 'C']","['ATGAA', 'GATC', 'G']",1,[3],['TGT'],"[[24, 26]]",0
+196,196,GTTCGAGTGGGATGAAGGCT,......(...........).,1,[1],['G'],['C'],1,[11],['TGGGATGAAGG'],"[[8, 18]]",0
+197,197,CACAATGATGCCAATGAGTGTGATAGGTACT,((((.(.((....)).).)))).........,3,"[4, 1, 2]","['CACA', 'T', 'AT']","['TGTG', 'A', 'AT']",1,[4],['GCCA'],"[[10, 13]]",0
+198,198,GGCTAGATTCATCGCGTATGGCTTAAGCTTGTTCATCTAA,...(((((.......(...(((....)))....)))))).,3,"[5, 1, 3]","['TAGAT', 'G', 'GGC']","['ATCTA', 'C', 'GCT']",1,[4],['TTAA'],"[[23, 26]]",1
+199,199,CAGCAGGGGTTGAGTGCAGGCTGGATTAACAGTGTTGCGC,.............(((((....(......).....))))),2,"[5, 1]","['GTGCA', 'G']","['TGCGC', 'C']",1,[6],['GATTAA'],"[[24, 29]]",1
+200,200,AGGAGGGCAATGAAGGAGTTTAGGTATAGGGGTAGACTAA,.......(...).......((((...((....))..)))),3,"[1, 4, 2]","['C', 'TTAG', 'TA']","['G', 'CTAA', 'TA']",2,"[3, 4]","['AAT', 'GGGG']","[[9, 11], [29, 32]]",0
+203,203,ACGAGGCGGGACGTAGGCAAGGATAGATAGGTGCTATATCGGGTGTAGT,((.(.((..((.(((.(((...(....)...)))))).))..)).).)),7,"[2, 1, 2, 2, 3, 3, 1]","['AC', 'A', 'GC', 'GA', 'GTA', 'GCA', 'A']","['GT', 'T', 'GT', 'TC', 'TAT', 'TGC', 'T']",1,[4],['TAGA'],"[[24, 27]]",2
+205,205,ACCGAATGGTAGTACACCGGGAGACCAACTGGGCGGTAAA,((((..((((.....))))..((.....))...))))...,3,"[4, 4, 2]","['ACCG', 'TGGT', 'AG']","['CGGT', 'ACCG', 'CT']",2,"[5, 5]","['AGTAC', 'ACCAA']","[[11, 15], [24, 28]]",1
+206,206,CACATCAAAGAGTGGTGATAGTGTGGGTGAGCTGTTTGTC,.....((((.(((....(.....)......))).))))..,3,"[4, 3, 1]","['CAAA', 'AGT', 'A']","['TTTG', 'GCT', 'T']",1,[5],['TAGTG'],"[[19, 23]]",1
+207,207,ACCAAGCATGTCTTGTTTGTGA,(.((((.....)))).).....,2,"[1, 4]","['A', 'CAAG']","['T', 'CTTG']",1,[5],['CATGT'],"[[7, 11]]",0
+208,208,GGGAAGGGATAAGGAGGCGCGTGGTGAGCA,.................(.........)..,1,[1],['C'],['G'],1,[9],['GCGTGGTGA'],"[[19, 27]]",0
+209,209,GCATAGGGGTACAGTGCTAGCTAAAGTGCTG,((.(((..........)))))..........,2,"[2, 3]","['GC', 'TAG']","['GC', 'CTA']",1,[10],['GGGTACAGTG'],"[[7, 16]]",0
+210,210,CATATTTGCGTCGCGGCATAGGTGATGTGTATCCGTGAT,.........(((((((.(((.((...)).)))))))))),3,"[7, 3, 2]","['GTCGCGG', 'ATA', 'GT']","['CCGTGAT', 'TAT', 'GT']",1,[3],['GAT'],"[[24, 26]]",4
+211,211,ACCAACGCCTAAGGCTGCCATTTGTGCGGTTA,......(((...))).(((....).)).....,3,"[3, 2, 1]","['GCC', 'GC', 'C']","['GGC', 'GC', 'G']",2,"[3, 4]","['TAA', 'ATTT']","[[10, 12], [20, 23]]",0
+213,213,CCCATCCATCTTAGGGTCCATTAAGTGAGGCGACTGTGTA,......(((..(....(.((.....)))....)..)))..,4,"[3, 1, 1, 2]","['CAT', 'T', 'T', 'CA']","['GTG', 'A', 'A', 'TG']",1,[5],['TTAAG'],"[[21, 25]]",1
+214,214,ACCGCGATGGGTAGGTAGCCAAGGCAGTGGGCTGGTACC,.........((((...((((.........))))..)))),2,"[4, 4]","['GGTA', 'AGCC']","['TACC', 'GGCT']",1,[9],['AAGGCAGTG'],"[[21, 29]]",0
+216,216,GTGTGAGGGGGTATCGCGCCTGGTGCCAGGGTTAGCTCCA,.((.(((....(...)..((((....)))).....))))),4,"[2, 3, 1, 4]","['TG', 'GAG', 'T', 'CCTG']","['CA', 'CTC', 'G', 'CAGG']",2,"[3, 4]","['ATC', 'GTGC']","[[13, 15], [23, 26]]",1
+217,217,CGACGGTGGATCGAGGTATCGACGTGTGTGAGCTCATATCAGGGATTGTTTCGTA,..((((..((((..(((((.(.(........)..))))))...))))...)))).,5,"[4, 4, 5, 1, 1]","['ACGG', 'GATC', 'GGTAT', 'G', 'C']","['TCGT', 'GATT', 'ATATC', 'C', 'G']",1,[8],['GTGTGTGA'],"[[24, 31]]",3
+219,219,CCACTCGCGCGGTAGTGTCTACACCAACCTCACAGA,....(((.(.(((.(((....)))..))).).).)),5,"[2, 1, 1, 3, 3]","['TC', 'G', 'G', 'GGT', 'GTG']","['GA', 'C', 'C', 'ACC', 'CAC']",1,[4],['TCTA'],"[[18, 21]]",0
+221,221,TATGGGCCGGGCAGAGGTCGGGAAGTAGAGTGGTGATAGAG,(((...(((..(...)..)).........).....)))...,4,"[3, 1, 2, 1]","['TAT', 'C', 'CG', 'C']","['ATA', 'G', 'CG', 'G']",1,[3],['AGA'],"[[13, 15]]",0
+222,222,CAGTGAAGGGATTTACAGCTACGCTACGAGCGTATCGACA,..((((.(.......)...((((((...)))))))).)).,4,"[2, 2, 1, 6]","['GT', 'GA', 'G', 'TACGCT']","['AC', 'TC', 'C', 'AGCGTA']",2,"[7, 3]","['GGATTTA', 'ACG']","[[9, 15], [26, 28]]",0
+223,223,ATAGCATACATGCAGGAAACAGCGCAGCAATCTATAGGGTGAGTAG,((((....(.(((..........))))....))))...........,3,"[4, 1, 3]","['ATAG', 'C', 'TGC']","['CTAT', 'G', 'GCA']",1,[10],['AGGAAACAGC'],"[[14, 23]]",0
+224,224,ACATACATCGTTAGGTACGATGAGAGGTAGCGTGGGGTAG,((...((((((.....)))))).........)).......,2,"[2, 6]","['AC', 'CATCGT']","['GT', 'ACGATG']",1,[5],['TAGGT'],"[[12, 16]]",0
+225,225,AGGAATAGGTGAGCATCTGTAGAGTCGTTG,...(.(((........))))..........,2,"[1, 3]","['A', 'TAG']","['T', 'CTG']",1,[8],['GTGAGCAT'],"[[9, 16]]",1
+226,226,TACGAGCAGTTGGGCGAGTGCAGGTAAGAGCGGTAAGCGAG,(((..(((..........)))..)))...............,2,"[3, 3]","['TAC', 'GCA']","['GTA', 'TGC']",1,[10],['GTTGGGCGAG'],"[[9, 18]]",0
+228,228,CATGCCGCAAGGGGGACAGTGGTTAATGCCTCGTGGTGTA,.(((((((.(((...((....)).....))).))))))).,3,"[7, 3, 2]","['ATGCCGC', 'AGG', 'AC']","['GTGGTGT', 'CCT', 'GT']",1,[4],['AGTG'],"[[18, 21]]",3
+229,229,TGAGCTGGATTGCAGGAAGGGGTTTAGCGTTAAGGTGATGGGGCCCACGAA,((.(((..(((((....(.(.......).)....)))))..))).))....,5,"[2, 3, 5, 1, 1]","['TG', 'GCT', 'ATTGC', 'A', 'G']","['CA', 'GGC', 'GTGAT', 'T', 'C']",1,[7],['GGTTTAG'],"[[21, 27]]",3
+230,230,AGCGAGGACGTGAAGGCCTCCAATTAGTGTGGGATACATTGAGTTCTAA,...((((.........))))((.......))..................,2,"[4, 2]","['GAGG', 'CA']","['CCTC', 'TG']",2,"[9, 7]","['ACGTGAAGG', 'ATTAGTG']","[[8, 16], [23, 29]]",0
+231,231,GGCAACACCTGTGGCAAGGTGGTAGTGGTGAGGCACCTAA,................(((((............)))))..,1,[5],['AGGTG'],['CACCT'],1,[12],['GTAGTGGTGAGG'],"[[22, 33]]",0
+232,232,TTGAGGGCATGTGGCCAAGTGAGAGAAAGCAAGCACTTAA,(((((.((.(((..(.........)...))).)).))))),4,"[5, 2, 3, 1]","['TTGAG', 'GC', 'TGT', 'C']","['CTTAA', 'GC', 'GCA', 'G']",1,[9],['CAAGTGAGA'],"[[16, 24]]",2
+233,233,ACCAAGCTAAGTGGGGTAGTAATCTACTGCTGCAGAGCTG,....((((..(((((((((....))))).))))..)))).,3,"[4, 4, 5]","['AGCT', 'GTGG', 'GGTAG']","['AGCT', 'CTGC', 'CTACT']",1,[4],['TAAT'],"[[20, 23]]",3
+234,234,ACAAGCGAGATCGGGACATAGGCCAGTTACTGTAGTGAAGGAGGTTGCCA,.(((.(.....(.((.(...).)).)((((....))))....).)))...,6,"[3, 1, 1, 2, 1, 4]","['CAA', 'C', 'C', 'GG', 'C', 'TTAC']","['TTG', 'G', 'G', 'CC', 'G', 'GTGA']",2,"[3, 4]","['ATA', 'TGTA']","[[18, 20], [31, 34]]",1
+235,235,TAGGCCACATTTGGGCGCATGGAGAGTGCGGACGGTGACA,.....(((....(..(((((.....)))))..).)))...,3,"[3, 1, 5]","['CAC', 'G', 'CGCAT']","['GTG', 'C', 'GTGCG']",1,[5],['GGAGA'],"[[21, 25]]",1
+236,236,CATCTGCTACGTGGGTACGTGTGTGATAGGTGAGTGGGAC,..((.((.((((....))))))..))..............,3,"[2, 2, 4]","['TC', 'GC', 'ACGT']","['GA', 'GT', 'ACGT']",1,[4],['GGGT'],"[[13, 16]]",1
+238,238,ACCAAGAGTGATGAAAGCGG,((.....))(.(...).)..,3,"[2, 1, 1]","['AC', 'G', 'T']","['GT', 'C', 'A']",2,"[5, 3]","['CAAGA', 'GAA']","[[3, 7], [13, 15]]",0
+239,239,CATATAGATTCATGCAAACCATCTGATAGATAGGTGTGAGTAGTGTGTC,.(((((..(.(...((.(((((((...)))).))).)).).).))))).,6,"[5, 1, 1, 2, 3, 4]","['ATATA', 'T', 'C', 'CA', 'ACC', 'ATCT']","['TGTGT', 'A', 'G', 'TG', 'GGT', 'AGAT']",1,[3],['GAT'],"[[25, 27]]",2
+242,242,CATCTGCAGGTGCGATAGTGAGACAGGTAGCGTATACAGC,.....((.((((((.((.((...))..)).))))).).)),5,"[2, 1, 5, 2, 2]","['GC', 'G', 'GTGCG', 'TA', 'TG']","['GC', 'C', 'CGTAT', 'TA', 'CA']",1,[3],['AGA'],"[[21, 23]]",2
+243,243,GTGGGAGCCATGATGAGCGA,......(((.....).))..,2,"[2, 1]","['GC', 'C']","['GC', 'G']",1,[5],['ATGAT'],"[[10, 14]]",0
+245,245,AACACGGTAGATAGGGTGGCGGCAACTTGTGTTGATGCTG,((((((((.(.(.........)).)).)))))).......,4,"[6, 2, 1, 1]","['AACACG', 'GT', 'G', 'T']","['TGTGTT', 'AC', 'C', 'G']",1,[9],['AGGGTGGCG'],"[[13, 21]]",2
+246,246,GTTGGCCCAGAGGCCGAGCGCGTAGGGCAGTGATACTATA,....((((...(((...)).)...))))............,3,"[4, 1, 2]","['GCCC', 'G', 'GC']","['GGGC', 'C', 'GC']",1,[3],['CGA'],"[[15, 17]]",0
+247,247,GTATACTGGTATATAGGCCATACGTGAAGTGGTAGTCAA,...........(....(((...........)))....).,2,"[1, 3]","['T', 'GCC']","['A', 'GGT']",1,[11],['ATACGTGAAGT'],"[[20, 30]]",1
+248,248,ACCAACGGGCAGAGTGTCCCAGTGTGAGGCCGGTTGGGTA,.(((((.(((......(...).......))).)))))...,3,"[5, 3, 1]","['CCAAC', 'GGC', 'T']","['GTTGG', 'GCC', 'A']",1,[3],['CCC'],"[[18, 20]]",0
+249,249,ACCAACAGCCATTAAGATAGAGTAGTGATACCTGTG,....((((.............(((....))))))).,2,"[4, 3]","['ACAG', 'GTA']","['CTGT', 'TAC']",1,[4],['GTGA'],"[[25, 28]]",0
+250,250,CCTCTACACGGAAATGGGTACGTGTGGTAAACATC,...(((((((.(......).)))))))........,2,"[7, 1]","['CTACACG', 'A']","['CGTGTGG', 'T']",1,[6],['AATGGG'],"[[13, 18]]",1
+251,251,CATCTCGCTAGACAGTGCGAATAGAGTGATTGTTGTGAT,.(((((((........))))................))),2,"[3, 4]","['ATC', 'TCGC']","['GAT', 'GCGA']",1,[8],['TAGACAGT'],"[[9, 16]]",0
+252,252,CGGGTACACTTTAGGTAATGGCGAGTCAATAAATGTAAT,....(((.(....)))).(((....)))...........,3,"[3, 1, 3]","['TAC', 'C', 'TGG']","['GTA', 'G', 'TCA']",2,"[4, 4]","['TTTA', 'CGAG']","[[10, 13], [22, 25]]",1
+253,253,TATCTCCAACTAGAGTGGCCAACTGGAAAAAGTTGTAATGGGCTATAACAGCTAGACCAAATGGTGATGCCCT,............(.((.((((..(((....((((((.(((...))).))))))...)))..)))).))..)..,6,"[1, 2, 4, 3, 6, 3]","['G', 'GT', 'GCCA', 'TGG', 'AGTTGT', 'ATG']","['C', 'AT', 'TGGT', 'CCA', 'ACAGCT', 'TAT']",1,[3],['GGC'],"[[41, 43]]",4
+254,254,GAGGGTAGGGTGTCAGGGCGA,(............).......,1,[1],['G'],['C'],1,[12],['AGGGTAGGGTGT'],"[[2, 13]]",0
+255,255,ATGAGCCACATCGTCATAGGGTACTGCAGACGGTAGTGGG,.....((((((((((.(((....)))..)))))).)))).,3,"[4, 6, 3]","['CCAC', 'ATCGTC', 'TAG']","['GTGG', 'GACGGT', 'CTG']",1,[4],['GGTA'],"[[20, 23]]",2
+256,256,TCCGAGCAGGTTGCAGTGGCCAGATAGGTGTGTACCTTTA,.((..(((...)))...))((.....))............,3,"[2, 3, 2]","['CC', 'GCA', 'CC']","['GG', 'TGC', 'GG']",2,"[3, 5]","['GGT', 'AGATA']","[[9, 11], [22, 26]]",0
+257,257,TACACCAGTTGCTGAGGGCTCCATGAAGTGTGTAGTTCGTAGGGTGGTGA,..(((((....((..(((((.(((.....))).)))))..))..))))).,4,"[5, 2, 5, 3]","['CACCA', 'CT', 'GGGCT', 'CAT']","['TGGTG', 'AG', 'AGTTC', 'GTG']",1,[5],['GAAGT'],"[[25, 29]]",3
+259,259,AGCTAGATAAGTAGTGAGTGTTCGGAAAAGGCAGAGCCA,.(((.(.(......(((....))).....).)..)))..,4,"[3, 1, 1, 3]","['GCT', 'G', 'T', 'TGA']","['AGC', 'C', 'G', 'TCG']",1,[4],['GTGT'],"[[18, 21]]",2
+261,261,AGAGAGTCGGTAATAGATACTGTGGGATAAAAGCGTAAG,.......(((((.....))))).................,1,[5],['CGGTA'],['TACTG'],1,[5],['ATAGA'],"[[13, 17]]",1
+262,262,AGCTAGAGCGAGGATATCACGACTTGGGGTATGGTCATA,...((..(.....(((((.((...)).)))))...).)),4,"[2, 1, 5, 2]","['TA', 'G', 'ATATC', 'CG']","['TA', 'C', 'GGTAT', 'TG']",1,[3],['ACT'],"[[22, 24]]",2
+263,263,GCCAACATTGAGTGCATGTGTCGTGAGTGAGGAAAGTTTA,...(((........(.(........)..)......)))..,3,"[3, 1, 1]","['AAC', 'C', 'T']","['GTT', 'G', 'A']",1,[8],['GTGTCGTG'],"[[18, 25]]",0
+264,264,TGATAGGGGTATGGACTGGTGAGGGGTCTCGTTACGGTAAGGGATGAAGG,.........................(((((.(((...)))))))).....,2,"[5, 3]","['GTCTC', 'TTA']","['GGGAT', 'TAA']",1,[3],['CGG'],"[[35, 37]]",2
+265,265,CCCTGTCTGAGGGAGGGTTA,((((..(...)..))))...,2,"[4, 1]","['CCCT', 'C']","['AGGG', 'G']",1,[3],['TGA'],"[[8, 10]]",0
+266,266,GTGGCACCAACGTTCAAGAGTGGTCAGATATATTAGCGGT,...(.((((...(...)...)))))...............,3,"[1, 4, 1]","['G', 'ACCA', 'T']","['C', 'TGGT', 'A']",1,[3],['TCA'],"[[14, 16]]",0
+268,268,CAGCGCAGTGTGGTAGGCTAAAATACTCTGATGAGCAGTGAGGGCTCGT,(.(.((...((.....))...(.(.(((....))).).)....)).)).,7,"[1, 1, 2, 2, 1, 1, 3]","['C', 'G', 'GC', 'GT', 'A', 'T', 'CTC']","['G', 'C', 'GC', 'GC', 'T', 'A', 'GAG']",2,"[5, 4]","['GGTAG', 'TGAT']","[[12, 16], [29, 32]]",1
+271,271,TGCACGAGTGTTAGGTAGTGTGAGGAGAGACCATGTGGAG,(((((............)))))..................,1,[5],['TGCAC'],['GTGTG'],1,[12],['GAGTGTTAGGTA'],"[[6, 17]]",2
+272,272,AGAGAGCCGAGAGAATCGGTAAGGGAAGGCCGGTGAA,.....(((((.....)))))..((.....))......,2,"[5, 2]","['GCCGA', 'GG']","['TCGGT', 'CC']",2,"[5, 5]","['GAGAA', 'GAAGG']","[[11, 15], [25, 29]]",1
+273,273,GAGGAGACGGAAAGTGGGGGCCACTAGAGACAGAGGTAGG,.(...(.(....(((((...)))))...).).....)...,4,"[1, 1, 1, 5]","['A', 'G', 'C', 'AGTGG']","['T', 'C', 'G', 'CCACT']",1,[3],['GGG'],"[[18, 20]]",0
+274,274,ACCAGCGGTGGTGCAGCGGGTGAGTACGGTTGTCCGTAAA,(((.((.((...)).)).)))...(((((....)))))..,4,"[3, 2, 2, 5]","['ACC', 'GC', 'GT', 'TACGG']","['GGT', 'GC', 'GC', 'CCGTA']",2,"[3, 4]","['GGT', 'TTGT']","[[10, 12], [30, 33]]",1
+275,275,TATTGCGTAAATGGGTTATCTGCATCAACGA,.....(((..(((.........)))..))).,2,"[3, 3]","['CGT', 'ATG']","['ACG', 'CAT']",1,[9],['GGTTATCTG'],"[[14, 22]]",0
+276,276,CATGCTCGGGGTTCGCGGGTGTAGCTAGAGCCAGCATGCTGGTTGGCTGAG,....(((((....(...(......)..)((((((....))))))..))))),4,"[5, 1, 1, 6]","['CTCGG', 'C', 'G', 'AGCCAG']","['CTGAG', 'G', 'C', 'CTGGTT']",2,"[6, 4]","['GTGTAG', 'CATG']","[[19, 24], [35, 38]]",2
+278,278,GCCAACAGGTGTAGTTACAGAGTGAGGTCAAGTAGCTGAA,(((.((...(((....)))..))..)))............,3,"[3, 2, 3]","['GCC', 'AC', 'TGT']","['GGT', 'GT', 'ACA']",1,[4],['AGTT'],"[[13, 16]]",1
+279,279,CACCTCTATGGCTAATGCATCGGGAGGGATGGGTGGTA,.(((.((((.((....))..........))).).))).,4,"[3, 1, 3, 2]","['ACC', 'C', 'TAT', 'GC']","['GGT', 'G', 'ATG', 'GC']",1,[4],['TAAT'],"[[13, 16]]",1
+282,282,GAGAGCGGTGGTGTGCGCCAAGTGCGTTTG,.(..(((.((((....))))..)))...).,3,"[1, 3, 4]","['A', 'GCG', 'TGGT']","['T', 'TGC', 'GCCA']",1,[4],['GTGC'],"[[13, 16]]",2
+283,283,CACGAGGTGCGCTAAAGTGTGTGCTATAACCGGGTTGTGAGGGCGAAGAG,........((((....))))...((.((((...))))...........)),3,"[4, 2, 4]","['GCGC', 'CT', 'TAAC']","['GTGT', 'AG', 'GTTG']",2,"[4, 3]","['TAAA', 'CGG']","[[13, 16], [31, 33]]",3
+284,284,CACGGATTATAGCGGTAGTGA,((((..(....)...).))).,3,"[3, 1, 1]","['CAC', 'G', 'T']","['GTG', 'T', 'G']",1,[4],['TATA'],"[[8, 11]]",2
+285,285,TAGGGACCAGTTATGAAGAGAGTGGGTGCAGTGAGCGTCT,.....(((...........).)).................,2,"[2, 1]","['AC', 'C']","['GT', 'G']",1,[11],['AGTTATGAAGA'],"[[9, 19]]",0
+286,286,CGCTAGACGCAGGGTGTACGTGTAGCATA,.((((.(((.(.....).))).))))...,3,"[4, 3, 1]","['GCTA', 'ACG', 'A']","['TAGC', 'CGT', 'T']",1,[5],['GGGTG'],"[[12, 16]]",0
+287,287,GTGAGAGCAACTGTTAGACATGT,.........(((((...))).)),2,"[2, 3]","['AC', 'TGT']","['GT', 'ACA']",1,[3],['TAG'],"[[15, 17]]",0
+288,288,ACCAAGAGCTGTGAGCGCGTAGGGTGTGATAGGAGGTAGA,(((..(.(((...))).)................)))...,3,"[3, 1, 3]","['ACC', 'G', 'GCT']","['GGT', 'C', 'AGC']",1,[3],['GTG'],"[[11, 13]]",0
+292,292,GGCATAGACTGAGGGGTAGCTCGGGTTAGCAGTCAGTTA,.......(((((.(.....)............)))))..,2,"[5, 1]","['ACTGA', 'G']","['TCAGT', 'C']",1,[5],['GGTAG'],"[[15, 19]]",0
+296,296,GTGGCGTAGCGTATGCAGGTAGTTGGGGCCAGCGGCAC,(((.((..((....((.....))....))...)).))),4,"[3, 2, 2, 2]","['GTG', 'CG', 'GC', 'GC']","['CAC', 'CG', 'GC', 'GT']",1,[5],['AGGTA'],"[[17, 21]]",1
+297,297,TAGACCGTAAGGTTGAGTGTGTTTCCAACCGGGGTGTGTGTAGGGTGTGA,(..(((....(((((.(......).)))))..)))..............),4,"[1, 3, 5, 1]","['T', 'ACC', 'GGTTG', 'G']","['A', 'GGT', 'CAACC', 'T']",1,[6],['TGTGTT'],"[[18, 23]]",1
+298,298,TGCGTGGTGATAAGCGTGAGAGGGTGCAGGTCTAGCTCCT,.............(.(..(((.........)))..).)..,3,"[1, 1, 3]","['G', 'G', 'AGA']","['C', 'C', 'TCT']",1,[9],['GGGTGCAGG'],"[[22, 30]]",0
+299,299,TTCAACATGGATAACTGGAGTTGCTCTAGTGGTGCTGAT,.(((.(((.....(((((((...))))))).))).))).,3,"[3, 3, 7]","['TCA', 'CAT', 'ACTGGAG']","['TGA', 'GTG', 'CTCTAGT']",1,[3],['TTG'],"[[21, 23]]",2
+300,300,TTGGGGCGTGTCTGCCGGTTGGTTGGGTCCCAGAGCGA,....((........))......................,1,[2],['GG'],['CC'],1,[8],['CGTGTCTG'],"[[7, 14]]",0
+301,301,GCTCTTGTGGTGTGCAAGAGATAGAGTTATGGTGTGGGCA,.((((((.......))))))....................,1,[6],['CTCTTG'],['CAAGAG'],1,[7],['TGGTGTG'],"[[8, 14]]",0
+302,302,CAGGGCGTTAAGCACCAAATTTAAGAGGTCCGTGAGCGAGTACG,(.(..(((((.(.(((..........))).).)).)))..)..),6,"[1, 1, 3, 2, 1, 3]","['C', 'G', 'CGT', 'TA', 'G', 'ACC']","['G', 'T', 'GCG', 'TG', 'C', 'GGT']",1,[10],['AAATTTAAGA'],"[[17, 26]]",3
+303,303,GTGACGGGGGCAGCTGTAGTCATAATGGCTAGGCGCCTCT,.....((((((.(((.((((((...))))))))))))))),3,"[6, 3, 6]","['GGGGGC', 'GCT', 'TAGTCA']","['GCCTCT', 'GGC', 'TGGCTA']",1,[3],['TAA'],"[[23, 25]]",4
+305,305,TCCGGCCAGGGTTGAGGTGGTAATTGCGAGTGGTAGGCTA,...(((((.........(.(......).)....).)))).,4,"[4, 1, 1, 1]","['GGCC', 'A', 'T', 'G']","['GGCT', 'T', 'A', 'C']",1,[6],['TAATTG'],"[[21, 26]]",1
+306,306,AGCAGCTGGGTTTAAGGCTTATAGCGCGAGAGCCGCTCTA,(((.(((.........(((...))).....))).)))...,3,"[3, 3, 3]","['AGC', 'GCT', 'GCT']","['GCT', 'AGC', 'AGC']",1,[3],['TAT'],"[[20, 22]]",0
+308,308,ACCGACCGCCAGCAGCATGGAGAGTGAGAGTGGTTGGGCT,.((((((((......(((.....)))...))))))))...,2,"[8, 3]","['CCGACCGC', 'CAT']","['GTGGTTGG', 'GTG']",1,[5],['GGAGA'],"[[19, 23]]",3
+309,309,TTGATGTGGTGTTGCATAGAGAGGAGAGGCGAGTAAGGAT,((.((......((.(.(...).).))......)).))...,5,"[2, 2, 2, 1, 1]","['TT', 'AT', 'TT', 'C', 'T']","['AG', 'GT', 'AG', 'G', 'G']",1,[3],['AGA'],"[[18, 20]]",4
+310,310,ACCAAGCGGGTTGAGCTCTCAGGATAATGCTGATTGTG,(.((.((.......))..((((.(...).)))).))).,5,"[1, 2, 2, 4, 1]","['A', 'CA', 'GC', 'TCAG', 'A']","['T', 'TG', 'GC', 'CTGA', 'T']",2,"[7, 3]","['GGGTTGA', 'TAA']","[[8, 14], [25, 27]]",0
+311,311,GGCGAGCTGTGCAAGATAGTGAGGTAGAGTG,.((...((...((......))....)).)).,3,"[2, 2, 2]","['GC', 'CT', 'CA']","['GT', 'AG', 'TG']",1,[6],['AGATAG'],"[[14, 19]]",1
+312,312,CCAGCTGTGGTCAGGGGTAG,(........)..........,1,[1],['C'],['G'],1,[8],['CAGCTGTG'],"[[2, 9]]",0
+313,313,CACAGTCCACGTGACCAAGTGCGGGTGTACCGAGCGGGTGTGGAGTGTGTCG,((((.(((((....((.....(((.....)))....)).))))).))))...,4,"[4, 5, 2, 3]","['CACA', 'TCCAC', 'CC', 'CGG']","['TGTG', 'GTGGA', 'GG', 'CCG']",1,[5],['GTGTA'],"[[25, 29]]",0
+314,314,GCGAGATGGGGTGTGACCGTTACATAGGCACGGAAGTGA,................((((..(...)..))))......,2,"[4, 1]","['CCGT', 'C']","['ACGG', 'G']",1,[3],['ATA'],"[[24, 26]]",0
+315,315,AATCTCCATAATGGTGAGAGTGCCAAGAGGCAGGCAAA,..((.(((...))).))(..((((....))))..)...,4,"[2, 3, 1, 4]","['TC', 'CCA', 'G', 'TGCC']","['GA', 'TGG', 'C', 'GGCA']",2,"[3, 4]","['TAA', 'AAGA']","[[9, 11], [25, 28]]",0
+316,316,GTACGGACGTTAGGCGACGTGAATGGTGAGCGGGTGAG,.......((((..((..(.......)...)).))))..,3,"[4, 2, 1]","['CGTT', 'GC', 'C']","['GGTG', 'GC', 'G']",1,[7],['GTGAATG'],"[[19, 25]]",3
+317,317,AGACCTAGATACCTCGGATATGCGGCTCCGGTAGCTGGAGCAGCCATATC,................(((((((.(((((((...))))))).).)))))),3,"[6, 1, 7]","['GATATG', 'C', 'GCTCCGG']","['CATATC', 'G', 'CTGGAGC']",1,[3],['TAG'],"[[32, 34]]",1
+318,318,AGCACGTGTAGCATGGAGTGTGCGTCAATGGCAGTTAGATAGAGGTAA,...((.(.(.((((.....))))(.....(.....)...)).).))..,6,"[2, 1, 1, 4, 1, 1]","['AC', 'T', 'T', 'GCAT', 'G', 'G']","['GT', 'A', 'A', 'GTGC', 'T', 'T']",2,"[5, 5]","['GGAGT', 'GCAGT']","[[15, 19], [31, 35]]",3
+320,320,TTAGGGGTAAGAGCCTAGGGATAACTGCGGTGAAGGGGTA,............((............))............,1,[2],['GC'],['GC'],1,[12],['CTAGGGATAACT'],"[[15, 26]]",0
+321,321,AGCACCATAAGTGGGGTGATATTTA,(.((((.(....).)))).).....,3,"[1, 4, 1]","['A', 'CACC', 'T']","['T', 'GGTG', 'G']",1,[4],['AAGT'],"[[9, 12]]",1
+322,322,TAACGCGGTTTTCTCGAGAGTGAGGGTGCTGAGCTCGATG,.............(((((..(.((....)).).)))))..,3,"[5, 1, 2]","['TCGAG', 'T', 'AG']","['CTCGA', 'A', 'CT']",1,[4],['GGTG'],"[[25, 28]]",0
+323,323,CATCTCAGGAGTAAATGACAAGTGGGAAAGGGGGATAGTGACGGTTGTTCG,................(((((.((..(...........)..)).)))).).,4,"[1, 4, 2, 1]","['G', 'ACAA', 'TG', 'A']","['C', 'TTGT', 'CG', 'T']",1,[11],['AAGGGGGATAG'],"[[28, 38]]",1
+324,324,CACCGCGAGGAGTGCCGGGGTTCTGTTCTAAGGCCTTATG,.............(((..((......))...)))......,2,"[3, 2]","['GCC', 'GG']","['GGC', 'TC']",1,[6],['TTCTGT'],"[[21, 26]]",1
+325,325,GTACAGAGGGCCAAGTGGTGATCGTGACTAAA,((((.((..(((....)))..)))).))....,4,"[2, 2, 2, 3]","['GT', 'AC', 'GA', 'GCC']","['AC', 'GT', 'TC', 'GGT']",1,[4],['AAGT'],"[[13, 16]]",1
+326,326,AAGGGAGTGGCTAATCGGTA,.(.........)........,1,[1],['A'],['T'],1,[9],['GGGAGTGGC'],"[[3, 11]]",0
+327,327,TTTTGGGCAAGCATGGCGAACCTTGTGC,..(((..(......).))).........,2,"[3, 1]","['TTG', 'C']","['CGA', 'G']",1,[6],['AAGCAT'],"[[9, 14]]",1
+330,330,TAGGTCAACTAAGGTTAGGGTAGTGTAGCCGGGGTGTGTG,((...((.(...(((((........)))))..).))..)),4,"[2, 2, 1, 5]","['TA', 'CA', 'C', 'GGTTA']","['TG', 'TG', 'G', 'TAGCC']",1,[8],['GGGTAGTG'],"[[18, 25]]",2
+332,332,ATCAACCAATAGCGGGTGAGTACATCTAGCACGTGTAAA,.(((.((.......)))))....................,2,"[3, 2]","['TCA', 'CC']","['TGA', 'GG']",1,[7],['AATAGCG'],"[[8, 14]]",0
+333,333,GCAAGCAGGGCAGGGTGCGAAAGTGATATGTATAGTGGTG,....(((........)))...(........).........,2,"[3, 1]","['GCA', 'A']","['TGC', 'T']",2,"[8, 8]","['GGGCAGGG', 'GTGATATG']","[[8, 15], [23, 30]]",0
+335,335,GGGAGAGGGCGGTAGAGCTAGGTTGTGCACAGCGGAAAGAGACTCG,..............(((.(...((.(((...))).))..)..))).,4,"[3, 1, 2, 3]","['GAG', 'T', 'TT', 'TGC']","['CTC', 'A', 'AA', 'GCG']",1,[3],['ACA'],"[[29, 31]]",1
+337,337,CTTGCTCCAAGAGGCGGGATTATCCCACAGCCGGTGCGTA,..(((.((..(..(.((((...)))).)..).)).)))..,5,"[3, 2, 1, 1, 4]","['TGC', 'CC', 'G', 'G', 'GGGA']","['GCG', 'GG', 'C', 'C', 'TCCC']",1,[3],['TTA'],"[[20, 22]]",1
+339,339,ACCAAGGGGAAGGGCGTGAGTATGCTGCTGCAGCTCCCTG,..(.((((...............((((...)))).))))),3,"[1, 4, 4]","['C', 'AGGG', 'GCTG']","['G', 'CCCT', 'CAGC']",1,[3],['CTG'],"[[28, 30]]",0
+340,340,CCTGTCCATAAGCGCGGGAGTTGTTTTC,((((((.....).)))))..........,2,"[5, 1]","['CCTGT', 'C']","['GCGGG', 'G']",1,[5],['CATAA'],"[[7, 11]]",2
+341,341,CATATGGTAAGCGGATGAGTGTGGGTTAGTTGTGCCACTGAGGGTTTC,...........(..(......)..)(((((......))))).......,3,"[1, 1, 5]","['C', 'A', 'TTAGT']","['G', 'T', 'ACTGA']",2,"[6, 6]","['TGAGTG', 'TGTGCC']","[[16, 21], [31, 36]]",1
+342,342,GTACGGGGAGGTAGTAGCTAAGGAAGATAGCTCATACGTTAGTTGGAGTGG,.(((....(.(((..(((((.......)))))..)))..).......))).,4,"[3, 1, 3, 5]","['TAC', 'A', 'GTA', 'AGCTA']","['GTG', 'T', 'TAC', 'TAGCT']",1,[7],['AGGAAGA'],"[[21, 27]]",1
+346,346,AAGGGAGTGAGAGGAATATCCGTGACACATGGGATACGTC,................(((((..........)))))....,1,[5],['TATCC'],['GGATA'],1,[10],['GTGACACATG'],"[[22, 31]]",0
+347,347,TTTAGAGGTAGGGTGGACATAGTAGCTAAGTGTAGCCA,(((((..(.........).......)))))........,2,"[5, 1]","['TTTAG', 'G']","['CTAAG', 'C']",1,[9],['TAGGGTGGA'],"[[9, 17]]",1
+348,348,GTGGGATAGCGTAGCGGGAGTCAGCGGTAGGCGTATGTTC,(.......((...))......).((.....))........,3,"[1, 2, 2]","['G', 'GC', 'GC']","['C', 'GC', 'GC']",2,"[3, 5]","['GTA', 'GGTAG']","[[11, 13], [26, 30]]",0
+350,350,GGTTGGGGGGCCAGGCGCGAGGGGTGCGCTTAGAGGGTA,..........(..(((((.......)))))..)......,2,"[1, 5]","['C', 'GGCGC']","['G', 'GCGCT']",1,[7],['GAGGGGT'],"[[19, 25]]",1
+351,351,GTGAGAGCCTAGGTGTAGTGTGGGTAACC,((.....((((.........))))..)).,2,"[2, 4]","['GT', 'CCTA']","['AC', 'TGGG']",1,[9],['GGTGTAGTG'],"[[12, 20]]",1
+352,352,CGAATGAGGGGTGGAGCGAGTGAAGATTGGTTGTGACG,((.(..(............(.......)...).)..)),4,"[2, 1, 1, 1]","['CG', 'A', 'A', 'G']","['CG', 'T', 'T', 'T']",1,[7],['TGAAGAT'],"[[21, 27]]",1
+353,353,GTGAGGGCGAGAGTGACTGTCTTTAGTGCA,........((.((...)).)).........,2,"[2, 2]","['GA', 'AG']","['TC', 'CT']",1,[3],['TGA'],"[[14, 16]]",0
+354,354,AACACGTGTGGTTGTGTGGCGTTTGGATAGAAAGGCTACGTGGGGTGTGTA,.(((((.......(((((((.(((......))).)))))))....))))).,3,"[5, 7, 3]","['ACACG', 'GTGTGGC', 'TTT']","['TGTGT', 'GCTACGT', 'AAA']",1,[6],['GGATAG'],"[[25, 30]]",4
+355,355,ACCGTGGTGGCACGTCAAGACTGAATCCAGTGTGGGTAGA,(((.((.(((..(((....)).)...))).))..)))...,5,"[3, 2, 3, 1, 2]","['ACC', 'TG', 'TGG', 'C', 'GT']","['GGT', 'TG', 'CCA', 'G', 'AC']",1,[4],['CAAG'],"[[16, 19]]",2
+356,356,TTTAGCCAGGGCAAATAGACTAGGTACCGCAACCGTGCTT,...((((.((((...((.......))..))..))).))).,5,"[3, 1, 2, 2, 2]","['AGC', 'C', 'GG', 'GC', 'TA']","['GCT', 'G', 'CC', 'GC', 'TA']",1,[7],['GACTAGG'],"[[18, 24]]",0
+357,357,CAGACCATACAGCGTGAAAGTTACGGTTGCAGCGGCTCGA,(.(.((.(.((.(((((...)))))..)).)..))..)).,6,"[1, 1, 2, 1, 2, 5]","['C', 'G', 'CC', 'T', 'CA', 'CGTGA']","['G', 'C', 'GG', 'A', 'TG', 'TTACG']",1,[3],['AAG'],"[[18, 20]]",1
+358,358,ATCAGGCAAACAAGCTGCGTCTACTCCAAGTAGAGATGGAGAGTGTGGTA,.....((..(((..((.(.((((((...))))))...).))..))).)).,5,"[2, 3, 2, 1, 6]","['GC', 'ACA', 'CT', 'C', 'TCTACT']","['GT', 'TGT', 'AG', 'G', 'AGTAGA']",1,[3],['CCA'],"[[26, 28]]",1
+359,359,CATCACGTAACTGGCAGCGTTTGGTGTGGTTGGTTGTTTA,..(.(.(((((......(....).........)))))).),4,"[1, 1, 5, 1]","['T', 'A', 'GTAAC', 'C']","['A', 'T', 'GTTGT', 'G']",1,[4],['GTTT'],"[[19, 22]]",2
+360,360,AGCATGCGCCAGCTGATGAATACTGTGACAGCTTAAGTGAGCG,.((.(((...(((((.(.........).)))))...))).)).,4,"[2, 3, 5, 1]","['GC', 'TGC', 'AGCTG', 'T']","['GC', 'GTG', 'CAGCT', 'G']",1,[9],['GAATACTGT'],"[[18, 26]]",3
+361,361,GTACAGTGGGGTGGTGTGCCAACGTGAAGGGTGAGTGGTCA,(((((.........)))))......................,1,[5],['GTACA'],['TGTGC'],1,[9],['GTGGGGTGG'],"[[6, 14]]",1
+363,363,TATTCGGGGGTGTAGGAGTGATAGTGGTAC,...........(((..(.......)..))),2,"[3, 1]","['GTA', 'A']","['TAC', 'T']",1,[7],['GTGATAG'],"[[18, 24]]",0
+366,366,GCCAAGCAGGAACATGATTCGAAGTGATAGGCAGTATGTA,(((.(.((.(((.....)))....)).).)))........,4,"[3, 1, 2, 3]","['GCC', 'A', 'CA', 'GAA']","['GGC', 'T', 'TG', 'TTC']",1,[5],['CATGA'],"[[13, 17]]",0
+367,367,CATCTCGCACATCATTAGTGGTAGCTGTTGCTGTG,.(.....(((.......))).)(((....)))...,3,"[1, 3, 3]","['A', 'CAC', 'AGC']","['T', 'GTG', 'GCT']",2,"[7, 4]","['ATCATTA', 'TGTT']","[[11, 17], [26, 29]]",0
+368,368,GGTGGGCCAAGTGGGACGATCGCT,..........(((.......))).,1,[3],['GTG'],['CGC'],1,[7],['GGACGAT'],"[[14, 20]]",1
+369,369,CATCTATCTATGCCGGAATGGGCGAGGCAGTGAGCACAGTGATCCCAAGTTGCTAGAC,......((..((((...........))))..)).........................,2,"[2, 4]","['TC', 'TGCC']","['GA', 'GGCA']",1,[11],['GGAATGGGCGA'],"[[15, 25]]",0
+371,371,CCGAGGAAGTACAGACGTTATCA,..((.((.((....)).)).)).,3,"[2, 2, 2]","['GA', 'GA', 'GT']","['TC', 'TT', 'AC']",1,[4],['ACAG'],"[[11, 14]]",1
+372,372,TAGGCAATGTGAGGTTAAGAGAGGGTTGGTTGTGGAAAGC,.(....(..(...........)....)..)..........,3,"[1, 1, 1]","['A', 'A', 'T']","['T', 'T', 'A']",1,[11],['GAGGTTAAGAG'],"[[11, 21]]",0
+373,373,GTTAGAGCAAGGGGTAGGGAGTTGGGCTAGTGTCGGGGT,.............(.((.........)).....).....,2,"[1, 2]","['G', 'AG']","['C', 'CT']",1,[9],['GGAGTTGGG'],"[[18, 26]]",0
+374,374,GTTAGAGCACTCGAGACTCATTAAGAGGTGAGGCATTAG,.((((.((.(((....(((.....)))..))))).)))),4,"[4, 2, 3, 3]","['TTAG', 'GC', 'CTC', 'CTC']","['TTAG', 'GC', 'GAG', 'GAG']",1,[5],['ATTAA'],"[[20, 24]]",2
+375,375,TCCAGCGCTTTGGGTGTGTTTGCAAACACACCAAGCCATA,...(..(((.(.((((((((....))))))))))))..).,4,"[1, 3, 1, 8]","['A', 'GCT', 'T', 'GGTGTGTT']","['T', 'AGC', 'A', 'AACACACC']",1,[4],['TGCA'],"[[21, 24]]",0
+376,376,CACGGCGGGGGTAGCCATTGTAGAGTGGCTGGGGTTGCTA,...((((....((((((((....))))))))....)))).,2,"[4, 8]","['GGCG', 'TAGCCATT']","['TGCT', 'AGTGGCTG']",1,[4],['GTAG'],"[[20, 23]]",4
+377,377,CATGTGATTTTGGCCGTGTGCGATAGACAGCAACACGCTAGTGACGTGTGTGTGA,(((((.(.(..((.(((((((........))).)))))).)).))))).......,6,"[5, 1, 1, 2, 4, 3]","['CATGT', 'A', 'T', 'GG', 'CGTG', 'TGC']","['ACGTG', 'T', 'G', 'CT', 'CACG', 'GCA']",1,[8],['GATAGACA'],"[[22, 29]]",3
+378,378,CATCTCCATATTCCCGTGAGGCCGATGTAGACGGTGGATA,((((.((............))..)))).............,2,"[4, 2]","['CATC', 'CC']","['GATG', 'GG']",1,[12],['ATATTCCCGTGA'],"[[8, 19]]",0
+379,379,GCGAGTGGTGCAGCAGTATGGTAGCGCTAATCTGCTGGTC,.......(..((((((...((.....))...))))))..),3,"[1, 6, 2]","['G', 'CAGCAG', 'GG']","['C', 'CTGCTG', 'CT']",1,[5],['TAGCG'],"[[22, 26]]",1
+381,381,CATCTCGCATCAAGATAGCGACATGTGGATAGTGGGCAAC,..(.((((((....)).)))).).................,3,"[1, 4, 2]","['T', 'TCGC', 'AT']","['A', 'GCGA', 'AT']",1,[4],['CAAG'],"[[11, 14]]",0
+382,382,CCACGCTGTTTGATGACCAAACCAAGTAGAGTGCGGTAG,((((.(((((((.(......).))))))).))).)....,4,"[1, 3, 7, 1]","['C', 'CAC', 'CTGTTTG', 'T']","['G', 'GTG', 'CAAGTAG', 'A']",1,[6],['GACCAA'],"[[15, 20]]",2
+385,385,GCGTTGAGGTCTGTCTTCGATATGCCAGTGGAGTGGTGTA,.............((...))((..((........))..)),3,"[2, 2, 2]","['TC', 'TA', 'CC']","['GA', 'TA', 'GG']",2,"[3, 8]","['TTC', 'AGTGGAGT']","[[16, 18], [27, 34]]",0
+386,386,CCGTGATGCGGTGTAGATAGTTAGAGAGGGTAACGGT,((((.((.(..(.(((....))).)..).)).)))).,5,"[4, 2, 1, 1, 3]","['CCGT', 'AT', 'C', 'T', 'TAG']","['ACGG', 'GT', 'G', 'A', 'TTA']",1,[4],['ATAG'],"[[17, 20]]",2
+387,387,TGTCGTCTAGGTTGGGGGAGGAATAGCTGATAGCGTGTTT,......((....(........)..))((...)).......,3,"[2, 1, 2]","['CT', 'T', 'CT']","['AG', 'A', 'AG']",2,"[8, 3]","['GGGGGAGG', 'GAT']","[[14, 21], [29, 31]]",0
+388,388,TTTACCTAGGTACACGCGTACATTAGTGTAGATCCTGATA,((((((((.((((....))))..))).)))))........,3,"[5, 3, 4]","['TTTAC', 'CTA', 'GTAC']","['GTAGA', 'TAG', 'GTAC']",1,[4],['ACGC'],"[[14, 17]]",1
+389,389,TAGGGAGTGGGGTGCGCTAGAAACCATGGTGGCTGAATTGGTACGCGTGAT,................(..(..(((((.........).))))...)..)..,4,"[1, 1, 4, 1]","['C', 'G', 'ACCA', 'T']","['G', 'C', 'TGGT', 'A']",1,[9],['GGTGGCTGA'],"[[28, 36]]",0
+390,390,TATAGTCATAGCGGGGGTGACAAGCTTCAGGGGCTAGTGA,.....(((((((.....(((......)))...)))).))),3,"[3, 4, 3]","['TCA', 'TAGC', 'TGA']","['TGA', 'GCTA', 'TCA']",1,[6],['CAAGCT'],"[[21, 26]]",0
+391,391,ATGAGTTAGGTAGTGGAGCTCGATAGGGTGGGGCACGTTT,...(((...........)))....................,1,[3],['AGT'],['GCT'],1,[11],['TAGGTAGTGGA'],"[[7, 17]]",1
+392,392,GTGAGCAGAGCATAATCACTAC,((((((...))....))))...,2,"[4, 2]","['GTGA', 'GC']","['TCAC', 'GC']",1,[3],['AGA'],"[[7, 9]]",0
+394,394,GGCAAGACGGGTTGCTCATT,(((((......)))))....,1,[5],['GGCAA'],['TTGCT'],1,[6],['GACGGG'],"[[6, 11]]",1
+395,395,TTAAGACATGGTAAGGGCTGAGTGTGATGGCTCGGGGAT,............(....((((((......))))))...),2,"[1, 6]","['A', 'CTGAGT']","['T', 'GCTCGG']",1,[6],['GTGATG'],"[[24, 29]]",2
+396,396,AAGGAGCGGGTGATAATCGGTTGGAGCGCGTGGTGGTGA,.....((..........(.....).))............,2,"[2, 1]","['GC', 'C']","['GC', 'G']",1,[5],['GGTTG'],"[[19, 23]]",0
+397,397,AGTGCTATGACGCACAGTGCATCGGACAGTGAGGTATAAGGGGTTGATA,.......(((.((.....)).)))..((((............))))...,3,"[3, 2, 4]","['TGA', 'GC', 'CAGT']","['TCG', 'GC', 'GTTG']",2,"[5, 12]","['ACAGT', 'GAGGTATAAGGG']","[[14, 18], [31, 42]]",3
+398,398,TCCAAGCAAGGTGAGGCAGTC,.(........)..........,1,[1],['C'],['G'],1,[8],['CAAGCAAG'],"[[3, 10]]",0
+399,399,CAGGTCCATAAGTGGGAGTCTGGAATGCTGCTATTCCTAA,..................(..((((((...).)))))..),3,"[1, 5, 1]","['T', 'GGAAT', 'G']","['A', 'ATTCC', 'C']",1,[3],['CTG'],"[[28, 30]]",0
+403,403,CACGGGCTAATGCACGAATGGGGAACACGGGGTAGCGCTT,...........((.(.......(....)......).))..,3,"[2, 1, 1]","['GC', 'C', 'G']","['GC', 'G', 'C']",1,[4],['AACA'],"[[24, 27]]",0
+404,404,ACGAGCGTACTAAGCGAATGGGTAATTGTGGGTGGCCATA,....((.......)).........................,1,[2],['GC'],['GC'],1,[7],['GTACTAA'],"[[7, 13]]",0
+405,405,GTGAGCACTGTACGCGGGGGGGCGAGTTGAGAGCGGGCCT,....((.......))..((..((.........))...)).,3,"[2, 2, 2]","['GC', 'GG', 'GC']","['GC', 'CC', 'GC']",2,"[7, 9]","['ACTGTAC', 'GAGTTGAGA']","[[7, 13], [24, 32]]",0
+406,406,CACGAGAGGTACGAAGTGGTTCGGAAAGGAGAGAGGGGTA,...........((((....)))).................,1,[4],['CGAA'],['TTCG'],1,[4],['GTGG'],"[[16, 19]]",0
+407,407,ACCAACATTAGAGCAGCGATATGAGTTTGCTGAATTGCTGGTGATGAT,......((((.(.(((((((...((....))..))))))).)..)))),4,"[4, 1, 7, 2]","['ATTA', 'A', 'CAGCGAT', 'AG']","['TGAT', 'T', 'ATTGCTG', 'CT']",1,[4],['TTTG'],"[[26, 29]]",2
+409,409,TGCCGGCAGTTAGATGAGTGTCGGTGATTGTGGTGGCTTT,.(((((((.((....)).)))))))...............,2,"[7, 2]","['GCCGGCA', 'TT']","['TGTCGGT', 'GA']",1,[4],['AGAT'],"[[12, 15]]",3
+410,410,CATCTCGAACCTGAACTGGAATGAGATAGTTGTTTGTTAGAGGGTTAGCTGGG,.((((((..((......))..))))))..........................,2,"[6, 2]","['ATCTCG', 'CC']","['TGAGAT', 'GG']",1,[6],['TGAACT'],"[[12, 17]]",1
+412,412,GCCCGTGCTGCGTTAATAGGGGGGGATAGTAGTGGGTAAA,((((.((((.(.((.......)).)..))))..))))...,4,"[4, 4, 1, 2]","['GCCC', 'TGCT', 'C', 'TT']","['GGGT', 'AGTA', 'G', 'GG']",1,[7],['AATAGGG'],"[[15, 21]]",4
+413,413,TGTTCCATGTGGCGAACGATAGTCAATAGCTGTAGGCCTTAGGGTGGTACG,(((.((((..(((..(((.((.....))..)))..))).....)))).))),5,"[3, 4, 3, 3, 2]","['TGT', 'CCAT', 'GGC', 'ACG', 'TA']","['ACG', 'GTGG', 'GCC', 'TGT', 'TA']",1,[5],['GTCAA'],"[[22, 26]]",3
+414,414,CCAGCAAGTGTGGAGGACTGTGAGAAAGTAACAGCGGGAT,((.(....(.......)((((.(.....).))))).))..,5,"[2, 1, 1, 4, 1]","['CC', 'G', 'T', 'CTGT', 'A']","['GG', 'C', 'A', 'ACAG', 'T']",2,"[7, 5]","['GTGGAGG', 'GAAAG']","[[10, 16], [24, 28]]",0
+416,416,ACCAACAGGGCCGGTAAGTGATCGGCGGAGTGTGTGTACA,(((.(((..((((((.....))))))....)))).))...,4,"[2, 1, 3, 6]","['AC', 'C', 'ACA', 'GCCGGT']","['GT', 'G', 'TGT', 'ATCGGC']",1,[5],['AAGTG'],"[[16, 20]]",1
+417,417,CCGGCCAGGGGCAGATGTGGCGTGCGAGAGTGCAGGGGTA,.......(...(....)...).(((......)))......,3,"[1, 1, 3]","['G', 'C', 'TGC']","['C', 'G', 'GCA']",2,"[4, 6]","['AGAT', 'GAGAGT']","[[13, 16], [26, 31]]",0
+419,419,TATCTCCATTAGTGGGAGTGGACCAAGATAGTTCACGTCAGCGATGGCACAGTGACACGAAATGGTGATGCCCT,((((.(((((.(((..(.((..(((.(.(.((....).)).)..)))..)).)..)))..))))).))))....,10,"[4, 5, 3, 1, 2, 3, 1, 1, 1, 1]","['TATC', 'CCATT', 'GTG', 'A', 'TG', 'CCA', 'G', 'T', 'G', 'T']","['GATG', 'AATGG', 'CAC', 'T', 'CA', 'TGG', 'C', 'A', 'C', 'G']",1,[4],['TCAC'],"[[33, 36]]",2
+420,420,GTGGCAAGGGTTAGGGTCCGTACGGTAGAGCGGGTGGAGA,....(............((....))....)..........,2,"[1, 2]","['C', 'CC']","['G', 'GG']",1,[4],['GTAC'],"[[20, 23]]",0
+422,422,CGCTAGGACAAGTGGGTGTATTCTTTGTCCGGAGTGGTGA,((((.(((((((.((......)))))))))..))))....,3,"[4, 7, 2]","['CGCT', 'GGACAAG', 'GG']","['AGTG', 'TTTGTCC', 'TC']",1,[6],['GTGTAT'],"[[16, 21]]",3
+423,423,ACCAAGATAAAGCGCTGCGGTACGTGT,((...(..(..((...))..).)..)),4,"[2, 1, 1, 2]","['AC', 'G', 'A', 'GC']","['GT', 'C', 'T', 'GC']",1,[3],['GCT'],"[[14, 16]]",0
+425,425,ACCAAGAGGTAAAGTCGACAGGGAGTTCGGTTTGGTACG,(((((.............(.(......).).)))))...,3,"[5, 1, 1]","['ACCAA', 'C', 'G']","['TTGGT', 'G', 'C']",1,[6],['GGAGTT'],"[[22, 27]]",0
+426,426,TGTTAGCCAAGTGGTTTGTAACGGTTGAGGTGAAGGCTA,...(((((............((.......))...))))),2,"[5, 2]","['TAGCC', 'AC']","['GGCTA', 'GT']",1,[7],['GGTTGAG'],"[[23, 29]]",0
+427,427,CGAGCGGTGGGGAGGCGGTTCTAGCATAAGCGGGTACGAATGGTGT,..................(.((.((....))).).)..........,4,"[1, 1, 1, 2]","['T', 'C', 'T', 'GC']","['A', 'G', 'G', 'GC']",1,[4],['ATAA'],"[[26, 29]]",1
+428,428,GGAAAGGGGCATCAAAGGTATGTGAGGTATCTAGATGAT,.......(.((((..((((((.....)))))).)))).),3,"[1, 4, 6]","['G', 'CATC', 'AGGTAT']","['T', 'GATG', 'GTATCT']",1,[5],['GTGAG'],"[[22, 26]]",3
+429,429,GGCAGCGGCTAACCCAAGCGTGTGGGGAGCAGGGGGAGTA,..(..(.(((..((((......)))).))).)..).....,4,"[1, 1, 3, 4]","['C', 'C', 'GCT', 'CCCA']","['G', 'G', 'AGC', 'TGGG']",1,[6],['AGCGTG'],"[[17, 22]]",0
+430,430,TACCGCCACATGTACGCGGAAAGCGTGATTGTGAACAGTG,(((.(.((((..(((((.....)))))..))))..).))),4,"[3, 1, 4, 5]","['TAC', 'G', 'CACA', 'TACGC']","['GTG', 'C', 'TGTG', 'GCGTG']",1,[5],['GGAAA'],"[[18, 22]]",2
+431,431,CCCCACGCGGCTGAAAAGAGATACCACATAGGGCTGGGTG,(((((.(((.((....)).....)(.....).)))))).),6,"[1, 4, 2, 1, 2, 1]","['C', 'CCCA', 'GC', 'G', 'CT', 'C']","['G', 'TGGG', 'GC', 'C', 'AG', 'G']",2,"[4, 5]","['GAAA', 'ACATA']","[[13, 16], [26, 30]]",0
+432,432,TGAGCGGAGCGAGTGAGTGACGAAAGGTAGTGTGTAGAGCG,........((..((.(.((.(....).)).)..))...)).,5,"[2, 2, 1, 2, 1]","['GC', 'GT', 'A', 'TG', 'C']","['GC', 'GT', 'T', 'TA', 'G']",1,[4],['GAAA'],"[[22, 25]]",3
+433,433,ACCAACATAAAGGAAGGCGATACGTTTCGC,.((........))...((((......)))),2,"[2, 4]","['CC', 'GCGA']","['GG', 'TCGC']",2,"[8, 6]","['AACATAAA', 'TACGTT']","[[4, 11], [21, 26]]",0
+434,434,TAGTGAGCAGAGTGTCAGTTTATTGTGTCACAGCTCCATG,(((.((((...(((.((........)).))).))))).)),5,"[2, 1, 4, 3, 2]","['TA', 'G', 'GAGC', 'GTG', 'CA']","['TG', 'C', 'GCTC', 'CAC', 'TG']",1,[8],['GTTTATTG'],"[[18, 25]]",1
+436,436,GTATGCAGGGTTGTGGGTGATTATTGGGCTAGTGAGACAGTGAC,((.(.(..........).................).))......,3,"[2, 1, 1]","['GT', 'T', 'C']","['AC', 'A', 'G']",1,[10],['AGGGTTGTGG'],"[[7, 16]]",0
+437,437,CGACCATAGGTGTATGGCTAACGTTATGGGCATGTGTAGT,(.((.(((.((.((((((....)))))).)).))))).).,5,"[1, 2, 3, 2, 6]","['C', 'AC', 'ATA', 'GT', 'TATGGC']","['G', 'GT', 'TGT', 'GC', 'GTTATG']",1,[4],['TAAC'],"[[19, 22]]",5
+438,438,AATAGAGCAAGTGGGTAGATGTAGCCATGATAGATAGGCTGGGGGTGGGA,...........(......)...((((..........))))..........,2,"[1, 4]","['T', 'AGCC']","['A', 'GGCT']",2,"[6, 10]","['GGGTAG', 'ATGATAGATA']","[[13, 18], [27, 36]]",0
+440,440,GTGAGCCATATGAGAGAATATCGGAATCGGTGTCGGGCAT,.........(((...(.((((((....)))))))...))),3,"[3, 1, 6]","['ATG', 'G', 'ATATCG']","['CAT', 'C', 'CGGTGT']",1,[4],['GAAT'],"[[24, 27]]",2
+441,441,ACCGACATTGAGCTGTAGTGTAGTGAGTGAGCAGTTGTGA,..........(((((((.(......).).).)))))....,4,"[5, 1, 1, 1]","['AGCTG', 'T', 'A', 'T']","['CAGTT', 'A', 'T', 'A']",1,[6],['GTAGTG'],"[[20, 25]]",1
+442,442,AGCACGTGTGGAGCACAGTACAGGTAAGTGTAGCTCGGTT,(((...((((...)))).((((......))))))).....,3,"[3, 4, 4]","['AGC', 'TGTG', 'TACA']","['GCT', 'CACA', 'TGTA']",2,"[3, 6]","['GAG', 'GGTAAG']","[[11, 13], [23, 28]]",0
+443,443,ACCAACAGGGAGCGTATGTGTGGTGGATC,((((.((.........))..)))).....,2,"[4, 2]","['ACCA', 'CA']","['TGGT', 'TG']",1,[9],['GGGAGCGTA'],"[[8, 16]]",0
+444,444,ACGACCAAAAGTTGGAGTGTTTGGGTCGGTAGTATTGCAT,.((((((((..(....)..))).)))))............,3,"[5, 3, 1]","['CGACC', 'AAA', 'T']","['GGTCG', 'TTT', 'G']",1,[4],['TGGA'],"[[13, 16]]",1
+445,445,GAGAGAGTAACACTTGGATTAGTTGCAGAGTGTAGACATA,......(..((((((..(.....)...))))))...)...,3,"[1, 6, 1]","['G', 'ACACTT', 'A']","['C', 'GAGTGT', 'T']",1,[5],['TTAGT'],"[[19, 23]]",1
+447,447,GTTGTGGATCGAGTGGGTCGC,.......(((.....)))...,1,[3],['ATC'],['GGT'],1,[5],['GAGTG'],"[[11, 15]]",1
+448,448,AGCTACAGGTAGCACGACTCTTGTGAGTTAC,.((((....))))...((((....))))...,2,"[4, 4]","['GCTA', 'ACTC']","['TAGC', 'GAGT']",2,"[4, 4]","['CAGG', 'TTGT']","[[6, 9], [21, 24]]",0
+449,449,ACAGCGCTGAGTGGGCGCTAAGGCAGTTAGGGAGTAGCGT,...(((((.....))))).(...(......)...).....,3,"[5, 1, 1]","['GCGCT', 'A', 'C']","['GGCGC', 'T', 'G']",2,"[5, 6]","['GAGTG', 'AGTTAG']","[[9, 13], [25, 30]]",1
+450,450,GGATACATGGGGTACGGACGAAGTATGGTGAGGGATACCA,((..(..(.....((..((...))...))...)..).)).,5,"[2, 1, 1, 2, 2]","['GG', 'A', 'T', 'AC', 'AC']","['CC', 'T', 'G', 'GT', 'GT']",1,[3],['GAA'],"[[20, 22]]",1
+451,451,CAACACGGCCAGGTAGTGTGGGGTAGTACGGAAAGGGTTGGGTAGCGCTAGGGTACACGAAATGGTGATGCCCT,...((..((((..(.(((((...(((..((..(.........)..)))))...))))).)..))))..))....,7,"[2, 4, 1, 5, 3, 2, 1]","['CA', 'GCCA', 'T', 'GTGTG', 'TAG', 'CG', 'A']","['TG', 'TGGT', 'A', 'TACAC', 'CTA', 'CG', 'T']",1,[9],['AGGGTTGGG'],"[[34, 42]]",2
+452,452,AGCTATAGGGCCAGAGGCAT,......(..(((...))).),2,"[1, 3]","['A', 'GCC']","['T', 'GGC']",1,[3],['AGA'],"[[13, 15]]",0
+453,453,GTGTGGGTGAGCGAGTGAGAGTGGGCAC,((((.......(....).......)))),2,"[4, 1]","['GTGT', 'C']","['GCAC', 'G']",1,[4],['GAGT'],"[[13, 16]]",1
+454,454,CGATAGAGATGCGGGGGAGGCAGGCTAGAGCGCAGACAGTGTAGTTTTTA,(.(((..(.((((....((.....))....))))..)..))).)......,5,"[1, 3, 1, 4, 2]","['C', 'ATA', 'G', 'TGCG', 'AG']","['G', 'TGT', 'C', 'CGCA', 'CT']",1,[5],['GCAGG'],"[[20, 24]]",1
+456,456,TATCTCTATTCGAGTGGCGCATATAGCGAAGCGATTGGGGTA,((((((.(.(((.....(((.....)))...))).))))))),4,"[6, 1, 3, 3]","['TATCTC', 'A', 'TCG', 'CGC']","['GGGGTA', 'T', 'CGA', 'GCG']",1,[5],['ATATA'],"[[21, 25]]",2
+457,457,CCCCAGATAAGTAGGAGTGTTGGCAAGAGTGGTGAGGCGC,(.((....(...(....(.((...)).).)..)..)).).,6,"[1, 2, 1, 1, 1, 2]","['C', 'CC', 'A', 'A', 'T', 'TT']","['G', 'GG', 'T', 'T', 'A', 'AA']",1,[3],['GGC'],"[[22, 24]]",0
+458,458,GGCCATGTGGGAGTTAGGGGATAGCTCGAAGGGAGAGAGG,..........((((((.....)))))).............,1,[6],['GAGTTA'],['TAGCTC'],1,[5],['GGGGA'],"[[17, 21]]",1
+459,459,ACCAACCATAAGCCATACGTAGGGTCGCGGTACTGCTAAC,(((.(((.((.(.....).)).)))...))).........,4,"[3, 3, 2, 1]","['ACC', 'ACC', 'TA', 'G']","['GGT', 'GGT', 'TA', 'C']",1,[5],['CCATA'],"[[13, 17]]",0
+461,461,ACCAAGGGGCGTCAAATGGGGTCGTGTGACGCTCTGCGGTATGCCTTAGC,(((..(((((((((.(((....))).)))))))))..)))..........,3,"[3, 9, 3]","['ACC', 'GGGGCGTCA', 'ATG']","['GGT', 'TGACGCTCT', 'CGT']",1,[4],['GGGT'],"[[19, 22]]",3
+462,462,TACATAGAGTCGGGGTGATA,(.((...........))..),2,"[1, 2]","['T', 'CA']","['A', 'TG']",1,[11],['TAGAGTCGGGG'],"[[5, 15]]",0
+463,463,ACCAAGGTACAAGGAGTCGATAGGGCCAGATCACTTGGTA,((((((..((..((...(....)..)).).)..)))))).,5,"[6, 1, 1, 2, 1]","['ACCAAG', 'A', 'C', 'GG', 'C']","['CTTGGT', 'T', 'G', 'CC', 'G']",1,[4],['GATA'],"[[19, 22]]",0
+464,464,GGATAGATTACTGGGGGCAGGTTGCGATTAGTACT,........((((....(((...)))....))))..,2,"[4, 3]","['TACT', 'GCA']","['AGTA', 'TGC']",1,[3],['GGT'],"[[20, 22]]",0
+465,465,CAGCTAGACCGCTACTATTTATGCGTAGTTAGGGGGCA,(..((((..(((((.....)).)))...))))..)...,4,"[1, 4, 3, 2]","['C', 'CTAG', 'CGC', 'TA']","['G', 'TTAG', 'GCG', 'TA']",1,[5],['CTATT'],"[[15, 19]]",1
+467,467,ACCAAGCAAGATGAAAGTGTTAGATAAGTGTGGTCGCTAA,((((.((...((...(...)...))..)).))))......,4,"[4, 2, 2, 1]","['ACCA', 'GC', 'AT', 'A']","['TGGT', 'GT', 'AT', 'T']",1,[3],['GTG'],"[[17, 19]]",1
+468,468,GTGAGAGAAAGAGTGGGCGCGTTGCTAAGTGGTGTGGC,.................(((...))...........).,2,"[1, 2]","['C', 'GC']","['G', 'GC']",1,[3],['GTT'],"[[21, 23]]",0
+469,469,TATGGGCCGGTTAGGTAGTTTCGGATGAAGGGGTTAGCTT,..(................(((....))).......)...,2,"[1, 3]","['T', 'TTC']","['G', 'GAA']",1,[4],['GGAT'],"[[23, 26]]",1
+470,470,ACCAAGAGGGAGCATAACTCTTGGTGAGGTGCATTGGGA,((((((((.........))))))))..............,1,[8],['ACCAAGAG'],['CTCTTGGT'],1,[9],['GGAGCATAA'],"[[9, 17]]",0
+471,471,ACCAAGAGTTGAGGCAAGGGCGTGTAGAGATAGTAAGGAA,.............((....))..(((....)).)......,3,"[2, 1, 2]","['GC', 'G', 'TA']","['GC', 'T', 'TA']",2,"[4, 4]","['AAGG', 'GAGA']","[[16, 19], [27, 30]]",1
+472,472,TATCTCTAGAGACGGTGGTGATC,(.(((....))).).........,2,"[1, 3]","['T', 'TCT']","['G', 'AGA']",1,[4],['CTAG'],"[[6, 9]]",1
+473,473,GTGAGGGCCATAGTGAAAGTGAGGCTATACAGTAACGAGA,(((..((((.((.(...).)).)))).)))..........,4,"[3, 4, 2, 1]","['GTG', 'GGCC', 'TA', 'T']","['TAC', 'GGCT', 'TG', 'A']",1,[3],['GAA'],"[[15, 17]]",3
+474,474,GAGTGCGTAGCGCAACGCTAACGGGTTTA,((((.(((((((...))))).)).)))).,3,"[4, 2, 5]","['GAGT', 'CG', 'TAGCG']","['GTTT', 'CG', 'CGCTA']",1,[3],['CAA'],"[[13, 15]]",3
+475,475,ACCAACATAGATAGTGTAGGGATAAGTAGATAACGCATCA,.((.((((.....)))).)).....((.....))......,3,"[2, 4, 2]","['CC', 'ACAT', 'GT']","['GG', 'GTGT', 'AC']",2,"[5, 5]","['AGATA', 'AGATA']","[[9, 13], [28, 32]]",1
+481,481,GGGGGTGAAACAGTGACACGTGTATCTCGAC,(...(.((.(((((...)).))).)).)..),5,"[1, 1, 2, 3, 2]","['G', 'G', 'GA', 'ACA', 'GT']","['C', 'C', 'TC', 'TGT', 'AC']",1,[3],['GAC'],"[[15, 17]]",0
+483,483,ACCAACGTAGTGAGCATCCATGCCTGAGGTTCCCATATCT,...(((.(.....(((....)))...).))).........,3,"[3, 1, 3]","['AAC', 'T', 'GCA']","['GTT', 'A', 'TGC']",1,[4],['TCCA'],"[[17, 20]]",0
+484,484,GCCGTAGCGGTAGGTAGGGAGAGCCATACATGGCCGGGTGCC,............((((....(.((((....)))))...)))),3,"[4, 1, 4]","['GGTA', 'G', 'GCCA']","['TGCC', 'C', 'TGGC']",1,[4],['TACA'],"[[27, 30]]",1
+485,485,TCCGTGCATTACAGTGACGCGGGGTGATGCCAACCCTTTA,..(((((((....))).))))((((.......))))....,3,"[4, 3, 4]","['CGTG', 'CAT', 'GGGT']","['CGCG', 'GTG', 'ACCC']",2,"[4, 7]","['TACA', 'GATGCCA']","[[10, 13], [26, 32]]",2
+486,486,AGCGAGCAGGTTTAATCGTTCGGCCAGTTGTCAGCACACT,((.((..........)).....((.........))...)),3,"[2, 2, 2]","['AG', 'GA', 'GC']","['CT', 'TC', 'GC']",2,"[10, 9]","['GCAGGTTTAA', 'CAGTTGTCA']","[[6, 15], [25, 33]]",0
+487,487,TATCGCGGCGAGAGTCACCATGCTTTAATGTGGAAGCCTGTTAGTGA,..............((((((.(((((......))))).))...)))),3,"[4, 2, 5]","['TCAC', 'CA', 'GCTTT']","['GTGA', 'TG', 'GAAGC']",1,[6],['AATGTG'],"[[27, 32]]",1
+489,489,GGCTACGTAGAGCAAGAGTAGGATCTGCTTGCTGCTGGTG,...(((....((((((...((...)).))))))....))),3,"[3, 6, 2]","['TAC', 'AGCAAG', 'AG']","['GTG', 'CTTGCT', 'CT']",1,[3],['GAT'],"[[22, 24]]",1
+490,490,ACCAATAGCTTAGTGTTAGGAATGTTATTTGCCCATGTAT,(......(((...........).))....)..........,3,"[1, 2, 1]","['A', 'GC', 'T']","['T', 'GT', 'A']",1,[11],['TAGTGTTAGGA'],"[[11, 21]]",1
+491,491,CACTACACCGATCGTGTGTTAAGTAGATGGTGGTCGTGTAGTGGTCTGACGG,((((((((.((((((((.(.....).)).)))))))))))))).........,4,"[8, 6, 2, 1]","['CACTACAC', 'GATCGT', 'GT', 'T']","['GTGTAGTG', 'GTGGTC', 'AT', 'A']",1,[5],['TAAGT'],"[[20, 24]]",4
+493,493,CATCTCCACTTTATAGTGACTCATGGTGAGGGTAGGCAG,......((((....)))).(((.....))).........,2,"[4, 3]","['CACT', 'CTC']","['AGTG', 'GAG']",2,"[4, 5]","['TTAT', 'ATGGT']","[[11, 14], [23, 27]]",0
+494,494,CCTTTCTGTATCGTGGAGTGTGATCGGATAGCGCA,(((.((((.(((((.....))))))))).)).)..,4,"[1, 2, 4, 5]","['C', 'CT', 'TCTG', 'ATCGT']","['G', 'AG', 'CGGA', 'GTGAT']",1,[5],['GGAGT'],"[[15, 19]]",3
+495,495,ACCAATACGGGTTAAAGTGA,(((......)))........,1,[3],['ACC'],['GGT'],1,[6],['AATACG'],"[[4, 9]]",0
+496,496,TTTCTGTTGACGGGTGTGGACAATGTGTAGCGTAGTTAGTGGTCCATGTA,...............((((((......((.......))...))))))...,2,"[6, 2]","['GTGGAC', 'TA']","['GTCCAT', 'TA']",1,[7],['GCGTAGT'],"[[30, 36]]",1
+497,497,TACGGGTGGTGTGCTACAGTGACATGTAGCAGTAGGTGTA,(((........(((((((......)))))))......))),2,"[3, 7]","['TAC', 'TGCTACA']","['GTA', 'TGTAGCA']",1,[6],['GTGACA'],"[[19, 24]]",0
+498,498,CGTCGCGGTGGGAATGCAATATATATCGATCAATGCGTTCGGATTAAGTTAGCGACACGAAATGGTGATGCCC,.........(((.(...........((.((((.(.((((((...........))).))).).))))))).))),7,"[3, 1, 2, 4, 1, 3, 3]","['GGG', 'A', 'TC', 'ATCA', 'T', 'CGT', 'TCG']","['CCC', 'T', 'GA', 'TGGT', 'A', 'ACG', 'CGA']",1,[11],['GATTAAGTTAG'],"[[42, 52]]",1
+499,499,CATCTCCAGCTCAAAGGTAGGTGGTTCCAGAGTGCCAGTGGTTTGGT,.....((((.(((..((((..((....))...))))..))).)))).,4,"[4, 3, 4, 2]","['CCAG', 'TCA', 'GGTA', 'TG']","['TTGG', 'TGG', 'TGCC', 'CA']",1,[4],['GTTC'],"[[24, 27]]",3
+500,500,ATAGGTAGTTTTAGCTGCACTAAATACAGAGTTCCTTCTA,..(((..(((((((.....))))).))......)))....,3,"[3, 2, 5]","['AGG', 'GT', 'TTTAG']","['CCT', 'AC', 'CTAAA']",1,[5],['CTGCA'],"[[15, 19]]",0
+501,501,TATAGCGTTAAGAATGACATAGTGTGGCATAACGACGGGT,....((((((.(....((...))....).))))).)....,4,"[1, 5, 1, 2]","['G', 'CGTTA', 'G', 'AC']","['C', 'TAACG', 'C', 'GT']",1,[3],['ATA'],"[[19, 21]]",0
+502,502,GTTTGACTAGCCGTGAGTCA,...(((((.......))))),1,[5],['TGACT'],['AGTCA'],1,[7],['AGCCGTG'],"[[9, 15]]",0
+503,503,CATCGCGGTCTGGGGCATAGGTAGATTTTATGTGTTGGCT,((.(((..(((...........)))......))).))...,3,"[2, 3, 3]","['CA', 'CGC', 'TCT']","['TG', 'GTG', 'AGA']",1,[11],['GGGGCATAGGT'],"[[12, 22]]",1
+504,504,TTTCGCCTAAACCAAGTGTACACACAGCAGTGGTTAGGTTGGGATGAGGATGGTGCAG,....((((.(((((..(((.......))).)))))))))...................,3,"[4, 5, 3]","['GCCT', 'AACCA', 'TGT']","['AGGT', 'TGGTT', 'GCA']",1,[7],['ACACACA'],"[[20, 26]]",2
+505,505,CATTGCGTATATAGCTACTATAAGCACAGTGAGCCAAGTACAGTCCGTGAG,(((((.((.(((((...))))).)).)))))....................,3,"[5, 2, 5]","['CATTG', 'GT', 'TATAG']","['CAGTG', 'GC', 'CTATA']",1,[3],['CTA'],"[[15, 17]]",2
+506,506,TTTAGTGACGAAGTCTAGCCGCTGTT,..(((((((...)).....)))))..,2,"[5, 2]","['TAGTG', 'AC']","['CGCTG', 'GT']",1,[3],['GAA'],"[[10, 12]]",2
+507,507,AGCGAGCCGTAGGGGTAGTCTAGGTAGCTCGCATATATTA,.((((((..((((.....))))....))))))........,2,"[6, 4]","['GCGAGC', 'TAGG']","['GCTCGC', 'TCTA']",1,[5],['GGTAG'],"[[14, 18]]",1
+509,509,CATATCAACACATAATCTAGAGGTATAGTGTGGTCGGGTA,(.(..(.((((((..((....)).)).)))).)..).)..,6,"[1, 1, 1, 4, 2, 2]","['C', 'T', 'C', 'ACAC', 'AT', 'TC']","['G', 'G', 'G', 'GTGT', 'AT', 'GG']",1,[4],['TAGA'],"[[18, 21]]",2
+510,510,GCAGCGAGTGGGCATTATCTAGTTTGAGGAAGTGCGTT,(((..............((........))...)))...,2,"[3, 2]","['GCA', 'TC']","['TGC', 'GG']",1,[8],['TAGTTTGA'],"[[20, 27]]",1
+511,511,TACACCAATAAGTTATGGTCGGGCAAAAGTGGTCGTAATG,((((((.(((...)))))..............).)))...,4,"[3, 1, 2, 3]","['TAC', 'A', 'CC', 'ATA']","['GTA', 'T', 'GG', 'TAT']",1,[3],['AGT'],"[[11, 13]]",0
+512,512,GTACAGGAGTGAGTAAGTGTCTGGTGAGGTGTAG,.((((......((.......)).......)))).,2,"[4, 2]","['TACA', 'AG']","['TGTA', 'CT']",1,[7],['TAAGTGT'],"[[14, 20]]",0
+514,514,TATCGCAGGTGGCATAGGCATAGACAGAAGAGTGGGTGTC,....(((...........(............)....)).),3,"[1, 2, 1]","['G', 'CA', 'C']","['C', 'TG', 'G']",1,[12],['ATAGACAGAAGA'],"[[20, 31]]",0
+516,516,GGGACAGCGCCAAAGGTAGTGATTGTGATGAGTAGCCTGT,...........(.(((((.(.((....)).).)).))).),5,"[1, 3, 2, 1, 2]","['A', 'AGG', 'TA', 'T', 'AT']","['T', 'CCT', 'TA', 'A', 'AT']",1,[4],['TGTG'],"[[24, 27]]",0
+519,519,TGGGTTCCGGTAAGCAGCTGTTACAGCTAGTGTAGATACT,..(((((..((....(((((...)))))...)).)).))),4,"[3, 2, 2, 5]","['GGT', 'TC', 'GT', 'AGCTG']","['ACT', 'GA', 'GT', 'CAGCT']",1,[3],['TTA'],"[[21, 23]]",3
+521,521,CTCAGCAGGTAGTGATGGGTTGGTGGGTGTCA,............((((............)))),1,[4],['TGAT'],['GTCA'],1,[12],['GGGTTGGTGGGT'],"[[17, 28]]",1
+522,522,CCGGCTACCAAGCTCGATAGTACAGCTTTACCGT,.(((.((..(((((.........)))))))))).,3,"[3, 2, 5]","['CGG', 'TA', 'AAGCT']","['CCG', 'TA', 'AGCTT']",1,[9],['CGATAGTAC'],"[[15, 23]]",0
+523,523,ACCAACGGTACCAAGGTGGTCGGCCACGTGTGTCCGTCCT,(...((((.((((..((((....)))).)).))))))..),5,"[1, 4, 2, 2, 4]","['A', 'ACGG', 'AC', 'CA', 'GTGG']","['T', 'CCGT', 'GT', 'TG', 'CCAC']",1,[4],['TCGG'],"[[20, 23]]",0
+524,524,TCTCGCCATTATTGCCGCATACAGTGATATGGCTGGTAT,.((.(((((.(((((.(....).)))))))))).))...,4,"[2, 5, 5, 1]","['CT', 'GCCAT', 'ATTGC', 'G']","['GG', 'ATGGC', 'GTGAT', 'C']",1,[4],['CATA'],"[[18, 21]]",3
+525,525,GAGGGTCGGGTAGTGAGGGATAAGAGATTGAGCCGCGTTA,..........(.(((.((..(((....)))..)).))).),4,"[1, 3, 2, 3]","['T', 'GTG', 'GG', 'TAA']","['A', 'CGT', 'CC', 'TTG']",1,[4],['GAGA'],"[[24, 27]]",3
+528,528,TGGCGCGCAGGTGGTCTCATAACTGGTTGGTACGGCTAA,((((.((.(....((......))....)....)))))).,4,"[4, 2, 1, 2]","['TGGC', 'CG', 'A', 'GT']","['GCTA', 'CG', 'T', 'AC']",1,[6],['CTCATA'],"[[16, 21]]",1
+529,529,TTTCGCCAGAATAGCTGGATTAGTGGTAACATACATACACTGCTAGCTGC,...........(((((((...((((..(.......).)))).))))))).,3,"[7, 4, 1]","['TAGCTGG', 'AGTG', 'A']","['CTAGCTG', 'CACT', 'T']",1,[7],['ACATACA'],"[[29, 35]]",2
+530,530,ACCGAATGGCAAGGAGTGGCGAGAGAGCTCAAGCCATGAA,.....(((((...((((.........))))..)))))...,2,"[5, 4]","['ATGGC', 'GAGT']","['GCCAT', 'GCTC']",1,[9],['GGCGAGAGA'],"[[18, 26]]",1
+533,533,CATGTGTTTAGTGCATGTGTGAGATTTCGGCATGTATGTGAGAGGTA,.((.(.....((((((((..((....)).)))))))).....).)).,4,"[2, 1, 8, 2]","['AT', 'T', 'GTGCATGT', 'GA']","['GT', 'A', 'GCATGTAT', 'TC']",1,[4],['GATT'],"[[23, 26]]",4
+534,534,AGACACATAAGAGAGGCCAGGATGCCGGCTGATAGAGATTGGACTGGTGA,...(.(((.((...(((......)))..)).)).).).............,5,"[1, 1, 2, 2, 3]","['C', 'C', 'AT', 'AG', 'GGC']","['G', 'G', 'AT', 'CT', 'GCC']",1,[6],['CAGGAT'],"[[18, 23]]",0
+535,535,AGCTCGATCAGATTGTGAGTGTAGCCGTAGTGTAGGGTCT,..((((.(((.....))).)).))((.(.....).))...,5,"[2, 2, 3, 2, 1]","['CT', 'CG', 'TCA', 'CC', 'T']","['AG', 'TG', 'TGA', 'GG', 'A']",2,"[5, 5]","['GATTG', 'AGTGT']","[[11, 15], [29, 33]]",1
+539,539,CATCTAGCCATTCCCTAACCATAGGACGACAGAGGGGGAGTGGGGTGTGACG,(.((((.(((((((((..(..(......)..)..)))))))))..)).)).),6,"[1, 2, 2, 9, 1, 1]","['C', 'TC', 'TA', 'CCATTCCCT', 'C', 'T']","['G', 'GA', 'TG', 'GGGGAGTGG', 'G', 'A']",1,[6],['AGGACG'],"[[23, 28]]",3
+541,541,AACTACATTAGCTAATGGTGAGTTTC,((((.((((....))))...))))..,2,"[4, 4]","['AACT', 'CATT']","['AGTT', 'AATG']",1,[4],['AGCT'],"[[10, 13]]",0
+542,542,CAGCGGAGAATCGTAAACTGAGGTGCACCGGTTGTTGGGA,...........(...(((...((....))....)))..).,3,"[1, 3, 2]","['C', 'AAC', 'GG']","['G', 'GTT', 'CC']",1,[4],['TGCA'],"[[24, 27]]",0
+543,543,AACCAACAGAGCATTACGATAGTGACGTATCTA,.......(((((.((((....)))).)).))).,3,"[3, 2, 4]","['AGA', 'GC', 'TTAC']","['TCT', 'GT', 'GTGA']",1,[4],['GATA'],"[[18, 21]]",2
+545,545,TATCTCTATATCTGCGATAGAGCTGATAGTTATACTTGTT,(((((((((.......))))))...)))............,2,"[3, 6]","['TAT', 'CTCTAT']","['ATA', 'ATAGAG']",1,[7],['ATCTGCG'],"[[10, 16]]",0
+546,546,TGTGGGATTGGGTGCAGTGATTCCTGTAATGGGTGAGAGAGCCAGGGTAC,............(((((.(...))))))......................,2,"[5, 1]","['TGCAG', 'G']","['CTGTA', 'C']",1,[3],['ATT'],"[[20, 22]]",1
+548,548,CCGGTAGAGGCTAGGTGGCATC,((..(((...)))...))....,2,"[2, 3]","['CC', 'TAG']","['GG', 'CTA']",1,[3],['AGG'],"[[8, 10]]",0
+549,549,TATCGCGGGTAGAGATAGAGTGGGGAAGCCACGTGTAG,((.(((.............((((.....))))))))).,3,"[2, 3, 4]","['TA', 'CGC', 'GTGG']","['TA', 'GTG', 'CCAC']",1,[5],['GGAAG'],"[[24, 28]]",1
+550,550,TCCAGCAGTTTACGCGAGTGTTAGTGTGGGTAGCGGTCGT,..............(((.(((((.......))))).))).,2,"[3, 5]","['CGA', 'TGTTA']","['TCG', 'TAGCG']",1,[7],['GTGTGGG'],"[[24, 30]]",2
+551,551,CATCTATTGTTCAAGGGGTGTGCCTAAATCTT,(((((.((....)).)))))............,2,"[5, 2]","['CATCT', 'TT']","['GGGTG', 'AA']",1,[4],['GTTC'],"[[9, 12]]",2
+552,552,ACCGAGACCGGCGTAGACGTTTGTCCTAGGGGTACGGATG,.(((..(((..(..((((....))).).).))).)))...,5,"[3, 3, 1, 1, 3]","['CCG', 'ACC', 'C', 'A', 'GAC']","['CGG', 'GGT', 'G', 'T', 'GTC']",1,[4],['GTTT'],"[[19, 22]]",0
+553,553,GGTGAGCCACCAAGGGTGGCGATAAGGTTCTGCCGTTAT,.....((((((...)))))).(((((((...))).)))),3,"[6, 4, 3]","['GCCACC', 'ATAA', 'GGT']","['GGTGGC', 'TTAT', 'GCC']",2,"[3, 3]","['AAG', 'TCT']","[[12, 14], [29, 31]]",1
+555,555,ACGGCCAACGCTAGCTAGAGTCAGCCATATGTGGGAGCAA,(.(((..((.((....)).))..))).)............,4,"[1, 3, 2, 2]","['A', 'GGC', 'AC', 'CT']","['T', 'GCC', 'GT', 'AG']",1,[4],['AGCT'],"[[13, 16]]",0
+556,556,ACCGAGATAGAGGGAGAGAGTGGTGACGTATAGGTAAGTG,(((.(.(..(....(.....).....).).).))).....,5,"[3, 1, 1, 1, 1]","['ACC', 'A', 'A', 'G', 'A']","['GGT', 'T', 'T', 'C', 'T']",1,[5],['GAGAG'],"[[16, 20]]",0
+557,557,CATCTCGCACTATGTTAAAGATAAGCACATAGTGATAG,...((..(((((((((........).))))))))..)),3,"[2, 8, 1]","['CT', 'CACTATGT', 'T']","['AG', 'ACATAGTG', 'G']",1,[8],['AAAGATAA'],"[[17, 24]]",1
+559,559,ACCAGCAATACCCACATATAGCTGGTTGTT,((((((.(((......))).))))))....,2,"[6, 3]","['ACCAGC', 'ATA']","['GCTGGT', 'TAT']",1,[6],['CCCACA'],"[[11, 16]]",0
+563,563,TCCAAGTGGGTAGGAGTGGGCATCAGGGTATGCCGCTCTT,...........((((((.((((((...).))))))))))),3,"[6, 5, 1]","['AGGAGT', 'GGCAT', 'C']","['GCTCTT', 'ATGCC', 'G']",1,[3],['AGG'],"[[25, 27]]",2
+564,564,GAGGTGGTGAGGTGTCCCGTCTAGATCAGACAGTGAGGTAGTG,..............(((.((((.....)))).).)).......,3,"[2, 1, 4]","['TC', 'C', 'GTCT']","['GA', 'G', 'AGAC']",1,[5],['AGATC'],"[[23, 27]]",0
+565,565,CATCTCACCATCCGCTAGTGAGAGGTATGTCCTAAGTGAT,(.((((((.........)))))).)...............,2,"[1, 6]","['C', 'TCTCAC']","['G', 'GTGAGA']",1,[9],['CATCCGCTA'],"[[9, 17]]",0
+566,566,CATCTGGGCAGCGCGCAATGCCGGTTGGGTAGTCGTGCA,..........((((((...(((.....))).).))))).,3,"[5, 1, 3]","['GCGCG', 'C', 'GCC']","['CGTGC', 'G', 'GGT']",1,[5],['GGTTG'],"[[23, 27]]",2
+567,567,GTACCGGAGGAGTCAACTGT,...((...))((....))..,2,"[2, 2]","['CC', 'AG']","['GG', 'CT']",2,"[3, 4]","['GGA', 'TCAA']","[[6, 8], [13, 16]]",0
+568,568,TATCTCCAGGAGCGGTAGAGTGCTACGACGCCATTGTGACGGTGAGTG,...........((((((......)))..))).................,2,"[3, 3]","['GCG', 'GTA']","['CGC', 'TAC']",1,[6],['GAGTGC'],"[[18, 23]]",0
+570,570,CGTGTCGGCCGCCATAGGCGAGCGGCAAGTG,(.(((((..((((...))))..))))).)..,3,"[1, 5, 4]","['C', 'TGTCG', 'CGCC']","['G', 'CGGCA', 'GGCG']",1,[3],['ATA'],"[[14, 16]]",1
+571,571,CATCTCGGTTACCAATAGTGTCCGTTGAGTGGTGTGAGT,((((.(((.(((.....))).)))..)).))........,4,"[2, 2, 3, 3]","['CA', 'TC', 'CGG', 'TAC']","['TG', 'GA', 'CCG', 'GTG']",1,[5],['CAATA'],"[[13, 17]]",1
+572,572,CCAGCCACGGCGTGAGTAGTGGTGATAGGCCGGGAGGATC,((.(((((.((....)).)))).......).)).......,4,"[2, 1, 4, 2]","['CC', 'G', 'CCAC', 'GC']","['GG', 'C', 'GTGG', 'GT']",1,[4],['GTGA'],"[[12, 15]]",1
+573,573,AACATGATGCAGGTAAGCGTAAGCGATAGCAGTAGGTGTG,.((((..(((.(.(..((....))...).).))).)))).,5,"[4, 3, 1, 1, 2]","['ACAT', 'TGC', 'G', 'T', 'GC']","['GTGT', 'GTA', 'C', 'A', 'GC']",1,[4],['GTAA'],"[[19, 22]]",2
+574,574,TCCAACATAAGCGGCGGCATCTTTCAAGGCTAGCGTGTTT,...((((...((....((..((....))))..)).)))).,4,"[4, 2, 2, 2]","['AACA', 'GC', 'GC', 'CT']","['TGTT', 'GC', 'GC', 'AG']",1,[4],['TTCA'],"[[23, 26]]",0
+575,575,GCCGAGAGGGTGGATAAGTGAAGTTGAAACAGAGGTGTA,(((...................((....))...)))...,2,"[3, 2]","['GCC', 'GT']","['GGT', 'AC']",1,[4],['TGAA'],"[[25, 28]]",1
+576,576,AGAAGAGGTCGTGAAGCCATAGAGTGTGGTGGGCTAGCACGTACGCCAACGG,.(..(..((((((.((((..(........).))))..)))).))..)..)..,6,"[1, 1, 2, 4, 4, 1]","['G', 'G', 'GT', 'CGTG', 'AGCC', 'A']","['C', 'C', 'AC', 'CACG', 'GGCT', 'T']",1,[8],['GAGTGTGG'],"[[22, 29]]",0
+577,577,GTGAGAGTAAGAGAGTGTCA,.(((.(.........).))),2,"[3, 1]","['TGA', 'A']","['TCA', 'T']",1,[9],['GTAAGAGAG'],"[[7, 15]]",0
+578,578,CAGGACATCGATCGTTAGGGTAGTGTGTCAGGGGCGTTAGGATAAAGTGAGCAA,...((((((.(((.....))).).))))).(..((.(((...))).))...)..,6,"[5, 1, 3, 1, 2, 3]","['GACAT', 'C', 'ATC', 'G', 'GC', 'TTA']","['GTGTC', 'G', 'GGT', 'C', 'GT', 'TAA']",2,"[5, 3]","['GTTAG', 'GGA']","[[14, 18], [40, 42]]",3
+579,579,GGATAGGGAGAGGTAGGATGCGAGTGGTCGCTTAGGTGGAGCGTGTGGA,..(((.........(....((((....)))).....)......)))...,3,"[3, 1, 4]","['ATA', 'A', 'GCGA']","['TGT', 'T', 'TCGC']",1,[4],['GTGG'],"[[24, 27]]",1
+580,580,GACGTGGTGTAGCGCTGATAGCGGTTTTGGGCTCATGGTA,...(((......))).(..(((........))))......,3,"[3, 1, 3]","['GTG', 'G', 'AGC']","['CGC', 'C', 'GCT']",2,"[6, 8]","['GTGTAG', 'GGTTTTGG']","[[7, 12], [23, 30]]",1
+583,583,CATCGCAAAACTAAGTAGTGTTAGTAGGGAGCGGTGAGCTAGACG,((((((...(((((......))))).....)))))).........,2,"[6, 5]","['CATCGC', 'ACTAA']","['GCGGTG', 'TTAGT']",1,[6],['GTAGTG'],"[[15, 20]]",1
+585,585,AGCTAGATAGTGAGGGTAGGCGTCGCGAGCCGAGAGGGGGGTGACGA,....................((((((...((....))...)))))).,2,"[6, 2]","['CGTCGC', 'CC']","['GTGACG', 'GG']",1,[4],['GAGA'],"[[32, 35]]",1
+586,586,TGAGGATGAGGTCCGCGAGCAACCAAGGGGCCTAGTGACT,..((..(.((((((..(......)...)))))).)...)),4,"[2, 1, 6, 1]","['AG', 'T', 'AGGTCC', 'G']","['CT', 'G', 'GGGCCT', 'C']",1,[6],['AGCAAC'],"[[18, 23]]",2
+588,588,ACAGCGCTCCACAGTGAGTGTGACAGATTGCGGGTGACG,.(..(((.(((((.....))))...)...)))...)...,4,"[1, 3, 1, 4]","['C', 'CGC', 'C', 'CACA']","['G', 'GCG', 'G', 'TGTG']",1,[5],['GTGAG'],"[[14, 18]]",0
+590,590,TAGTAATAGGGTTGAGCACTATGT,.....((((.((...)).))))..,2,"[4, 2]","['ATAG', 'GT']","['CTAT', 'GC']",1,[3],['TGA'],"[[13, 15]]",1
+592,592,GGCTAGATAAGTGGATACTCTTGTGAGGGCTGTGGGTAA,.................(((....)))............,1,[3],['CTC'],['GAG'],1,[4],['TTGT'],"[[21, 24]]",0
+593,593,GAGCTAGACGCAGTGATACATGTGCGGTAGGTCAGAGAAG,((.(((..((((.((...))..)))).))).)).......,4,"[2, 3, 4, 2]","['GA', 'CTA', 'CGCA', 'TG']","['TC', 'TAG', 'TGCG', 'CA']",1,[3],['ATA'],"[[16, 18]]",0
+594,594,TATCCCGGTTACCATAGGTAAGCGGTATGTGTACGCGATA,(((((((.(((((...))))).)))...........)))),3,"[4, 3, 5]","['TATC', 'CCG', 'TTACC']","['GATA', 'CGG', 'GGTAA']",1,[3],['ATA'],"[[14, 16]]",0
+595,595,ACCAAGTTCAGAATTATTGTGACGTCGCACAGTGA,.............((((((((.(...))))))))),2,"[8, 1]","['TTATTGTG', 'C']","['CACAGTGA', 'G']",1,[3],['GTC'],"[[24, 26]]",2
+596,596,CACCAATGAGAGTTTAGAGGAGGTAGCGCAGGTAGGCGTG,(((....................((.(...).))...))),3,"[3, 2, 1]","['CAC', 'TA', 'C']","['GTG', 'TA', 'G']",1,[3],['GCA'],"[[28, 30]]",0
+597,597,TAGGGCGTGGAGTGACGCTTAGATCGAGAACGTTCAAATCTCGTAGTTACAGCTGAGCCAAATGGTGATGCCCT,.(((((((.(.((...((((((..(((((.........))))).........))))))...))..).))))))),5,"[7, 1, 2, 6, 5]","['AGGGCGT', 'G', 'GT', 'GCTTAG', 'CGAGA']","['ATGCCCT', 'T', 'AT', 'CTGAGC', 'TCTCG']",1,[9],['ACGTTCAAA'],"[[30, 38]]",4
+598,598,AGCTACATACCGTTAAAGCTGGTTGTGAGAGGGCGCAAAG,..(((((.(((((....).)))))))).)...........,4,"[1, 4, 4, 1]","['C', 'TACA', 'ACCG', 'T']","['G', 'TGTG', 'TGGT', 'G']",1,[4],['TAAA'],"[[14, 17]]",3
+599,599,CTTCTCTAACCAAAATAACCACAGCTGGTGACTTAGTGAT,........((..((.(.((((....)))).).)).))...,4,"[2, 2, 1, 4]","['AC', 'AA', 'T', 'ACCA']","['GT', 'TT', 'A', 'TGGT']",1,[4],['CAGC'],"[[22, 25]]",0
+600,600,ACCACGGATGTTAGGAAGGGTAGATTTAGACGGCACTATA,...........((((..(............)..).)))..,3,"[3, 1, 1]","['TAG', 'G', 'G']","['CTA', 'C', 'C']",1,[12],['GGTAGATTTAGA'],"[[19, 30]]",0
+601,601,CCCTAGAGCAGGAAGTGGTAGCTGTAGG,.((((.(((...........))).)))),2,"[4, 3]","['CCTA', 'AGC']","['TAGG', 'GCT']",1,[11],['AGGAAGTGGTA'],"[[10, 20]]",0
+603,603,TATGGCTCGGATAGAGTGAGTGTTAGGGGGGAGTCGCTTA,.......(.........)......................,1,[1],['C'],['G'],1,[9],['GGATAGAGT'],"[[9, 17]]",0
+604,604,CAGGGCGTAGAGTGTAGAGGAGACACATAGCGTGGCAGTC,(.(.((((...((((.......))))...))))..).)..,4,"[1, 1, 4, 4]","['C', 'G', 'GCGT', 'GTGT']","['G', 'C', 'GCGT', 'ACAC']",1,[7],['AGAGGAG'],"[[16, 22]]",2
+605,605,GTATGCTGGTCAGCATAGCTCAGTGAGCTCTGGTGTGAC,........((((....(((((...)))))......)))),2,"[4, 5]","['GTCA', 'AGCTC']","['TGAC', 'GAGCT']",1,[3],['AGT'],"[[22, 24]]",0
+607,607,TGAGGGCAGTTATCCGGGTAGGGTAGCAAGTTACCAGAGAGCCAGCTGA,.........(((.(.(.....(((((....))))).......).).))),4,"[3, 1, 1, 5]","['TTA', 'C', 'G', 'GGTAG']","['TGA', 'G', 'C', 'TTACC']",1,[4],['CAAG'],"[[27, 30]]",2
+608,608,CCAGTGCAGTTTCGATTAGGTGACTCGAGTGGTAGCGCTC,..(((((...(((((.(.....).))))).....))))).,3,"[5, 5, 1]","['AGTGC', 'TTCGA', 'T']","['GCGCT', 'TCGAG', 'A']",1,[5],['AGGTG'],"[[18, 22]]",2
+609,609,TATAGCCAGTCCAAGTTTCGTAA,((..(...........)...)).,2,"[2, 1]","['TA', 'G']","['TA', 'T']",1,[11],['CCAGTCCAAGT'],"[[6, 16]]",1
+611,611,TTCACCAATAAGGGCAGCGGTAGACATGTGTAGCGTGCTT,.............(((.((..(.(....).)..)))))..,4,"[3, 2, 1, 1]","['GCA', 'CG', 'A', 'A']","['TGC', 'CG', 'T', 'T']",1,[4],['CATG'],"[[25, 28]]",0
+612,612,GGTACGGCTGGTAGTGGAGGCACGATTGCGTCGGCTACGAGT,......(((.(((((.((.(((....))).)).))))).))),4,"[3, 5, 2, 3]","['GCT', 'GTAGT', 'GA', 'GCA']","['AGT', 'GCTAC', 'TC', 'TGC']",1,[4],['CGAT'],"[[23, 26]]",2
+613,613,AGCACGGATGATGGGGGGGCCAGTGTTGGATAGCTCTATATAA,.(.(.(((.(..(......(((....))).)..)))).).)..,6,"[1, 1, 3, 1, 1, 3]","['G', 'A', 'GGA', 'G', 'G', 'CCA']","['T', 'T', 'TCT', 'C', 'T', 'TGG']",1,[4],['GTGT'],"[[23, 26]]",3
+614,614,AGGTACATACAGGTACCAGAGTGGGCAAGTTGTAGATGCA,.(((((......))))).......................,1,[5],['GGTAC'],['GTACC'],1,[6],['ATACAG'],"[[7, 12]]",0
+616,616,CATATATTCCGTAATAGGCGA,(.((((.....).))).)...,3,"[1, 3, 1]","['C', 'TAT', 'A']","['G', 'ATA', 'T']",1,[5],['TTCCG'],"[[7, 11]]",0
+618,618,GCCAGGGGTACAGGCGCAATGGTGTTCAGTGGTAGCCCATATGGTGACG,(((((((((((..((..(((...)))..)).))).))).).))))....,6,"[4, 1, 3, 3, 2, 3]","['GCCA', 'G', 'GGG', 'TAC', 'GC', 'AAT']","['TGGT', 'T', 'CCC', 'GTA', 'GT', 'GTT']",1,[3],['GGT'],"[[21, 23]]",4
+619,619,ACCAACATCTAGGGCGCAACAAGATTCGGTGGTCTCCATA,((((.(((((.(.......).))))..).)))).......,4,"[4, 1, 4, 1]","['ACCA', 'C', 'ATCT', 'G']","['TGGT', 'G', 'AGAT', 'C']",1,[7],['GGCGCAA'],"[[13, 19]]",0
+620,620,ACCAACAGGACTGGAGGAGATTTATGAGGTGGCGTGTTGA,..(((((...(........(....)......)..))))).,3,"[5, 1, 1]","['CAACA', 'C', 'A']","['TGTTG', 'G', 'T']",1,[4],['TTTA'],"[[21, 24]]",0
+621,621,ACCAACCCGTAGTGATGATAATGTAGCC,.(.(.....).)(.((....))).....,4,"[1, 1, 1, 2]","['C', 'A', 'T', 'AT']","['G', 'T', 'G', 'AT']",2,"[5, 4]","['ACCCG', 'GATA']","[[5, 9], [17, 20]]",1
+622,622,GAATGCACGGAGGATAGTCGAATACAAACTAGTGAGAGTG,.....(((......((((.........))))......))),2,"[3, 4]","['CAC', 'TAGT']","['GTG', 'ACTA']",1,[9],['CGAATACAA'],"[[19, 27]]",0
+624,624,ACCAACAGGGTAGCAGTGCTTCTTC,.......(.(.(((...))).)..),3,"[1, 1, 3]","['G', 'G', 'AGC']","['C', 'C', 'GCT']",1,[3],['AGT'],"[[15, 17]]",0
+626,626,CCCAAGGAAAGCAGTGAGGCTTTGTGT,...(...(((((......)))))...),2,"[1, 5]","['A', 'AAAGC']","['T', 'GCTTT']",1,[6],['AGTGAG'],"[[13, 18]]",0
+627,627,TTTGGTCAGCATCAAGTTTCTG,((((.(....).))))......,2,"[4, 1]","['TTTG', 'T']","['CAAG', 'A']",1,[4],['CAGC'],"[[7, 10]]",1
+629,629,ACGCTATAGTCATGGGTGTAGGTGAGGATAGTGGATGGTA,.((((((..((............))..)))))).......,2,"[6, 2]","['CGCTAT', 'TC']","['ATAGTG', 'GA']",1,[12],['ATGGGTGTAGGT'],"[[12, 23]]",1
+630,630,GGACTGATGAGGAAGTGCTT,(.(((........))).)..,2,"[1, 3]","['G', 'ACT']","['C', 'AGT']",1,[8],['GATGAGGA'],"[[6, 13]]",0
+632,632,GGAGAGGCGTCTAGTTGAGTCTATTGTGGGCATAGGTAAGTGTAGTTAAG,........(.(((..(..((((((.(....)))))))..)..))).)...,5,"[1, 3, 1, 6, 1]","['G', 'CTA', 'T', 'GTCTAT', 'G']","['T', 'TAG', 'G', 'ATAGGT', 'C']",1,[4],['TGGG'],"[[27, 30]]",4
+634,634,ACCGAGATAGCCGGGCGTGAT,.(((.......))).......,1,[3],['CCG'],['CGG'],1,[7],['AGATAGC'],"[[5, 11]]",0
+636,636,CGGCAGCAAAGTGATAGTGGCGTGAGTTTC,.......(((.(.(........).).))).,3,"[3, 1, 1]","['AAA', 'T', 'A']","['TTT', 'A', 'T']",1,[8],['TAGTGGCG'],"[[15, 22]]",0
+638,638,CATCTCGTGACCAACTCGGGGCGGATGGGTAGGCAGGTTA,.......(((((....(......)...........))))),2,"[5, 1]","['TGACC', 'C']","['GGTTA', 'G']",1,[6],['GGGGCG'],"[[18, 23]]",1
+640,640,AGCAGCATGGAACAAATCAATAGCGAAAGGGGAATGTGTA,..(.((((.((.....)).)).)))...............,4,"[1, 2, 2, 2]","['C', 'GC', 'AT', 'GA']","['G', 'GC', 'AT', 'TC']",1,[5],['ACAAA'],"[[12, 16]]",0
+643,643,ACCAACACAGGTGGAGGTGGCGATGCACGCT,(((..((....))..)))(((...)).)...,4,"[3, 2, 1, 2]","['ACC', 'CA', 'G', 'GC']","['GGT', 'TG', 'C', 'GC']",2,"[4, 3]","['CAGG', 'GAT']","[[8, 11], [22, 24]]",0
+644,644,CATCTCCTCACCAAGAGCTAAGGCTCTAGAAACGTTGGCTGGATTGTGATAAGTAATA,.((..(.((((.(..((((((.(.(.....).).))))))...).))))...)..)).,7,"[2, 1, 4, 1, 6, 1, 1]","['AT', 'C', 'TCAC', 'A', 'AGCTAA', 'G', 'T']","['AT', 'G', 'GTGA', 'T', 'TTGGCT', 'C', 'A']",1,[5],['CTAGA'],"[[26, 30]]",1
+645,645,ATAGCGGGGGTTATGCAGCCTAATCGCATGGTGGTTGAATAAGGGTGCTA,.(((((....((((.(((((.(.........)))))).))))...))))),4,"[5, 4, 5, 1]","['TAGCG', 'TTAT', 'CAGCC', 'A']","['TGCTA', 'ATAA', 'GGTTG', 'T']",1,[9],['ATCGCATGG'],"[[23, 31]]",2
+646,646,ACGGTACGCCAAGGGCGCCCTTACTGCTTCTCTTGGTATGG,....((.((((((((.((.......))..)))))))).)).,3,"[2, 8, 2]","['TA', 'GCCAAGGG', 'GC']","['TG', 'CTCTTGGT', 'GC']",1,[7],['CCTTACT'],"[[19, 25]]",3
+647,647,GGCTCGATAGCGTAGTGAGGGACT,.(((....))).............,1,[3],['GCT'],['AGC'],1,[4],['CGAT'],"[[5, 8]]",0
+648,648,CACCGGGTAGTGGTAGAGTGACATATATAGGGTATCCAAATATTTGTGTC,...................(((((((((.(.(...))..)))..)))))),4,"[6, 3, 1, 1]","['GACATA', 'TAT', 'G', 'G']","['TGTGTC', 'ATA', 'C', 'C']",1,[3],['TAT'],"[[33, 35]]",1
+650,650,TCCTACTGGGCAGGCGGCCGTGCGAGCGTTGTTAGGTGTA,.(((((.......((.((...))..))...).))))....,4,"[4, 1, 2, 2]","['CCTA', 'C', 'GC', 'GC']","['TAGG', 'G', 'GC', 'GC']",1,[3],['CGT'],"[[19, 21]]",0
+651,651,ATCAACTGCGCTGTGATAGGTTCGCCTGAGAGATTGGTAG,.....((((..(.(..((((....))))..).)...)))),4,"[4, 1, 1, 4]","['CTGC', 'T', 'T', 'TAGG']","['GTAG', 'A', 'A', 'CCTG']",1,[4],['TTCG'],"[[21, 24]]",2
+654,654,GGGGCGATATAGTGGTTAGTGACAGGTGGTAAGGGGAGTTAGTGGTGCACG,.(.(((..(.....................((......))..)..))).).,4,"[1, 3, 1, 2]","['G', 'GCG', 'A', 'AA']","['C', 'TGC', 'T', 'TT']",1,[6],['GGGGAG'],"[[33, 38]]",1
+655,655,TTCCAAGGGAGACATAGGTATATGTAGACAGGGTGGTATA,(.(((...(..(((((....)))))...)....))).)..,4,"[1, 3, 1, 5]","['T', 'CCA', 'G', 'ACATA']","['A', 'TGG', 'C', 'TATGT']",1,[4],['GGTA'],"[[17, 20]]",0
+656,656,TTCAGGTAGGCAAACGTGGTGGTTGGTACGTGTTGCCTGT,.....(((((((((((((........))))).)))))))),2,"[8, 5]","['GTAGGCAA', 'ACGTG']","['TTGCCTGT', 'TACGT']",1,[8],['GTGGTTGG'],"[[19, 26]]",3
+657,657,GGGAGAGTAGCGGGGTGGTGTGTGTGGTTAGCG,....(.....)......................,1,[1],['G'],['C'],1,[5],['AGTAG'],"[[6, 10]]",0
+659,659,CGTCGTCAGGTGAAAATGTGGGCTAGTTAGCGGAGTGGTG,((((((...............(((....)))...)))))),2,"[6, 3]","['CGTCGT', 'GCT']","['GTGGTG', 'AGC']",1,[4],['AGTT'],"[[25, 28]]",4
+660,660,GTATAGCTACATAGTGTGATGAGAGCTTACGGTGGCGGCT,(((.((((.(((......)))..)))))))..........,3,"[3, 4, 3]","['GTA', 'AGCT', 'CAT']","['TAC', 'AGCT', 'ATG']",1,[6],['AGTGTG'],"[[13, 18]]",0
+662,662,GGGCAGCATGTCGAGATATACAGTGGGGTGGTAGC,...(.(.((((....)))).).)............,3,"[1, 1, 4]","['C', 'G', 'ATGT']","['G', 'C', 'ATAT']",1,[4],['CGAG'],"[[12, 15]]",1
+663,663,TGTGGGCCAGGTGAAACAGGAGGGGCTGATGAGAGAGGTA,..(.((((....(...)......)))).)...........,3,"[1, 4, 1]","['T', 'GGCC', 'G']","['A', 'GGCT', 'C']",1,[3],['AAA'],"[[14, 16]]",1
+665,665,ACCAAGCATTAGGTAATCTGTGA,......(((.((.....))))).,2,"[3, 2]","['CAT', 'AG']","['GTG', 'CT']",1,[5],['GTAAT'],"[[13, 17]]",1
+666,666,ACCAACAGGGAGTGAGTTAGTTAGCGCGTCTTGCT,....(....(.((............)).).....),3,"[1, 1, 2]","['A', 'G', 'GT']","['T', 'T', 'GC']",1,[12],['GAGTTAGTTAGC'],"[[14, 25]]",2
+668,668,CATCTCGCTGGTGGAGGTCGTTAGGGCGTGTTCT,.(.(.(((...(.......).....))).).)..,4,"[1, 1, 3, 1]","['A', 'C', 'CGC', 'T']","['T', 'G', 'GCG', 'G']",1,[7],['GGAGGTC'],"[[13, 19]]",1
+669,669,ATGGGGCAGGCCGTAGGTGTAGTGAGTGT,.........(((...)))...........,1,[3],['GCC'],['GGT'],1,[3],['GTA'],"[[13, 15]]",1
+670,670,TGATAGTCGGGTGAATGTATCCAGAGTGATATGAGTACGT,...((.(((.((.(.(.(....).).).)).))).))...,6,"[2, 3, 2, 1, 1, 1]","['TA', 'TCG', 'GT', 'A', 'T', 'T']","['TA', 'TGA', 'AT', 'T', 'A', 'A']",1,[4],['ATCC'],"[[19, 22]]",2
+671,671,ACCAACATAGCGAGCGGATGTGTAGTTTC,((..((((.(....)..))))...))...,3,"[2, 4, 1]","['AC', 'ACAT', 'G']","['GT', 'ATGT', 'C']",1,[4],['CGAG'],"[[11, 14]]",0
+672,672,CCCAACAGCCATAGTGGGCATTAGGGCAACAGTGAGGCTA,((((..........))))......................,1,[4],['CCCA'],['TGGG'],1,[10],['ACAGCCATAG'],"[[5, 14]]",0
+673,673,AGCTACACATAAGGCCTGAGCAATCTAGTACAGGACTGAT,........((.((.((((.((......)).)))).)).)),4,"[2, 2, 4, 2]","['AT', 'AG', 'CCTG', 'GC']","['AT', 'CT', 'CAGG', 'GT']",1,[6],['AATCTA'],"[[22, 27]]",1
+674,674,CTGCGTATACATGGAGAAGGCTGGTTGGACAGACAGCATAGGGTGCATGTCGCCA,.((.((..(((((......((((..........))))........))))).)))),4,"[2, 2, 5, 4]","['TG', 'GT', 'ACATG', 'GCTG']","['CA', 'GC', 'CATGT', 'CAGC']",1,[10],['GTTGGACAGA'],"[[24, 33]]",1
+675,675,GGTACAGAAGTGAGGCAGAGTGACAGGACATCTTATCTCT,.....(((.((..(.((...)).)...)).))).......,4,"[3, 2, 1, 2]","['AGA', 'GT', 'G', 'CA']","['TCT', 'AC', 'C', 'TG']",1,[3],['GAG'],"[[18, 20]]",0
+676,676,CCCGTCAACTGCGGCGGCTATGGCTAAAGCTGTAGGTCAA,.(((((......)))))(((((((....))))))).....,2,"[5, 7]","['CCGTC', 'CTATGGC']","['GGCGG', 'GCTGTAG']",2,"[6, 4]","['AACTGC', 'TAAA']","[[7, 12], [25, 28]]",3
+677,677,GGCACGCTGAACCGCATGGTGAGGGTTTCGTAGAACGCCA,(((.(.(...(((....)))..).).(((...))).))).,5,"[3, 1, 1, 3, 3]","['GGC', 'C', 'C', 'ACC', 'TTC']","['GCC', 'G', 'G', 'GGT', 'GAA']",2,"[4, 3]","['GCAT', 'GTA']","[[14, 17], [30, 32]]",0
+678,678,AGCTCGATAGGTAGACAGGTATCGCTTTAGTGTAGGGGAA,....(((((..........)))))(....)..........,2,"[5, 1]","['CGATA', 'C']","['TATCG', 'G']",2,"[10, 4]","['GGTAGACAGG', 'TTTA']","[[10, 19], [26, 29]]",0
+679,679,CATCTTGATAAGCATGGCTGTTCCAACCCGTACAGGATG,(((((((..(.(..(((.....)))...).).))))))),4,"[7, 1, 1, 3]","['CATCTTG', 'A', 'G', 'TGG']","['CAGGATG', 'T', 'C', 'CCA']",1,[5],['CTGTT'],"[[18, 22]]",1
+680,680,GGGACGAGGGCTAAGCGGGTGGTGCTCA,.............(((.......)))..,1,[3],['AGC'],['GCT'],1,[7],['GGGTGGT'],"[[17, 23]]",0
+681,681,TTTCTCCCGTAGCGGTGCGTTAGTGAGCAGTAGTGGTACATGTCGA,..((..(.(((.(..(((........))).....).)))..)..)),5,"[2, 1, 3, 1, 3]","['TC', 'C', 'GTA', 'C', 'TGC']","['GA', 'G', 'TAC', 'G', 'GCA']",1,[8],['GTTAGTGA'],"[[19, 26]]",0
+682,682,TCCAGTCATAAGGAGGTATCCATTGTGGTGTGAAACCAAG,((((.(((((.(((....)))..))))))).)).......,4,"[2, 2, 5, 3]","['TC', 'CA', 'TCATA', 'GGA']","['GA', 'TG', 'TGTGG', 'TCC']",1,[4],['GGTA'],"[[15, 18]]",2
+684,684,CATATGTACAGTGGGGGGAGCGCTAAAC,.....((..((((.......))))..)),2,"[2, 4]","['GT', 'AGTG']","['AC', 'CGCT']",1,[7],['GGGGGAG'],"[[14, 20]]",1
+686,686,ACCGCGTCAGGCATGTGTCCTTTG,........((((....).)))...,2,"[3, 1]","['AGG', 'C']","['CCT', 'G']",1,[4],['ATGT'],"[[13, 16]]",0
+689,689,TTTGCGGTAGGGTGGTGGGACAATGTGGTGAGAGTGGCTA,...((.........(..........)..........))..,2,"[2, 1]","['GC', 'G']","['GC', 'T']",1,[10],['TGGGACAATG'],"[[16, 25]]",1
+690,690,ACCAAGCTAAAGCGACTCGAGATACAGCTGGTAA,((((.(((.(..((...))...)..)))))))..,4,"[4, 3, 1, 2]","['ACCA', 'GCT', 'A', 'CG']","['TGGT', 'AGC', 'T', 'CG']",1,[3],['ACT'],"[[15, 17]]",0
+693,693,CCTATCATCTATCGGGTGGATTCCAAGATTGGTAGCTATA,..(((.(.((((((..(((...)))....)))))).)))),4,"[3, 1, 6, 3]","['TAT', 'A', 'CTATCG', 'TGG']","['ATA', 'T', 'TGGTAG', 'CCA']",1,[3],['ATT'],"[[20, 22]]",2
+694,694,AGCAAAAATCAGGTAGTGAGTGGTGCGATAGCGTGTATAGTT,.(((..(.(((.....))).)..)))................,3,"[3, 1, 3]","['GCA', 'A', 'TCA']","['TGC', 'T', 'TGA']",1,[5],['GGTAG'],"[[12, 16]]",0
+695,695,TAGAGTGGTACCGTGGTGGGACGGATAGTTGGTACGTATGGGTCTGTTTACGC,((((.(.(((.(((...(..(....)..)....)))))).).)))).......,6,"[4, 1, 3, 3, 1, 1]","['TAGA', 'T', 'GTA', 'CGT', 'G', 'A']","['TCTG', 'G', 'TAT', 'ACG', 'T', 'T']",1,[4],['CGGA'],"[[22, 25]]",4
+696,696,GATTCGTGGTGAGCGGCAATGATGAAGAGTAGGT,.............(..((....))..).......,2,"[1, 2]","['C', 'CA']","['G', 'TG']",1,[4],['ATGA'],"[[19, 22]]",0
+697,697,GCGCTGGATACGGTGTGTGAGTGGTTTAATAGCAGTTAGCTGCAGTAACT,.((((.(..........).))))........((((....)))).......,3,"[4, 1, 4]","['CGCT', 'G', 'GCAG']","['AGTG', 'T', 'CTGC']",2,"[10, 4]","['ATACGGTGTG', 'TTAG']","[[8, 17], [36, 39]]",2
+698,698,ACCAACAAGTTAGGATAGGTTTAATACAGGTGGTAGTAAA,...................((((.((.......)).)))),2,"[4, 2]","['TTTA', 'TA']","['TAAA', 'TA']",1,[7],['CAGGTGG'],"[[27, 33]]",0
+700,700,ACCAACAAGCTCTAGTGGTTTGAGTGACGTTATGTGG,.(((.(((((((...(......)..)).))).))))),5,"[3, 2, 3, 2, 1]","['CCA', 'CA', 'AGC', 'TC', 'T']","['TGG', 'TG', 'GTT', 'GA', 'A']",1,[6],['GGTTTG'],"[[17, 22]]",1
+701,701,CCACTTTGGCAGCAGCTGTAGGTATAGAGACACTGAGTTC,..((((.(((((...)))............).).))))..,4,"[4, 1, 1, 3]","['ACTT', 'G', 'G', 'CAG']","['GAGT', 'C', 'C', 'CTG']",1,[3],['CAG'],"[[13, 15]]",1
+702,702,AGCTCCAGCGGTGGATGCATAGGTGACTGATAAAGGGGTG,.(((((..((((..((......)).)))).....))))).,3,"[5, 4, 2]","['GCTCC', 'CGGT', 'AT']","['GGGGT', 'ACTG', 'GT']",1,[6],['GCATAG'],"[[17, 22]]",4
+703,703,GGACATGTGCAGTGATAGTGACATTGTATGGCTCGTAGT,..((.((...(((.(((.........))).)))..)))),4,"[2, 2, 3, 3]","['AC', 'TG', 'AGT', 'ATA']","['GT', 'TA', 'GCT', 'TAT']",1,[9],['GTGACATTG'],"[[18, 26]]",2
+704,704,GCACGTACAGGTAGGTCCCA,(.((.((....)).)).)..,3,"[1, 2, 2]","['G', 'AC', 'TA']","['C', 'GT', 'TA']",1,[4],['CAGG'],"[[8, 11]]",0
+706,706,TAAGTGTTGAGGCGCGAGTGTGGGGAGAAGCGTAGGCC,((.((.((....(((....)))....)).)).))....,4,"[2, 2, 2, 3]","['TA', 'GT', 'TT', 'CGC']","['TA', 'GC', 'GA', 'GTG']",1,[4],['GAGT'],"[[16, 19]]",3
+708,708,CGGCTATGGCGAGCATACGTATGGCTGAAGCGTGGCGCTA,..(((((.((.(((((....)).)))...)))))))....,4,"[5, 2, 3, 2]","['GCTAT', 'GC', 'AGC', 'AT']","['GTGGC', 'GC', 'GCT', 'AT']",1,[4],['ACGT'],"[[17, 20]]",2
+709,709,AGCGGCCAAGTCTAGTAATTTTGGTACAGGTGTGCTGAAA,(((.((((((..(...)..))))))((....)))))....,4,"[3, 6, 1, 2]","['AGC', 'GCCAAG', 'T', 'AC']","['GCT', 'TTTGGT', 'A', 'GT']",2,"[3, 4]","['AGT', 'AGGT']","[[14, 16], [28, 31]]",2
+710,710,GCCTAGAGGAAGGTCGTAGTGGTCGATGTGGGCACTAGC,(.(((.............(((..(.....)..))))))),4,"[1, 3, 3, 1]","['G', 'CTA', 'GTG', 'C']","['C', 'TAG', 'CAC', 'G']",1,[5],['GATGT'],"[[25, 29]]",0
+711,711,AGCACTCTTGTTAGGGAGTGCGGTTCGCGTGGTGTATACT,.((((((.(....).))))))...................,2,"[6, 1]","['GCACTC', 'T']","['GAGTGC', 'G']",1,[4],['GTTA'],"[[10, 13]]",1
+712,712,ACCAACATCTCTGAGAACGTTTGGGGTGATGGTTAC,((((.((((((.((.....)).)))))).))))...,3,"[4, 6, 2]","['ACCA', 'CATCTC', 'GA']","['TGGT', 'GGGGTG', 'TT']",1,[5],['GAACG'],"[[15, 19]]",3
+714,714,CAACTCGCAGAGCGTGGAGGCCCGTTGTGGCGCAGTGATA,............(((....((((...).)))...)))...,3,"[3, 3, 1]","['CGT', 'GCC', 'C']","['GTG', 'GGC', 'G']",1,[3],['GTT'],"[[24, 26]]",2
+715,715,CGGCCACCACATGGTGGTAGGGTGGGACGCGTT,(.((((((....)))))).....).........,2,"[1, 6]","['C', 'GCCACC']","['G', 'GGTGGT']",1,[4],['ACAT'],"[[9, 12]]",1
+718,718,GGTTGCTCCAAGCAAGGGAGGTCGGAGTGGTG,..(((((...))))).................,1,[5],['TTGCT'],['AGCAA'],1,[3],['CCA'],"[[8, 10]]",0
+719,719,TTGCCGCATAGCGGTTGTGAT,(.(((((...))))).)....,2,"[1, 5]","['T', 'GCCGC']","['G', 'GCGGT']",1,[3],['ATA'],"[[8, 10]]",2
+720,720,CATATGGGTGGAGTGGTGGACTCGTTAGTGATACG,..........((((.....))))............,1,[4],['GAGT'],['ACTC'],1,[5],['GGTGG'],"[[15, 19]]",0
+721,721,TGTGCAGCAGGGAGTAGGCCAATCTGTTGTAGGGGATAGGTCGTGTGGGC,......((....(...((((.((((.(....).)))).))))...)..)),5,"[2, 1, 4, 4, 1]","['GC', 'A', 'GGCC', 'ATCT', 'T']","['GC', 'T', 'GGTC', 'GGAT', 'G']",1,[4],['TGTA'],"[[28, 31]]",3
+722,722,ACCGCTCCAATCATGGAGAGTGTGGCATGCGGAAGCGTGT,(((((((((....)))))......(....).....)).)),4,"[2, 2, 5, 1]","['AC', 'CG', 'CTCCA', 'G']","['GT', 'CG', 'TGGAG', 'C']",2,"[4, 4]","['ATCA', 'CATG']","[[10, 13], [26, 29]]",0
+723,723,TATCTCGATACACGTAACTGATAGCTAGGGTGTGGCGTCTA,((...((.(((((.((.((...)).))..))))).))..)),5,"[2, 2, 5, 2, 2]","['TA', 'CG', 'TACAC', 'TA', 'CT']","['TA', 'CG', 'GTGTG', 'TA', 'AG']",1,[3],['GAT'],"[[20, 22]]",1
+724,724,GAGGTGCCAGCCAGGCCGATTT,.....(((.....)))......,1,[3],['GCC'],['GGC'],1,[5],['AGCCA'],"[[9, 13]]",0
+725,725,CATCTCGGTGCAGTGATCCAAGTTTGGTGGTGTAG,........((((...(.(((....))))..)))).,3,"[4, 1, 3]","['TGCA', 'A', 'CCA']","['TGTA', 'T', 'TGG']",1,[4],['AGTT'],"[[21, 24]]",1
+726,726,AGCACGGAGTGTGGGTGGTTGCGAGTGGTGTGGGAGCTAG,(((.(................(.......)...).)))..,3,"[3, 1, 1]","['AGC', 'C', 'C']","['GCT', 'G', 'G']",1,[7],['GAGTGGT'],"[[23, 29]]",0
+727,727,CACGGAGCCGGTAGTGGCGGCCAGCGAGATGCGGGTGGTT,.((...(((......))).(((.(((...))).))).)).,4,"[2, 3, 3, 3]","['AC', 'GCC', 'GCC', 'GCG']","['GT', 'GGC', 'GGT', 'TGC']",2,"[6, 3]","['GGTAGT', 'AGA']","[[10, 15], [27, 29]]",2
+730,730,ACCAACACGTGTGGAGCAGTGAGAGTTGATAGTACCTTTA,(.((((.(((((...))).)..).)))).)..........,5,"[1, 4, 1, 1, 3]","['A', 'CAAC', 'C', 'G', 'TGT']","['T', 'GTTG', 'G', 'T', 'GCA']",1,[3],['GGA'],"[[13, 15]]",2
+731,731,ACGTACCATTAATTGCTGTGGGGTTCGTTTA,(((.(((...(.......)..))).)))...,3,"[3, 3, 1]","['ACG', 'ACC', 'A']","['CGT', 'GGT', 'T']",1,[7],['ATTGCTG'],"[[12, 18]]",0
+734,734,TATAGCTGGTGGTAGTGCATGGGTAGTTCCAACAGAGACTGTGTGGTGTGTG,((((........................(((((((...)))).)))..)))),3,"[4, 3, 4]","['TATA', 'CCA', 'ACAG']","['TGTG', 'TGG', 'CTGT']",1,[3],['AGA'],"[[36, 38]]",2
+735,735,AGACTCAATAGGGTTAGCTAGTTGGGTAGAAGCGGGAA,..(((((((((......))).))))))...........,2,"[6, 3]","['ACTCAA', 'TAG']","['TTGGGT', 'CTA']",1,[6],['GGTTAG'],"[[12, 17]]",1
+736,736,ACCGAGATAGGCCAATCTAGTGTAGAGAGTTGTCGAAT,(.(((..(((.(...((((...))))..)))))))..),5,"[1, 3, 3, 1, 4]","['A', 'CGA', 'TAG', 'C', 'TCTA']","['T', 'TCG', 'TTG', 'G', 'TAGA']",1,[3],['GTG'],"[[20, 22]]",2
+738,738,CATACACCAAGAGATAGTAGAACGGCAGGAGGGGCGCGGT,.....(((..(.....((...))..(.....)..)..))),4,"[3, 1, 2, 1]","['ACC', 'G', 'GT', 'C']","['GGT', 'C', 'AC', 'G']",2,"[3, 5]","['AGA', 'AGGAG']","[[19, 21], [27, 31]]",0
+739,739,CAGCTCATGTAATGGTCCATAGCCAAGGGTAGCGTGAAGCGTATTAGTGATG,...(((((.(((((..(..((((.(....).)).))..)..))))))))).),7,"[1, 4, 5, 1, 2, 2, 1]","['C', 'TCAT', 'TAATG', 'C', 'TA', 'GC', 'A']","['G', 'GTGA', 'TATTA', 'G', 'TG', 'GC', 'T']",1,[4],['AGGG'],"[[26, 29]]",3
+740,740,GCAACTACATTTAGGGAGTGAGTGACGGAGTATAGACCCT,(..(((.(((.......))))))..)..............,3,"[1, 3, 3]","['G', 'ACT', 'CAT']","['C', 'AGT', 'GTG']",1,[7],['TTAGGGA'],"[[11, 17]]",1
+741,741,AACAACAGGGGTGAAGAGCGAGTGGCAGTGGAGCACGCTA,................((((.((..(...)..)).)))).,3,"[4, 2, 1]","['AGCG', 'GT', 'C']","['CGCT', 'GC', 'G']",1,[3],['AGT'],"[[27, 29]]",1
+742,742,ATCACACAGGCCGAGGGGCTAGGAGGCTTGGTGCTTGATCAAGCGTCGTA,...................((.((.((((((.......)))))).)).)),3,"[2, 2, 6]","['TA', 'GA', 'GCTTGG']","['TA', 'TC', 'TCAAGC']",1,[7],['TGCTTGA'],"[[32, 38]]",1
+743,743,ATAAGCGGGAAGAGGATCGATACCAATAGCAATATCGCCT,..(.((((.(.(...((.(....).))..)..).)))).),6,"[1, 4, 1, 1, 2, 1]","['A', 'GCGG', 'A', 'G', 'AT', 'G']","['T', 'TCGC', 'T', 'C', 'AT', 'C']",1,[4],['ATAC'],"[[20, 23]]",1
+744,744,CAGTGCAACTATTATGGGCGGAATCAACCAACGCAGTGAT,((.(((........(((..(....)..)))..))).))..,4,"[2, 3, 3, 1]","['CA', 'TGC', 'TGG', 'G']","['TG', 'GCA', 'CCA', 'C']",1,[4],['GAAT'],"[[21, 24]]",0
+745,745,GTGGTTCTAGCATGGAGTGA,..(.......).........,1,[1],['G'],['C'],1,[7],['GTTCTAG'],"[[4, 10]]",0
+746,746,TATATCCAGAGCGATGATAGTTGCATATGTAGTGGCAC,.....(((.....(..((((...).))).)..)))...,4,"[3, 1, 3, 1]","['CCA', 'A', 'ATA', 'G']","['TGG', 'T', 'TAT', 'C']",1,[3],['TTG'],"[[21, 23]]",0
+748,748,ACCAACATATATGGGTTCGAT,(((..((....))))).....,2,"[3, 2]","['ACC', 'CA']","['GGT', 'TG']",1,[4],['TATA'],"[[8, 11]]",0
+750,750,CAGCAGGCTAGTGGAGAGTGGCGTGTGAAAGGGAAGCGGT,..(((.((((.(....).)))).)))..............,3,"[3, 4, 1]","['GCA', 'GCTA', 'T']","['TGT', 'TGGC', 'A']",1,[4],['GGAG'],"[[13, 16]]",2
+752,752,TTGCGCAGGAAAGTTGCAGTTTGATCCCGCTGGTGGTGTA,.(((((.....(((.(...........))))....))))),3,"[5, 3, 1]","['TGCGC', 'AGT', 'G']","['GTGTA', 'GCT', 'C']",1,[11],['CAGTTTGATCC'],"[[17, 27]]",3
+753,753,CCGGAGATAGGGAGTGAGGGATCGGTAGATCGGGTAGTGTG,.............(.....((((....))))......)...,2,"[1, 4]","['G', 'GATC']","['T', 'GATC']",1,[4],['GGTA'],"[[24, 27]]",1
+754,754,ATCAGCGCATAGGGCAGCGTTAGAGATAGCTGCAGTAAAA,.........((..(((((..........)))))..))...,2,"[2, 5]","['TA', 'GCAGC']","['TA', 'GCTGC']",1,[10],['GTTAGAGATA'],"[[19, 28]]",0
+755,755,CCGGTACATGACAGGGACTGGGCCAGCTCACACAGACATG,......((((........((((....))))......)))),2,"[4, 4]","['CATG', 'TGGG']","['CATG', 'CTCA']",1,[4],['CCAG'],"[[23, 26]]",1
+758,758,CATCTCTAGTAGTACTAGTGGCGTAGGTAACAGTAGTGAAAGGTGTAGA,....((((.....((((.((..........)).))))........)))),3,"[4, 4, 2]","['TCTA', 'ACTA', 'TG']","['TAGA', 'TAGT', 'CA']",1,[10],['GCGTAGGTAA'],"[[21, 30]]",0
+759,759,AGGCCGTGGTTCAAGATTGCGA,..((....))............,1,[2],['GC'],['GT'],1,[4],['CGTG'],"[[5, 8]]",1
+760,760,GGGTAGGCCAGAGTGCAGCAGATACCTCTGACCGAAGCTA,((...((.(((((.(.(.....).)))))).))....)).,5,"[2, 2, 5, 1, 1]","['GG', 'GG', 'CAGAG', 'G', 'A']","['CT', 'CC', 'CTCTG', 'C', 'T']",1,[5],['GCAGA'],"[[18, 22]]",1
+761,761,CGAAGCGTAAAGCAGAGCTCTTTCAACGATGGGGGGATTGTAGCGGGTGG,..........(.(....(((.......)).)....).)............,4,"[1, 1, 1, 2]","['A', 'C', 'C', 'TC']","['T', 'G', 'G', 'GA']",1,[7],['TTTCAAC'],"[[21, 27]]",0
+762,762,GGAGAGGCGGTGATGTGGGCCAAGCGAGTGCAGCTATAA,.....(((..........)))..................,1,[3],['GGC'],['GCC'],1,[10],['GGTGATGTGG'],"[[9, 18]]",0
+764,764,ATGCTCCAGATGGTGGAGTGTACTAGTGATGTGCGCAGTT,((((((((.....))))))))(....).............,2,"[8, 1]","['ATGCTCCA', 'A']","['TGGAGTGT', 'T']",2,"[5, 4]","['GATGG', 'CTAG']","[[9, 13], [23, 26]]",2
+765,765,CATCTACATATCACGGCGCGTGATAGACTGTGACGCACG,((.(....(((((((...)))))))....))).......,3,"[2, 1, 7]","['CA', 'C', 'TATCACG']","['TG', 'G', 'CGTGATA']",1,[3],['GCG'],"[[16, 18]]",0

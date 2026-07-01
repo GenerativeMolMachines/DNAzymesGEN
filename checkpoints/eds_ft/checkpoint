@@ -1,0 +1,2 @@
+model_checkpoint_path: "/root/dnazymes/checkpoints/eds_ft/model-999"
+all_model_checkpoint_paths: "/root/dnazymes/checkpoints/eds_ft/model-999"

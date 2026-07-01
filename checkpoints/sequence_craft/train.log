@@ -1,0 +1,32 @@
+2026-06-23 17:12:33.607799: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-06-23 17:12:33.919080: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-06-23 17:12:41.072776: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+Using GPU: 1 device(s)
+Uppercase local vars:
+loading dataset 'sequence_craft' from /root/dnazymes/Data...
+('T', 'A', 'T', 'T', 'G', 'C', 'G', 'T', 'A', 'A', 'A', 'G', 'C', 'A', 'T', 'C', 'A', 'G', 'T', 'T', 'T', 'T', 'C', 'T', 'G', 'A', 'T', 'A', 'C', 'A', 'A', 'G', 'G', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`')
+('T', 'T', 'T', 'A', 'C', 'C', 'C', 'A', 'A', 'G', 'A', 'A', 'G', 'G', 'G', 'G', 'T', 'G', 'C', 'G', 'T', 'A', 'C', 'T', 'A', 'T', 'G', 'C', 'T', 'A', 'C', 'C', 'T', 'T', 'A', 'T', 'T', 'A', 'A', 'C', 'G', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`')
+('T', 'G', 'T', 'A', 'T', 'G', 'C', 'T', 'A', 'G', 'C', 'T', 'C', 'G', 'G', 'G', 'G', 'A', 'G', 'A', 'A', 'A', 'C', 'A', 'T', 'C', 'T', 'T', 'T', 'G', 'C', 'G', 'G', 'G', 'A', 'T', 'A', 'A', 'G', 'G', 'C', 'C', 'G', 'C', 'C', 'G', 'A', 'T', 'A', 'G', 'A', 'G', 'C', 'G', 'G', 'A', 'A', 'G', 'C', 'G', 'A', 'C', 'T', 'T', 'G', 'G', 'T', 'T', 'G', 'T', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`')
+('A', 'C', 'G', 'C', 'C', 'C', 'A', 'C', 'C', 'A', 'T', 'T', 'T', 'A', 'A', 'G', 'A', 'G', 'C', 'A', 'T', 'C', 'G', 'C', 'C', 'G', 'G', 'A', 'A', 'T', 'A', 'G', 'C', 'G', 'G', 'G', 'G', 'A', 'C', 'T', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`')
+('A', 'G', 'C', 'A', 'C', 'G', 'C', 'A', 'T', 'G', 'A', 'C', 'T', 'T', 'T', 'G', 'A', 'T', 'G', 'C', 'C', 'A', 'C', 'G', 'T', 'A', 'A', 'A', 'G', 'T', 'G', 'A', 'A', 'A', 'G', 'A', 'G', 'C', 'T', 'G', 'T', 'T', 'G', 'A', 'T', 'C', 'T', 'G', 'T', 'C', 'A', 'G', 'C', 'G', 'A', 'C', 'A', 'C', 'G', 'A', 'A', 'A', 'T', 'G', 'G', 'T', 'G', 'A', 'T', 'G', 'C', 'C', 'C', 'T', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`', '`')
+loaded 549 lines in dataset 'sequence_craft'
+Building n-gram models on 549 sequences (of 549 total)...
+validation set JSD for n=1: 0.00010834151464271993
+validation set JSD for n=2: 0.0003649341127341038
+validation set JSD for n=3: 0.0012498391287011988
+validation set JSD for n=4: 0.004768849443112938
+Saved checkpoint at iteration 0
+iter 99	time	10.147372446060182	train disc cost	-5.9457783699035645	js1	0.029002734199611715	js2	0.06958100344921352	js3	0.11183869374704827	js4	0.15411031632202285
+Saved checkpoint at iteration 100
+iter 199	time	9.797440261840821	train disc cost	-3.6785640716552734	js1	0.003179047379067266	js2	0.012606734941569227	js3	0.02414801493581748	js4	0.04495041211119575
+Saved checkpoint at iteration 200
+iter 299	time	9.655756475925445	train disc cost	-3.806990623474121	js1	0.002197413933372951	js2	0.008014608800056298	js3	0.017169518508470746	js4	0.03429412232309137
+Saved checkpoint at iteration 300
+iter 399	time	9.496839718818665	train disc cost	-4.204143524169922	js1	0.00039795784067630255	js2	0.0038622424484871247	js3	0.00924728084657011	js4	0.02293366880966749
+Saved checkpoint at iteration 400
+iter 499	time	9.385725462436676	train disc cost	-4.519079208374023	js1	0.0031581723227251377	js2	0.007870156023575792	js3	0.014248666981889063	js4	0.028263711793386853
+Saved checkpoint at iteration 500
+iter 599	time	9.413788390159606	train disc cost	-4.426006317138672	js1	0.0007765533894265906	js2	0.0049087034627301705	js3	0.010120933775783691	js4	0.022137909464898593
+Saved checkpoint at iteration 600
+iter 699	time	9.215356378555297	train disc cost	-4.502367973327637	js1	0.00012601611723089828	js2	0.00409577517368008	js3	0.00871609615251254	js4	0.020598388809506464
+Saved checkpoint at iteration 700

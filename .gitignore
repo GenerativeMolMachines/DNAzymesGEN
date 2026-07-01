@@ -1,0 +1,37 @@
+# Python / environment
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# macOS metadata
+__MACOSX/
+.DS_Store
+
+# NUPACK (install separately; see README)
+nupack*/
+nupack-*/
+
+# Original image WGAN demo scripts (not used in this project)
+improved_wgan_training/gan_64x64.py
+improved_wgan_training/gan_cifar.py
+improved_wgan_training/gan_cifar_resnet.py
+improved_wgan_training/gan_mnist.py
+improved_wgan_training/gan_toy.py
+improved_wgan_training/samples/
+improved_wgan_training/.git/
+
+# Nested archives (contents are already unpacked in repo)
+screening_pipeline/classifier_new_version.zip
+screening_pipeline/scripts.zip
+
+# Smoke-test artifacts (not part of published results)
+checkpoints/eds_smoke_test/
+checkpoints/smoke_ft/
+
+# IDE
+.idea/
+.vscode/
+*.swp

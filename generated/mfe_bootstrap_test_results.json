@@ -1,0 +1,40 @@
+{
+  "n_sequence_craft": 549,
+  "n_negatives": 250000,
+  "bootstrap_n_per_group": 549,
+  "n_bootstrap": 10000,
+  "full_sample": {
+    "mean_diff": -0.49381729195077595,
+    "median_diff": -0.49234914779663086,
+    "mannwhitney_p": 8.494618486602845e-06
+  },
+  "bootstrap_equal_n": {
+    "mean": {
+      "observed": -0.49381729195077595,
+      "ci_low": -0.7682566510740745,
+      "ci_high": -0.219600423356223,
+      "p_value": 0.0006,
+      "boot_mean": -0.4931776234966158,
+      "boot_std": 0.13878317303738244
+    },
+    "median": {
+      "observed": -0.49234914779663086,
+      "ci_low": -0.7235066533088684,
+      "ci_high": -0.22163646817207347,
+      "p_value": 0.001,
+      "boot_mean": -0.48558112452030183,
+      "boot_std": 0.12714436034675078
+    }
+  },
+  "permutation_equal_n": {
+    "mean": {
+      "observed": -0.452942190274515,
+      "p_value": 0.0013
+    },
+    "median": {
+      "observed": -0.47161293029785156,
+      "p_value": 0.002
+    }
+  },
+  "equal_n_subsample_mannwhitney_p": 5.420663646978166e-05
+}

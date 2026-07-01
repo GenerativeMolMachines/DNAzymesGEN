@@ -1,0 +1,13 @@
+label: eds_ft_nofilter
+checkpoint: /root/dnazymes/checkpoints/eds_ft/model-999
+num_sequences: 250000
+generated_total: 274432
+keep_rate: 0.910972
+no_mfe_filter: True
+skip_mfe_calc: True
+max_mfe: -10.0
+min_length: 20
+max_length: 100
+elapsed_sec: 131.1
+mean_length: 39.2602
+std_length: 11.7393

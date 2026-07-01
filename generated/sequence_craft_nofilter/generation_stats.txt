@@ -1,0 +1,13 @@
+label: sequence_craft_nofilter
+checkpoint: /root/dnazymes/checkpoints/sequence_craft/model-700
+num_sequences: 250000
+generated_total: 266240
+keep_rate: 0.939002
+no_mfe_filter: True
+skip_mfe_calc: True
+max_mfe: -10.0
+min_length: 20
+max_length: 100
+elapsed_sec: 124.8
+mean_length: 41.0293
+std_length: 12.5538

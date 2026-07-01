@@ -1,0 +1,2 @@
+model_checkpoint_path: "/root/dnazymes/checkpoints/sequence_craft/model-700"
+all_model_checkpoint_paths: "/root/dnazymes/checkpoints/sequence_craft/model-700"
