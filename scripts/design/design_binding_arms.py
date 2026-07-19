@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 """Design DNA binding arms for catalytic cores against RNA targets.
 
+10-23 canon at an RY cleavage site (here GU):
+  - the purine R (G) stays unpaired;
+  - the pyrimidine Y (U) hybridizes to the 5' binding arm of the DNAzyme.
+
 For each arm independently: compute DNA/RNA hybrid Tm and pick length in
 [min_arm, max_arm] so that Tm is closest to the target (default 37 °C).
 
@@ -46,19 +50,36 @@ SITE_FILE_SUFFIX = {
 
 @dataclass(frozen=True)
 class CleavageSite:
+    """RY cleavage site on RNA (0-based index of unpaired purine R).
+
+    RNA: 5'-[flank_5p]-R-Y-[rest of flank_3p]-3'
+    - R (purine) is unpaired (not in either arm).
+    - Y (pyrimidine) starts the 3' hybridizing flank (included in the left arm).
+    """
+
     target_id: str
     site_id: str
     rna: str
-    cleavage_pos: int  # index of first base of cleavage dinucleotide (0-based)
+    cleavage_pos: int  # index of unpaired purine R in RY
     cleavage_dinucleotide: str
 
     @property
+    def unpaired_purine(self) -> str:
+        return self.rna[self.cleavage_pos]
+
+    @property
+    def paired_pyrimidine(self) -> str:
+        return self.rna[self.cleavage_pos + 1]
+
+    @property
     def flank_5p(self) -> str:
+        """RNA 5' of unpaired R — binds the DNAzyme 3' (right) arm."""
         return self.rna[: self.cleavage_pos]
 
     @property
     def flank_3p(self) -> str:
-        return self.rna[self.cleavage_pos + 2 :]
+        """RNA from paired Y onward — binds the DNAzyme 5' (left) arm."""
+        return self.rna[self.cleavage_pos + 1 :]
 
 
 def normalize_rna(seq: str) -> str:
@@ -132,7 +153,13 @@ def parse_target2_idt(raw: str) -> list[CleavageSite]:
 
 
 def default_sites() -> list[CleavageSite]:
-    return parse_target1(TARGET1_RAW) + parse_target2_idt(TARGET2_RAW)
+    sites = parse_target1(TARGET1_RAW) + parse_target2_idt(TARGET2_RAW)
+    for s in sites:
+        if s.cleavage_dinucleotide[0] not in "AG" or s.cleavage_dinucleotide[1] not in "CU":
+            raise ValueError(
+                f"{s.site_id}: expected RY cleavage site, got {s.cleavage_dinucleotide}"
+            )
+    return sites
 
 
 def rna_to_dna_revcomp(rna: str) -> str:
@@ -176,8 +203,8 @@ def choose_arm(
 ) -> tuple[str, int, float]:
     """Pick arm length with DNA/RNA Tm closest to target_tm; ties → shorter.
 
-    from_cleavage=True  → 3' flank, take prefix (nt immediately after GU)
-    from_cleavage=False → 5' flank, take suffix (nt immediately before GU)
+    from_cleavage=True  → 3' flank (starts at paired Y), take prefix
+    from_cleavage=False → 5' flank (ends before unpaired R), take suffix
     """
     flank = normalize_rna(flank_rna)
     if len(flank) < min_arm:
@@ -214,7 +241,8 @@ def design_for_core(
     dnac1: float,
     dnac2: float,
 ) -> dict:
-    # Left arm (5' of DNAzyme) vs RNA 3' of cleavage; right arm vs RNA 5'.
+    # Left arm (5' of DNAzyme) vs RNA from paired Y 3'ward;
+    # right arm (3' of DNAzyme) vs RNA 5' of unpaired R.
     left_arm, left_len, left_tm = choose_arm(
         site.flank_3p,
         from_cleavage=True,
@@ -416,10 +444,11 @@ def main() -> None:
 
     inputs = args.inputs if args.inputs is not None else default_inputs()
     sites = default_sites()
-    print("Cleavage sites:")
+    print("Cleavage sites (10-23: unpaired R, paired Y in 3' flank):")
     for s in sites:
         print(
-            f"  {s.site_id}: pos={s.cleavage_pos} {s.cleavage_dinucleotide} "
+            f"  {s.site_id}: RY={s.cleavage_dinucleotide} pos={s.cleavage_pos} "
+            f"unpaired={s.unpaired_purine} paired_Y={s.paired_pyrimidine} "
             f"flank5={len(s.flank_5p)} flank3={len(s.flank_3p)}"
         )
     print(
